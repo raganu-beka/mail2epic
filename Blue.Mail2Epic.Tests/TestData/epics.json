@@ -1,0 +1,93 @@
+﻿[
+  {
+    "key": "EPIC-102",
+    "fields": {
+      "summary": "SSO Integration with SAML 2.0 Providers",
+      "description": "Implement SAML 2.0-based single sign-on to support enterprise identity providers such as Okta and Azure AD. Includes SP-initiated and IdP-initiated flows. Contact: rafael.costa@domain.example.org."
+    }
+  },
+  {
+    "key": "EPIC-103",
+    "fields": {
+      "summary": "Self-Service Onboarding Wizard",
+      "description": "Build a guided onboarding experience that walks new users through workspace creation, team invitations, and initial project setup. Reduce time-to-first-value below five minutes."
+    }
+  },
+  {
+    "key": "EPIC-104",
+    "fields": {
+      "summary": "Usage-Based Billing Engine",
+      "description": "Replace the flat-rate billing model with a metered usage pipeline. Track API calls, storage, and compute minutes and generate monthly invoices via Stripe. Contact: billing-team@domain.example.org."
+    }
+  },
+  {
+    "key": "EPIC-105",
+    "fields": {
+      "summary": "Executive Reporting Dashboard",
+      "description": "Create a read-only dashboard for C-level stakeholders showing KPIs such as MRR, churn rate, and feature adoption over configurable time ranges."
+    }
+  },
+  {
+    "key": "EPIC-106",
+    "fields": {
+      "summary": "Salesforce CRM Integration",
+      "description": "Develop a bidirectional sync between our platform and Salesforce. Contacts, opportunities, and activity logs should stay in sync with configurable field mappings. Contact: integrations@domain.example.org."
+    }
+  },
+  {
+    "key": "EPIC-107",
+    "fields": {
+      "summary": "API Response Time Optimization",
+      "description": "Identify and remediate the top-10 slowest API endpoints. Target p95 latency under 200 ms through query optimization, caching layers, and connection pooling."
+    }
+  },
+  {
+    "key": "EPIC-108",
+    "fields": {
+      "summary": "Distributed Tracing with OpenTelemetry",
+      "description": "Instrument all backend services with OpenTelemetry traces and export them to Grafana Tempo. Include automatic span creation for HTTP, gRPC, and database calls."
+    }
+  },
+  {
+    "key": "EPIC-109",
+    "fields": {
+      "summary": "Role-Based Access Control Overhaul",
+      "description": "Redesign the permission model to support custom roles, resource-level scopes, and an admin UI for managing role assignments. Contact: security@domain.example.org."
+    }
+  },
+  {
+    "key": "EPIC-110",
+    "fields": {
+      "summary": "Accessibility Compliance (WCAG 2.2 AA)",
+      "description": "Audit the entire web application against WCAG 2.2 AA criteria and remediate all critical and major violations. Includes keyboard navigation, screen reader support, and color contrast fixes."
+    }
+  },
+  {
+    "key": "EPIC-111",
+    "fields": {
+      "summary": "Webhook Delivery and Retry System",
+      "description": "Build a reliable webhook delivery service with exponential backoff retries, delivery logs, and a developer portal for managing subscriptions and viewing payload history."
+    }
+  },
+  {
+    "key": "EPIC-112",
+    "fields": {
+      "summary": "Data Export and Portability",
+      "description": "Allow customers to export all of their data in CSV and JSON formats. Include scheduled exports to S3-compatible storage. Contact: dpo@domain.example.org."
+    }
+  },
+  {
+    "key": "EPIC-113",
+    "fields": {
+      "summary": "Real-Time Collaborative Editing",
+      "description": "Implement conflict-free replicated data types to enable multiple users to edit documents simultaneously with live cursor presence and change attribution."
+    }
+  },
+  {
+    "key": "EPIC-114",
+    "fields": {
+      "summary": "Secrets Rotation and Vault Integration",
+      "description": "Integrate with HashiCorp Vault for dynamic secret generation and automatic rotation of database credentials, API keys, and TLS certificates across all environments."
+    }
+  }
+]

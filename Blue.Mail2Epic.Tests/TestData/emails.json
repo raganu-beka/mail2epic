@@ -1,0 +1,1809 @@
+﻿[
+  {
+    "email": {
+      "messageId": "msg-1",
+      "from": "mike.johnson@acmecorp.com",
+      "subject": "FYI \u2014 competitor launched new feature",
+      "body": "Hey,\n\nJust a heads up \u2014 CompetitorX just launched a feature similar to our collaborative editing. Thought you might want to check it out: competitorx.com/blog/launch\n\nNo action needed, just keeping you in the loop.\n\n\u2013 Mike",
+      "date": "2025-08-11T22:57:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-2",
+      "from": "social@twitter.com",
+      "subject": "Trending in your network",
+      "body": "Here's what's trending in your professional network today:\n\n\u2022 #DevOps \u2014 15K posts\n\u2022 #Kubernetes \u2014 8K posts\n\u2022 #AIEngineering \u2014 12K posts",
+      "date": "2025-05-11T18:57:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-3",
+      "from": "ops@acmecorp.com",
+      "subject": "Resolved: Database failover completed successfully",
+      "body": "Hi team,\n\nThe database failover that was triggered at 03:12 UTC has completed successfully. All services are back to normal. No further action needed.\n\n\u2013 Ops",
+      "date": "2025-04-15T13:57:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-4",
+      "from": "david.kim@acmecorp.com",
+      "subject": "Onboarding checklist component not rendering on mobile",
+      "body": "The guided checklist panel doesn't render properly on screens below 768px. Several elements overflow. Needs responsive fixes.",
+      "date": "2025-08-09T08:20:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-103"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-5",
+      "from": "qa@acmecorp.com",
+      "subject": "Weekly a11y scan results \u2014 3 new violations",
+      "body": "Hi team,\n\nThis week's automated accessibility scan found 3 new WCAG AA violations:\n\n1. Missing alt text on dashboard charts\n2. Insufficient contrast on tab labels\n3. Focus indicator missing on dropdown menus\n\nPlease create tickets and assign to the frontend team for remediation.",
+      "date": "2025-04-23T01:34:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-110"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-6",
+      "from": "david.kim@acmecorp.com",
+      "subject": "Implement billing alerts for usage thresholds",
+      "body": "Product wants us to send email alerts when customers hit 80% and 100% of their usage tier. This should integrate with the existing billing engine.\n\nCan someone take this on?",
+      "date": "2025-09-24T17:44:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-104"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-7",
+      "from": "noreply@google.com",
+      "subject": "Security alert for your Google Account",
+      "body": "We noticed a new sign-in to your Google Account from a Chrome browser on macOS. If this was you, no action is needed. If not, please review your account activity.",
+      "date": "2025-09-07T11:00:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-8",
+      "from": "no-reply@slack.com",
+      "subject": "Your weekly Slack activity summary",
+      "body": "Here's what you missed this week in Slack:\n\n\u2022 142 messages in #engineering\n\u2022 23 messages in #general\n\u2022 8 threads you were mentioned in\n\nOpen Slack to catch up.",
+      "date": "2025-08-21T04:40:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-9",
+      "from": "pm@acmecorp.com",
+      "subject": "Color contrast failures on settings page",
+      "body": "The automated accessibility scan flagged 14 contrast ratio failures on the settings page. The light gray text on white backgrounds doesn't meet AA standards. We need to update the color palette.",
+      "date": "2025-06-17T02:00:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-110"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-10",
+      "from": "security-alerts@github.com",
+      "subject": "Dependabot alert: CVE-2026-1234",
+      "body": "A moderate severity vulnerability was found in lodash < 4.17.22. Dependabot has automatically created a PR to update this dependency. This is informational only.",
+      "date": "2025-11-01T06:07:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-11",
+      "from": "cto@acmecorp.com",
+      "subject": "Azure AD integration \u2014 attribute mapping issue",
+      "body": "We need to map the 'department' claim from Azure AD into our user profile. Currently only displayName and email come through. Please add support for custom attribute mappings in the SAML config.\n\n\u2013 Rafael",
+      "date": "2025-04-02T00:17:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-102"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-12",
+      "from": "dan.wright@acmecorp.com",
+      "subject": "FYI: SSO usage stats for January",
+      "body": "Sharing some stats on SSO usage for January:\n\n\u2022 12,400 SSO logins\n\u2022 98.7% success rate\n\u2022 Top IdP: Okta (72%)\n\nNo action needed \u2014 just thought the team would find this interesting.",
+      "date": "2025-05-19T07:18:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-13",
+      "from": "marketing@vendorx.io",
+      "subject": "Unlock 30% off our enterprise plan!",
+      "body": "Hi there!\n\nFor a limited time, get 30% off VendorX Enterprise. Supercharge your workflow with advanced analytics, priority support, and more.\n\nUse code SAVE30 at checkout. Offer expires March 15.\n\n\u2013 The VendorX Team",
+      "date": "2025-12-18T07:36:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-14",
+      "from": "cto@acmecorp.com",
+      "subject": "Delivery logs missing for failed webhooks",
+      "body": "When a webhook delivery fails, no entry appears in the delivery log. Customers can't debug what went wrong. The logging seems to only capture successful deliveries.",
+      "date": "2025-09-26T10:18:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-111"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-15",
+      "from": "priya.sharma@acmecorp.com",
+      "subject": "Data export missing custom fields",
+      "body": "Custom fields created by customers don't appear in the CSV or JSON exports. This is a major gap \u2014 several customers have reported it.",
+      "date": "2025-09-06T12:31:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-112"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-16",
+      "from": "noreply@linkedin.com",
+      "subject": "You have 5 new connection requests",
+      "body": "Hi there,\n\nYou have 5 new connection requests on LinkedIn. Visit your network to review them.\n\n\u2013 The LinkedIn Team",
+      "date": "2025-05-25T22:13:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-17",
+      "from": "wellness@acmecorp.com",
+      "subject": "Free yoga sessions \u2014 sign up now!",
+      "body": "Hi team!\n\nWe're offering free weekly yoga sessions starting March 1st in the 3rd floor wellness room. Sessions are Tuesdays and Thursdays at noon. Sign up in the wellness Slack channel.\n\n\u2013 Wellness Committee",
+      "date": "2025-12-16T11:38:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-18",
+      "from": "jennifer.wu@acmecorp.com",
+      "subject": "/api/v1/search \u2014 add Redis caching layer",
+      "body": "The search endpoint hits the database on every request with no caching. We should add a Redis cache with a 60-second TTL. Expected to cut latency by 70%.",
+      "date": "2025-05-08T07:50:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-19",
+      "from": "rafael.costa@acmecorp.com",
+      "subject": "Executive dashboard \u2014 MRR chart shows stale data",
+      "body": "The MRR trend chart on the exec dashboard hasn't updated since January 28. Looks like the ETL job is failing silently. Can someone look at the data pipeline?",
+      "date": "2025-11-15T15:01:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-105"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-20",
+      "from": "noreply@stripe.com",
+      "subject": "Your Stripe monthly statement is ready",
+      "body": "Your January 2026 statement for Stripe account acct_xxx is now available. Log in to your Stripe dashboard to view transaction details.\n\nThis is an automated notification.",
+      "date": "2025-09-28T13:13:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-21",
+      "from": "pm@acmecorp.com",
+      "subject": "Feature adoption metric not tracking correctly",
+      "body": "The 'feature adoption' KPI on the exec dashboard is counting unique events instead of unique users. This inflates the numbers. Needs a query fix.",
+      "date": "2025-09-29T07:14:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-105"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-22",
+      "from": "mike.johnson@acmecorp.com",
+      "subject": "CRDT merge conflict on numbered lists",
+      "body": "When two users simultaneously edit a numbered list, the CRDT merge sometimes produces duplicated or misordered items. Needs investigation.",
+      "date": "2025-04-13T08:19:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-113"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-23",
+      "from": "noreply@aws.com",
+      "subject": "AWS maintenance notification \u2014 us-east-1",
+      "body": "Scheduled maintenance for Amazon RDS in us-east-1 on Feb 22, 2026, 03:00-05:00 UTC. Your instances with Multi-AZ enabled will not be affected. This is informational only.",
+      "date": "2025-09-23T00:54:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-24",
+      "from": "pm@acmecorp.com",
+      "subject": "Tracing gaps in payment service",
+      "body": "The payment service is not producing any OpenTelemetry spans. Traces drop off after the API gateway. We need to instrument this service before we can debug billing issues effectively.",
+      "date": "2025-08-24T04:09:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-108"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-25",
+      "from": "jennifer.wu@acmecorp.com",
+      "subject": "Secrets rotation \u2014 staging environment not configured",
+      "body": "Production and dev are configured for Vault-based secret rotation, but staging still uses hardcoded credentials in env vars. Please extend the Vault integration to staging.",
+      "date": "2025-10-20T04:10:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-114"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-26",
+      "from": "jennifer.wu@acmecorp.com",
+      "subject": "Skip-to-content link missing on all pages",
+      "body": "WCAG requires a skip navigation link for keyboard users. We don't have one anywhere in the app. Please add a 'Skip to main content' link as a global component.",
+      "date": "2025-06-17T11:19:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-110"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-27",
+      "from": "carl.berg@partnercorp.io",
+      "subject": "Missing database spans in trace waterfall",
+      "body": "I noticed that DB queries don't show up as individual spans in the trace waterfall. The auto-instrumentation for Postgres doesn't seem to be active. Can we enable it?",
+      "date": "2025-09-29T11:14:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-108"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-28",
+      "from": "eng-lead@acmecorp.com",
+      "subject": "GET /api/v2/reports endpoint is extremely slow",
+      "body": "The reports endpoint is taking 8-12 seconds for customers with large datasets. We need to optimize the underlying queries. This is our #1 support complaint right now.",
+      "date": "2025-12-29T03:06:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-29",
+      "from": "hr@acmecorp.com",
+      "subject": "Updated PTO policy \u2014 effective March 1",
+      "body": "Hi team,\n\nWe've updated the PTO policy effective March 1, 2026. Key change: unlimited PTO is now available for all full-time employees. See the full policy in the HR portal.\n\n\u2013 HR",
+      "date": "2025-03-16T22:38:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-30",
+      "from": "ops@acmecorp.com",
+      "subject": "Keyboard navigation \u2014 modal trap",
+      "body": "When a modal opens, pressing Tab cycles through background elements instead of staying within the modal. We need a proper focus trap implementation.",
+      "date": "2026-01-06T12:42:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-110"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-31",
+      "from": "jennifer.wu@acmecorp.com",
+      "subject": "Connection pool exhaustion under load",
+      "body": "During peak hours we're seeing connection pool exhaustion errors on the primary DB. We need to increase the pool size and add connection pooling via PgBouncer.\n\nPls prioritize, this causes intermittent 503s.",
+      "date": "2025-08-31T05:54:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-32",
+      "from": "backend@acmecorp.com",
+      "subject": "Add trace ID to all error responses",
+      "body": "When an API returns a 5xx error, we should include the trace ID in the response body so customers can share it with support for faster debugging.",
+      "date": "2025-05-09T23:23:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-108"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-33",
+      "from": "sarah.klein@acmecorp.com",
+      "subject": "SSO metadata refresh failing",
+      "body": "The automated SAML metadata refresh job hasn't run in 2 weeks. Customers whose IdP metadata changed are unable to log in. Can we fix the cron job?",
+      "date": "2025-08-29T18:29:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-102"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-34",
+      "from": "mike.johnson@acmecorp.com",
+      "subject": "Re: Lunch today?",
+      "body": "Sure, let's do Thai. Meet in the lobby at 12:15?\n\n\u2013 Mike",
+      "date": "2025-10-16T17:30:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-35",
+      "from": "ops@acmecorp.com",
+      "subject": "Webhook subscription management \u2014 API endpoint needed",
+      "body": "We have a UI for managing webhook subscriptions but no API endpoint. Several customers want to programmatically manage their subscriptions. Can we add CRUD endpoints?",
+      "date": "2025-03-08T21:21:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-111"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-36",
+      "from": "alex.rivera@acmecorp.com",
+      "subject": "Accessibility audit report \u2014 action items",
+      "body": "The external a11y audit is complete. 23 critical and 41 major violations were found. I've attached the report. Can the frontend team triage and create tickets for each finding?",
+      "date": "2025-10-22T06:14:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-110"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-37",
+      "from": "newsletter@infoq.com",
+      "subject": "InfoQ Weekly: Microservices Best Practices",
+      "body": "This week on InfoQ:\n\n\u2022 Microservices Communication Patterns\n\u2022 The Rise of Platform Engineering\n\u2022 Interview: CTO of Stripe on scaling payments\n\nRead at infoq.com",
+      "date": "2025-10-24T04:44:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-38",
+      "from": "facilities@acmecorp.com",
+      "subject": "Office closure: Presidents' Day",
+      "body": "Hi all,\n\nThe office will be closed on Monday, February 17 for Presidents' Day. Regular hours resume Tuesday.\n\n\u2013 Facilities",
+      "date": "2025-09-26T04:16:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-39",
+      "from": "priya.sharma@acmecorp.com",
+      "subject": "IdP-initiated flow broken after last deploy",
+      "body": "Since Friday's release the IdP-initiated SSO flow returns a 500. Logs show a missing RelayState parameter. Can we hotfix this today? Several customers are affected.",
+      "date": "2025-06-07T21:36:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-102"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-40",
+      "from": "compliance@acmecorp.com",
+      "subject": "JSON export \u2014 nested objects not flattened",
+      "body": "The JSON export includes deeply nested objects that are hard for customers to work with. Can we add an option to export flattened JSON?",
+      "date": "2025-04-06T02:15:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-112"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-41",
+      "from": "allhands@acmecorp.com",
+      "subject": "Q4 results \u2014 great quarter team! \ud83c\udf89",
+      "body": "Hi everyone,\n\nI'm thrilled to share that we exceeded our Q4 targets across the board. Revenue was up 28% QoQ, and we onboarded 15 new enterprise customers. Thank you all for your hard work!\n\nNo action needed \u2014 just wanted to celebrate.\n\n\u2013 CEO",
+      "date": "2025-07-09T00:09:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-42",
+      "from": "billing-team@acmecorp.com",
+      "subject": "Add export format: Parquet",
+      "body": "Several data-engineering-heavy customers have asked for Parquet export support in addition to CSV and JSON. Can we add this to the export pipeline?",
+      "date": "2025-11-04T04:19:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-112"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-43",
+      "from": "mike.johnson@acmecorp.com",
+      "subject": "Add compute-minutes breakdown to invoice PDF",
+      "body": "Customers are asking for a detailed breakdown of compute minutes by project on their invoices. Currently we only show the total. Can we add line-item detail?",
+      "date": "2025-10-25T19:22:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-104"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-44",
+      "from": "devops@acmecorp.com",
+      "subject": "Emergency: leaked API key in public repo",
+      "body": "A developer accidentally committed an API key to a public GitHub repo. We need to rotate it immediately through Vault and ensure the old key is revoked. Treating this as P0.",
+      "date": "2025-06-09T18:45:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-114"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-45",
+      "from": "dan.wright@acmecorp.com",
+      "subject": "Dead letter queue for permanently failed webhooks",
+      "body": "After max retries, failed webhooks just disappear. We need a dead letter queue so customers can replay failed deliveries manually from the portal.",
+      "date": "2026-01-10T21:45:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-111"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-46",
+      "from": "noreply@jira.atlassian.com",
+      "subject": "PROJ-4521 was updated",
+      "body": "[Jira] PROJ-4521: Update documentation for API v3\nStatus changed from In Progress to Done by alex.rivera\n\nThis is an automated notification.",
+      "date": "2026-01-06T23:21:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-47",
+      "from": "pm@acmecorp.com",
+      "subject": "CSV export times out for large accounts",
+      "body": "Customers with over 100K records get a timeout when trying to export to CSV. We need to run large exports as background jobs and email a download link when ready.",
+      "date": "2025-10-11T04:47:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-112"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-48",
+      "from": "noreply@linkedin.com",
+      "subject": "Your post got 50 reactions!",
+      "body": "Congratulations! Your post about engineering culture received 50 reactions and 12 comments. View the engagement on LinkedIn.",
+      "date": "2026-01-13T18:56:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-49",
+      "from": "noreply@figma.com",
+      "subject": "You were mentioned in a comment",
+      "body": "Lisa Chen mentioned you in a comment on 'Dashboard Redesign v3' in Figma. Open Figma to view the comment.\n\nThis is an automated notification.",
+      "date": "2025-11-28T01:31:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-50",
+      "from": "noreply@jira.atlassian.com",
+      "subject": "Sprint 47 completed",
+      "body": "[Jira] Sprint 47 has been completed.\n\nCompleted: 24 stories (68 points)\nCarried over: 3 stories (8 points)\n\nThis is an automated sprint summary.",
+      "date": "2026-01-11T12:56:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-51",
+      "from": "mike.johnson@acmecorp.com",
+      "subject": "Real-time presence indicator not showing in sidebar",
+      "body": "The sidebar should show a green dot for users currently editing a document but it's not appearing. The presence data is being sent \u2014 likely a frontend rendering issue.",
+      "date": "2025-05-08T17:58:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-113"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-52",
+      "from": "integrations@acmecorp.com",
+      "subject": "Collaborative editing \u2014 cursor flickering on slow connections",
+      "body": "Users on slower connections report that collaborator cursors flicker rapidly. The presence updates are too frequent. We should throttle cursor position broadcasts.",
+      "date": "2025-09-25T18:09:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-113"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-53",
+      "from": "carl.berg@partnercorp.io",
+      "subject": "API p95 latency regression after v2.14 release",
+      "body": "Our p95 latency jumped from 180ms to 450ms after last Tuesday's deploy. We need to identify what changed and roll back or fix the offending code path.",
+      "date": "2026-01-01T15:55:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-54",
+      "from": "devops@acmecorp.com",
+      "subject": "Vault integration \u2014 dynamic DB credentials not being refreshed",
+      "body": "The database credentials generated by Vault are expiring after their TTL but our services aren't requesting new ones. Connections fail until manual restart. Please fix the credential refresh loop.",
+      "date": "2025-08-06T15:04:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-114"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-55",
+      "from": "priya.sharma@acmecorp.com",
+      "subject": "gRPC calls between services not traced",
+      "body": "Inter-service gRPC calls aren't generating spans. We need to add the OpenTelemetry gRPC interceptor to all services. This is critical for debugging cross-service latency.",
+      "date": "2025-05-07T09:37:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-108"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-56",
+      "from": "carl.berg@partnercorp.io",
+      "subject": "Add trace context propagation for async workers",
+      "body": "Our background job workers don't carry the trace context from the originating HTTP request. This means we lose visibility once work is enqueued. Please add context propagation for the job queue.",
+      "date": "2025-04-05T17:17:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-108"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-57",
+      "from": "mike.johnson@acmecorp.com",
+      "subject": "SAML certificate expiry warning",
+      "body": "Our SP signing certificate expires in 12 days. We need to rotate it and notify all connected IdPs. Please coordinate the rollover so there's no downtime.",
+      "date": "2025-10-06T04:29:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-102"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-58",
+      "from": "qa@acmecorp.com",
+      "subject": "Custom span attributes for tenant isolation",
+      "body": "We need to add tenant_id and environment as custom span attributes on all traces. This will let us filter traces by customer in Grafana.",
+      "date": "2025-09-01T23:00:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-108"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-59",
+      "from": "noreply@github.com",
+      "subject": "Security alert: dependency update available",
+      "body": "A new security advisory affects a dependency in your repository. This is an automated notification \u2014 no action required from your team at this time as auto-merge is enabled.",
+      "date": "2025-04-14T21:05:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-60",
+      "from": "billing-team@acmecorp.com",
+      "subject": "Tax calculation missing for EU customers",
+      "body": "Our invoices for EU customers don't include VAT. Stripe supports tax calculation \u2014 we just need to enable it and pass the customer's country code. Needs to be done before end of quarter.",
+      "date": "2026-01-03T17:53:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-104"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-61",
+      "from": "support@acmecorp.com",
+      "subject": "Proration logic broken for mid-cycle upgrades",
+      "body": "When a customer upgrades mid-billing-cycle, the proration calculation is wrong \u2014 they're being charged the full new tier price instead of a prorated amount. Please fix.",
+      "date": "2025-12-04T00:39:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-104"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-62",
+      "from": "support@acmecorp.com",
+      "subject": "Permission bug: viewers can delete projects",
+      "body": "A user with the Viewer role was able to delete a project in production. This is a critical security issue. We need to audit all endpoint authorization checks immediately.",
+      "date": "2025-11-27T10:00:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-109"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-63",
+      "from": "hr@acmecorp.com",
+      "subject": "Reminder: Submit your Q4 self-review by Friday",
+      "body": "Hi all,\n\nFriendly reminder that Q4 self-reviews are due this Friday at 5pm. Please complete yours in Workday.\n\nBest,\nHR Team",
+      "date": "2025-06-24T21:50:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-64",
+      "from": "alex.rivera@acmecorp.com",
+      "subject": "Database index recommendations from pg_stat_statements",
+      "body": "I analyzed pg_stat_statements and found 5 queries that would benefit from composite indexes. Can we schedule a maintenance window to apply them? Details attached.",
+      "date": "2025-09-20T13:19:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-65",
+      "from": "product@acmecorp.com",
+      "subject": "Audit log for permission changes",
+      "body": "Compliance requires an audit trail for all permission changes \u2014 role assignments, scope modifications, etc. We need to add this to the RBAC admin UI.",
+      "date": "2025-04-28T04:41:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-109"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-66",
+      "from": "allhands@acmecorp.com",
+      "subject": "Company holiday schedule 2026",
+      "body": "Hi everyone,\n\nAttached is the 2026 company holiday schedule. Please plan your PTO accordingly. No action needed \u2014 this is for your reference.\n\nHappy holidays,\nHR",
+      "date": "2025-10-28T05:17:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-67",
+      "from": "eng-lead@acmecorp.com",
+      "subject": "Implement query result caching for dashboard APIs",
+      "body": "Dashboard API endpoints re-run expensive aggregation queries on every page load. We should cache results for 5 min. This would also help the exec dashboard performance.",
+      "date": "2025-12-18T09:38:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-68",
+      "from": "cto@acmecorp.com",
+      "subject": "Board meeting next week \u2014 need updated KPI dashboard",
+      "body": "The board meeting is on Thursday. Can we make sure the executive dashboard data is current and accurate? Last time the MRR numbers were a day behind.",
+      "date": "2025-04-01T08:21:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-105"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-69",
+      "from": "events@conferenceco.com",
+      "subject": "You're invited: CloudNativeCon 2026",
+      "body": "Join us at CloudNativeCon 2026 in Austin, TX on April 14-16. Early bird registration is now open. Featured speakers include leaders from AWS, Google, and Microsoft.\n\nRegister at cloudnativecon.io",
+      "date": "2025-08-05T19:05:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-70",
+      "from": "dpo@acmecorp.com",
+      "subject": "Automated monthly export for compliance",
+      "body": "Compliance requires automated monthly exports of all customer data to our backup S3 bucket. Can we schedule this through the export system?",
+      "date": "2025-11-30T12:56:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-112"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-71",
+      "from": "emma.taylor@acmecorp.com",
+      "subject": "Collaborative editing \u2014 undo/redo broken in shared sessions",
+      "body": "When multiple users are editing, pressing Ctrl+Z undoes the other user's changes instead of your own. The undo stack needs to be per-user in collaborative mode.",
+      "date": "2025-07-06T02:31:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-113"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-72",
+      "from": "compliance@acmecorp.com",
+      "subject": "API key rotation \u2014 old keys not invalidated",
+      "body": "When a new API key is generated through the Vault integration, the old key remains valid indefinitely. We need to enforce a grace period and then revoke the old key.",
+      "date": "2025-04-15T18:11:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-114"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-73",
+      "from": "carl.berg@partnercorp.io",
+      "subject": "Webhook delivery delays to our endpoint",
+      "body": "We're seeing 10-15 minute delays between events in your system and webhook delivery to our endpoint. Is this expected? Our SLA requires near-real-time delivery.",
+      "date": "2025-08-27T13:01:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-111"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-74",
+      "from": "compliance@acmecorp.com",
+      "subject": "SOC 2 finding: overly permissive default role",
+      "body": "Our SOC 2 auditor flagged that the default user role has write access to all projects. We need to change the default to read-only and require explicit role elevation.",
+      "date": "2025-08-05T13:04:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-109"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-75",
+      "from": "team@acmecorp.com",
+      "subject": "Lunch & Learn: Intro to Kubernetes \u2014 Feb 20",
+      "body": "Hi everyone,\n\nJoin us for a Lunch & Learn session on Kubernetes basics. Thursday Feb 20, 12:00-1:00 PM in Conference Room B. Pizza will be provided.\n\nNo RSVP needed \u2014 just show up!\n\n\u2013 Engineering Culture Team",
+      "date": "2025-05-29T19:24:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-76",
+      "from": "team@acmecorp.com",
+      "subject": "All-hands meeting recording available",
+      "body": "Hi team,\n\nThe recording from yesterday's all-hands meeting is now available in the shared Google Drive folder. No action needed \u2014 just sharing for those who couldn't attend.\n\nBest,\nTeam Ops",
+      "date": "2025-08-02T06:49:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-77",
+      "from": "events@meetup.com",
+      "subject": "Upcoming: Riga Tech Meetup \u2014 March 5",
+      "body": "Join the Riga Tech Meetup on March 5th at TechHub Riga. Topic: 'Scaling SaaS products in the Baltics.' RSVP at meetup.com/riga-tech",
+      "date": "2025-06-25T14:12:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-78",
+      "from": "qa@acmecorp.com",
+      "subject": "Salesforce sync failing for large orgs",
+      "body": "Customers with more than 50K contacts are seeing timeout errors during the Salesforce sync. We need to implement pagination or batch processing.\n\nThis is affecting three enterprise accounts.",
+      "date": "2025-11-19T13:19:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-106"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-79",
+      "from": "billing-team@acmecorp.com",
+      "subject": "TLS certificate rotation causing 5-minute downtime",
+      "body": "When Vault rotates TLS certs, there's a window where the old cert is revoked but the new one isn't loaded yet. We need to implement graceful cert hot-reloading.",
+      "date": "2025-09-09T06:56:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-114"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-80",
+      "from": "lisa.chen@acmecorp.com",
+      "subject": "RBAC migration plan for existing customers",
+      "body": "When we ship the new permission model, we need a migration path for existing customers. Their current roles need to map cleanly to the new system. Can someone draft a migration plan?",
+      "date": "2025-06-12T23:51:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-109"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-81",
+      "from": "product@acmecorp.com",
+      "subject": "A/B test for onboarding flow variant B",
+      "body": "We want to run an A/B test with a simplified 3-step onboarding versus the current 5-step wizard. Can the frontend team set up the feature flag and variant?",
+      "date": "2025-09-03T20:38:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-103"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-82",
+      "from": "nadia.foster@clientco.com",
+      "subject": "Question about metered billing for our account",
+      "body": "Hi, we're trying to understand how compute minutes are calculated on our latest invoice. The numbers don't match our expectations. Can someone walk us through the methodology?",
+      "date": "2025-11-14T01:45:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-104"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-83",
+      "from": "ops@acmecorp.com",
+      "subject": "Grafana Tempo \u2014 storage costs spiking",
+      "body": "Our trace storage in Tempo has tripled in the last month. We need to implement sampling or reduce the default trace retention period. Can someone investigate and propose a plan?",
+      "date": "2025-07-19T20:42:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-108"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-84",
+      "from": "noreply@calendar.google.com",
+      "subject": "Invitation: Sprint Planning \u2014 Feb 10, 10:00 AM",
+      "body": "You've been invited to 'Sprint Planning' by jennifer.wu@acmecorp.com.\n\nWhen: Feb 10, 2026, 10:00 AM - 11:00 AM EST\nWhere: Zoom (link in calendar event)\n\nAccept | Decline | Tentative",
+      "date": "2025-12-13T21:56:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-85",
+      "from": "support@acmecorp.com",
+      "subject": "Add progress indicator to setup wizard",
+      "body": "Users have no idea how many steps are left in the onboarding flow. Please add a progress bar or step counter at the top of the wizard.",
+      "date": "2025-05-30T16:56:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-103"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-86",
+      "from": "security@acmecorp.com",
+      "subject": "Penetration test finding: broken access control",
+      "body": "The pentest report flagged that API endpoints for role management don't require admin privileges. Any authenticated user can modify roles via direct API calls. Critical finding \u2014 needs immediate remediation.",
+      "date": "2025-07-22T20:32:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-109"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-87",
+      "from": "rafael.costa@acmecorp.com",
+      "subject": "Usage metering \u2014 storage calculation off by 10x",
+      "body": "The storage metric is being reported in bytes instead of megabytes in the billing pipeline. This is inflating invoices dramatically. Urgent fix needed.",
+      "date": "2025-04-01T09:14:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-104"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-88",
+      "from": "integrations@acmecorp.com",
+      "subject": "Live editing session drops after 30 minutes",
+      "body": "WebSocket connections for the collaborative editor are being terminated after 30 minutes by our load balancer. We need to configure keep-alive pings or increase the timeout.",
+      "date": "2025-03-10T17:40:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-113"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-89",
+      "from": "alex.rivera@acmecorp.com",
+      "subject": "Webhook signature verification docs are wrong",
+      "body": "The developer docs say we use HMAC-SHA1 for webhook signatures but the code actually uses HMAC-SHA256. Either fix the code or fix the docs \u2014 customers can't verify signatures.",
+      "date": "2025-12-23T21:56:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-111"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-90",
+      "from": "rafael.costa@acmecorp.com",
+      "subject": "SSO session timeout mismatch",
+      "body": "Users are getting logged out after 15 minutes even though the IdP session is set to 8 hours. Looks like we're not honoring the SessionNotOnOrAfter attribute. Please fix.",
+      "date": "2025-08-26T14:02:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-102"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-91",
+      "from": "devops@acmecorp.com",
+      "subject": "Slow query audit \u2014 top 10 offenders",
+      "body": "I've pulled the slow query log for last week. Attached are the top 10 queries by cumulative execution time. Can the backend team review and optimize? Most involve missing indexes.",
+      "date": "2025-09-13T09:34:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-92",
+      "from": "promo@saasvendor.io",
+      "subject": "Last chance: renew before price increase",
+      "body": "Hi,\n\nThis is a reminder that our pricing increases on March 1. Renew your annual plan before then to lock in the current rate.\n\n\u2013 SaaSVendor Sales",
+      "date": "2025-12-11T15:45:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-93",
+      "from": "emma.taylor@acmecorp.com",
+      "subject": "Resource-level scopes not enforced on API",
+      "body": "The API doesn't check resource-level scopes \u2014 it only checks the top-level role. This means a user with 'Editor' on Project A can also edit Project B. Urgent fix required.",
+      "date": "2025-11-05T11:46:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-109"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-94",
+      "from": "support@acmecorp.com",
+      "subject": "Admin UI for role management \u2014 MVP spec",
+      "body": "Attached is the MVP spec for the admin panel where org admins can create, edit, and assign custom roles. Please review and flag any technical concerns by EOW.",
+      "date": "2025-07-13T07:36:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-109"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-95",
+      "from": "eng-lead@acmecorp.com",
+      "subject": "Billing discrepancy for customer acct-7782",
+      "body": "Customer reports their invoice shows 1.2M API calls but their internal tracking shows only 800K. We need to audit the metering pipeline for this account and reconcile.\n\nPlease prioritize \u2014 they're threatening to churn.",
+      "date": "2025-05-04T10:24:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-104"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-96",
+      "from": "david.kim@acmecorp.com",
+      "subject": "Screen reader announces buttons incorrectly",
+      "body": "VoiceOver on macOS announces our primary action buttons as 'clickable' instead of reading the button label. We need to fix the ARIA roles and labels.",
+      "date": "2025-11-18T09:43:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-110"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-97",
+      "from": "emma.taylor@acmecorp.com",
+      "subject": "Onboarding \u2014 support for inviting via CSV upload",
+      "body": "Enterprise customers want to invite 50+ team members at once. We need a CSV upload option in the team invitation step of the onboarding wizard.",
+      "date": "2025-08-11T18:02:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-103"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-98",
+      "from": "carl.berg@partnercorp.io",
+      "subject": "Stripe webhook failures causing missed invoices",
+      "body": "Our Stripe webhook endpoint has been returning 502s intermittently. Some invoices were not finalized. Need to investigate and reprocess the failed events.",
+      "date": "2025-07-11T11:37:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-104"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-99",
+      "from": "noreply@zoom.us",
+      "subject": "Cloud recording available: Eng Sync 02/03",
+      "body": "Your cloud recording for 'Engineering Sync \u2014 Feb 3' is now available. Access it at zoom.us/recordings. Recording will be available for 30 days.",
+      "date": "2025-12-28T08:48:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-100",
+      "from": "noreply@sentry.io",
+      "subject": "Weekly error digest \u2014 0 new issues",
+      "body": "Good news! No new errors were detected in your project this week. Total unresolved issues: 4 (all low priority).\n\nView in Sentry.",
+      "date": "2025-05-30T21:32:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-101",
+      "from": "noreply@datadog.com",
+      "subject": "Weekly infrastructure report",
+      "body": "Your weekly Datadog infrastructure summary:\n\n\u2022 Avg CPU: 42%\n\u2022 Avg Memory: 67%\n\u2022 0 critical alerts\n\u2022 3 warnings resolved\n\nView full report in Datadog.",
+      "date": "2025-04-13T22:14:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-102",
+      "from": "billing-team@acmecorp.com",
+      "subject": "Add churn cohort analysis to reporting dashboard",
+      "body": "Leadership wants to see churn broken down by signup cohort on the executive dashboard. We have the data in Redshift \u2014 just need to wire it up to a new chart widget.",
+      "date": "2025-12-26T18:54:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-105"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-103",
+      "from": "ooo@acmecorp.com",
+      "subject": "OOO: Sarah Klein \u2014 Feb 10-14",
+      "body": "Hi,\n\nI'll be out of office from Feb 10 to Feb 14. For urgent matters, please contact mike.johnson@acmecorp.com.\n\nBest,\nSarah",
+      "date": "2025-09-06T22:47:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-104",
+      "from": "mike.johnson@acmecorp.com",
+      "subject": "Custom role creation \u2014 UI wireframes ready for review",
+      "body": "I've uploaded the wireframes for the custom role creation flow to Figma. Can the frontend team review and estimate the implementation effort? Link: [figma-link]",
+      "date": "2025-03-21T13:58:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-109"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-105",
+      "from": "david.kim@acmecorp.com",
+      "subject": "Webhook retries not respecting backoff schedule",
+      "body": "Our retry logic is firing retries every 5 seconds instead of using exponential backoff. This is hammering customer endpoints. Please fix the retry scheduler.",
+      "date": "2025-12-04T16:01:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-111"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-106",
+      "from": "noreply@github.com",
+      "subject": "Repository fork: acmecorp/utils",
+      "body": "User johndoe42 forked acmecorp/utils. This is a public repository notification. No action required.",
+      "date": "2025-12-16T09:30:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-107",
+      "from": "james.ortiz@acmecorp.com",
+      "subject": "Dashboard access for board members",
+      "body": "We need to create read-only accounts for three board members so they can view the KPI dashboard. Please set up the accounts and send credentials by Friday.\n\nNames: J. Park, S. Liu, R. Mehta",
+      "date": "2025-12-23T13:43:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-105"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-108",
+      "from": "info@industrygroup.org",
+      "subject": "Monthly industry report \u2014 January 2026",
+      "body": "The January 2026 SaaS Industry Report is now available for download. Key highlights:\n\n\u2022 Median SaaS growth rate: 22%\n\u2022 Customer acquisition costs down 8%\n\u2022 Expansion revenue up 15%\n\nDownload at industrygroup.org/reports",
+      "date": "2025-06-28T12:32:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-109",
+      "from": "newsletter@techcrunch.com",
+      "subject": "TechCrunch Daily \u2014 AI startups raise $2B this week",
+      "body": "Your daily digest of tech news:\n\n\u2022 AI startups raised $2B in funding this week\n\u2022 Apple announces new developer tools\n\u2022 A deep dive into the state of cloud infrastructure\n\nRead more on techcrunch.com",
+      "date": "2025-07-02T08:49:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-110",
+      "from": "dan.wright@acmecorp.com",
+      "subject": "Okta SSO login loop for enterprise tenant",
+      "body": "Hi team,\n\nOne of our enterprise customers (TenantID: ent-4821) is stuck in a redirect loop when attempting SP-initiated login through Okta. They've verified their IdP metadata is correct. Can someone investigate the SAML assertion parsing on our side? This is blocking their rollout.\n\nThanks,\nJennifer",
+      "date": "2025-07-31T19:30:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-102"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-111",
+      "from": "digest@medium.com",
+      "subject": "Your Medium Daily Digest",
+      "body": "Stories picked for you today:\n\n\u2022 'Why Rust is eating the world' \u2014 12 min read\n\u2022 'The future of remote work' \u2014 8 min read\n\u2022 'Building resilient microservices' \u2014 15 min read",
+      "date": "2025-09-09T11:26:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-112",
+      "from": "tina.patel@acmecorp.com",
+      "subject": "Customer complaint: everything is slow",
+      "body": "Got a call from Megacorp. They say 'everything is slow' \u2014 page loads, API calls, exports. Their account has 200K records. Can the performance team investigate? Start with the API layer.",
+      "date": "2026-01-28T10:15:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-113",
+      "from": "emma.taylor@acmecorp.com",
+      "subject": "Vault audit log integration",
+      "body": "Security team needs Vault audit logs streamed to our SIEM. Can we set up the Vault audit backend to ship logs to our Splunk instance?",
+      "date": "2025-03-02T15:06:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-114"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-114",
+      "from": "deals@cheapsoft.biz",
+      "subject": "AMAZING DEAL: 90% off all software!!!",
+      "body": "BUY NOW!!! Limited time offer \u2014 get any software for 90% off! Cloud hosting, CRM, billing tools, and more. Click here: totallylegit.biz/deal\n\nUnsubscribe: never",
+      "date": "2025-05-27T18:48:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-115",
+      "from": "carl.berg@partnercorp.io",
+      "subject": "Re: Webhook integration \u2014 thank you!",
+      "body": "Hi team,\n\nJust wanted to say thanks for helping us set up the webhook integration last week. Everything is working great on our end. Appreciate the support!\n\n\u2013 Carl",
+      "date": "2025-07-09T06:39:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-116",
+      "from": "priya.sharma@acmecorp.com",
+      "subject": "Form error messages not announced to screen readers",
+      "body": "When form validation fails, the error messages appear visually but are not announced by screen readers. We need to add aria-live regions or role='alert' to error containers.",
+      "date": "2025-12-02T06:30:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-110"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-117",
+      "from": "lisa.chen@acmecorp.com",
+      "subject": "Change attribution not showing for offline edits",
+      "body": "When a user makes edits offline and reconnects, their changes merge correctly but the attribution shows 'Unknown User'. Needs fix.",
+      "date": "2025-12-21T05:14:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-113"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-118",
+      "from": "integrations@acmecorp.com",
+      "subject": "Salesforce custom object sync request",
+      "body": "A customer wants to sync a custom Salesforce object called 'Subscription__c' that isn't one of the standard objects we support. Can we add custom object support to the sync engine?",
+      "date": "2025-05-20T05:58:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-106"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-119",
+      "from": "qa@acmecorp.com",
+      "subject": "Accessibility regression in v2.15 release",
+      "body": "The latest release broke keyboard navigation on the sidebar menu. Tab order is completely wrong. This was working before \u2014 likely a CSS change caused it.",
+      "date": "2025-10-02T16:52:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-110"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-120",
+      "from": "support@acmecorp.com",
+      "subject": "Customer escalation: SSO auto-provisioning not working",
+      "body": "Enterprise customer FooCorp expects new users to be auto-provisioned on first SSO login. Currently they have to be manually created. Can we support JIT provisioning from SAML assertions?",
+      "date": "2025-10-11T04:00:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-102"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-121",
+      "from": "billing-team@acmecorp.com",
+      "subject": "CRM field mapping UI \u2014 drag-and-drop broken in Firefox",
+      "body": "The field mapping configuration UI works fine in Chrome but the drag-and-drop is completely broken in Firefox. Needs cross-browser testing and a fix.",
+      "date": "2025-04-20T05:00:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-106"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-122",
+      "from": "tina.patel@acmecorp.com",
+      "subject": "Performance degradation with 10+ concurrent editors",
+      "body": "Documents with more than 10 simultaneous editors experience severe lag. The CRDT operation log grows too fast. We need to optimize the sync protocol.",
+      "date": "2025-03-04T05:41:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-113"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-123",
+      "from": "mike.johnson@acmecorp.com",
+      "subject": "Customer request: SSO enforcement toggle",
+      "body": "Acme Industries wants the ability to enforce SSO-only login for all users on their account. We need an admin toggle that disables password-based auth when SSO is active. Can you scope this?",
+      "date": "2025-03-20T17:08:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-102"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-124",
+      "from": "alex.rivera@acmecorp.com",
+      "subject": "HashiCorp Vault \u2014 upgrade to 1.15 for PKI improvements",
+      "body": "Vault 1.15 adds cross-signing support for the PKI engine which we need for zero-downtime cert rotation. Can the infra team plan the upgrade?",
+      "date": "2025-05-24T19:41:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-114"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-125",
+      "from": "carl.berg@partnercorp.io",
+      "subject": "GDPR data portability request from EU customer",
+      "body": "We received a formal data portability request under GDPR Article 20. We need to generate a complete export for account acct-9912 within 30 days. Please ensure the export tool handles this.",
+      "date": "2025-05-09T20:04:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-112"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-126",
+      "from": "pm@acmecorp.com",
+      "subject": "Duplicate contact detection in CRM sync",
+      "body": "The Salesforce sync is creating duplicate contacts when the email field has different casing. We need case-insensitive matching in the dedup logic.",
+      "date": "2025-11-08T02:09:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-106"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-127",
+      "from": "pm@acmecorp.com",
+      "subject": "Add Salesforce activity logging for email events",
+      "body": "Sales team wants our platform's email engagement events (opens, clicks) to appear as activities on the Salesforce contact record. Can we add this to the sync config?",
+      "date": "2025-12-11T12:41:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-106"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-128",
+      "from": "qa@acmecorp.com",
+      "subject": "Add configurable date range picker to exec dashboard",
+      "body": "Currently the dashboard only shows last-30-days. Leadership needs 7d, 30d, 90d, and custom range options. Please implement.",
+      "date": "2025-08-03T04:33:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-105"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-129",
+      "from": "frontend@acmecorp.com",
+      "subject": "Reduce onboarding friction \u2014 remove email verification wall",
+      "body": "Product wants to move email verification to after workspace creation so users can explore immediately. Can we restructure the wizard flow to support this?",
+      "date": "2025-06-22T08:16:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-103"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-130",
+      "from": "priya.sharma@acmecorp.com",
+      "subject": "New user drop-off at step 3 of onboarding",
+      "body": "Analytics show 40% of new users abandon at step 3 (project setup). We need to simplify this step \u2014 maybe add templates they can pick from instead of starting from scratch.\n\nLet's discuss in tomorrow's standup but please start thinking about solutions.",
+      "date": "2025-11-15T06:01:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-103"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-131",
+      "from": "promo@cloudprovider.com",
+      "subject": "New GPU instances now available",
+      "body": "We're excited to announce our new H100 GPU instances are now generally available in all regions. Perfect for ML training workloads.\n\nLearn more at cloudprovider.com/gpu\n\n\u2013 Cloud Provider Team",
+      "date": "2026-01-10T03:06:00Z"
+    },
+    "labels": {
+      "requiresAction": false,
+      "expectedEpicKey": null
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-132",
+      "from": "product@acmecorp.com",
+      "subject": "Export dashboard data to PDF",
+      "body": "The CFO wants to attach dashboard screenshots to the board deck but needs a proper PDF export. Can we add a 'Download as PDF' button to the executive dashboard?",
+      "date": "2025-07-03T00:10:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-105"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-133",
+      "from": "devops@acmecorp.com",
+      "subject": "Salesforce opportunity sync \u2014 closed-won not updating",
+      "body": "When an opportunity is marked as Closed-Won in Salesforce, the status isn't syncing back to our platform. The bidirectional sync seems to only work for open opportunities.",
+      "date": "2025-09-05T21:08:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-106"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-134",
+      "from": "rafael.costa@acmecorp.com",
+      "subject": "Batch endpoint performance \u2014 parallelize downstream calls",
+      "body": "The /api/v2/batch endpoint makes sequential calls to three downstream services. We should parallelize these to cut response time by ~60%.",
+      "date": "2025-07-03T04:41:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-107"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-135",
+      "from": "qa@acmecorp.com",
+      "subject": "Payload size limit for webhooks",
+      "body": "A customer's webhook endpoint is rejecting our payloads because they exceed 1MB. We need to either truncate large payloads or add a size limit with a link to the full payload.",
+      "date": "2025-08-11T18:53:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-111"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-136",
+      "from": "billing-team@acmecorp.com",
+      "subject": "Scheduled export to S3 \u2014 credentials not rotating",
+      "body": "The S3 export feature stores customer AWS credentials but never rotates them. We need to either support IAM roles or prompt customers to update credentials periodically.",
+      "date": "2025-10-01T06:46:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-112"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-137",
+      "from": "sarah.klein@acmecorp.com",
+      "subject": "Collaborative editing \u2014 add commenting feature",
+      "body": "Users want to leave inline comments on specific text selections during collaborative editing sessions. This should show the commenter's name and timestamp.",
+      "date": "2025-06-01T02:51:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-113"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-138",
+      "from": "billing-team@acmecorp.com",
+      "subject": "Onboarding wizard skips team invite step",
+      "body": "QA found that when a user creates a workspace with a free plan, the team invitation step is completely skipped. This defeats the purpose of the guided flow. Bug needs fixing before launch.",
+      "date": "2025-12-18T06:18:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-103"
+    }
+  },
+  {
+    "email": {
+      "messageId": "msg-139",
+      "from": "dan.wright@acmecorp.com",
+      "subject": "Salesforce sandbox environment for testing",
+      "body": "We need a way to connect to Salesforce sandbox orgs for testing. Currently the integration only supports production. Can we add an environment toggle?",
+      "date": "2025-10-05T10:23:00Z"
+    },
+    "labels": {
+      "requiresAction": true,
+      "expectedEpicKey": "EPIC-106"
+    }
+  }
+]

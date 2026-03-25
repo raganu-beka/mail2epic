@@ -1,0 +1,6 @@
+@Blue.Mail2Epic.Dashboard_HostAddress = http://localhost:5133
+
+GET {{Blue.Mail2Epic.Dashboard_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,29 @@
+﻿version: '3.8'
+
+services:
+  postgres:
+    image: ankane/pgvector
+    container_name: postgres-pgvector
+    environment:
+      POSTGRES_PASSWORD: mail2epic
+      POSTGRES_DB: mail2epic
+    command: ["postgres", "-c", "port=5433"]
+    ports:
+      - "5433:5433"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:4.0-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

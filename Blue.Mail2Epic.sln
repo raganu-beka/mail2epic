@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blue.Mail2Epic", "Blue.Mail2Epic\Blue.Mail2Epic.csproj", "{C737BF7E-81AD-41AE-8DE5-92051EE7AC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blue.Mail2Epic.Tests", "Blue.Mail2Epic.Tests\Blue.Mail2Epic.Tests.csproj", "{2F562315-E87D-49F0-B5F0-30E57AC6864B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blue.Mail2Epic.Infrastructure", "Blue.Mail2Epic.Infrastructure\Blue.Mail2Epic.Infrastructure.csproj", "{495EE009-EC6E-4288-B9AC-312AB4F2DD9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blue.Mail2Epic.Dashboard", "Blue.Mail2Epic.Dashboard\Blue.Mail2Epic.Dashboard.csproj", "{3C698202-752E-44B5-AAEF-E50608B2DB20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C737BF7E-81AD-41AE-8DE5-92051EE7AC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C737BF7E-81AD-41AE-8DE5-92051EE7AC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C737BF7E-81AD-41AE-8DE5-92051EE7AC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C737BF7E-81AD-41AE-8DE5-92051EE7AC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F562315-E87D-49F0-B5F0-30E57AC6864B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F562315-E87D-49F0-B5F0-30E57AC6864B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F562315-E87D-49F0-B5F0-30E57AC6864B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F562315-E87D-49F0-B5F0-30E57AC6864B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495EE009-EC6E-4288-B9AC-312AB4F2DD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495EE009-EC6E-4288-B9AC-312AB4F2DD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495EE009-EC6E-4288-B9AC-312AB4F2DD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495EE009-EC6E-4288-B9AC-312AB4F2DD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C698202-752E-44B5-AAEF-E50608B2DB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C698202-752E-44B5-AAEF-E50608B2DB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C698202-752E-44B5-AAEF-E50608B2DB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C698202-752E-44B5-AAEF-E50608B2DB20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

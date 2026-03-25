@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --color-brand: #2563eb;
+    --color-brand-dark: #1d4ed8;
+    --color-brand-light: #eff6ff;
+
+    --font-sans: "Inter", ui-sans-serif, system-ui;
+
+    --breakpoint-3xl: 1920px;
+}
+
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+@layer base {
+    body {
+        @apply bg-gray-50 text-gray-900 antialiased;
+    }
+
+    a {
+        @apply text-blue-600 hover:text-blue-800 underline-offset-2 hover:underline;
+    }
+}
