@@ -2,7 +2,7 @@
 
 ## Run Postgres with pgvector extension and rabbitMQ
 
-```docker-compose -f docker-compose.yml up -d```
+```docker-compose -f dev-dependencies-compose.yml up -d```
 
 To stop:
-```docker-compose -f docker-compose.yml down```
+```docker-compose -f dev-dependencies-compose.yml down```
