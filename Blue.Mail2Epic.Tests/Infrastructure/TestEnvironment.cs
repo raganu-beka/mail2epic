@@ -22,12 +22,17 @@ public static class TestEnvironment
 
         var endpoint = Environment.GetEnvironmentVariable("AZUREAI_ENDPOINT");
         var apiKey = Environment.GetEnvironmentVariable("AZUREAI_APIKEY");
+        var summarizationModel = Environment.GetEnvironmentVariable("AZUREAI_SUMMARIZATIONMODEL") ??
+                                 Environment.GetEnvironmentVariable("AZUREAI_SUMMARIZATION_DEPLOYMENTNAME");
         var analysisModel = Environment.GetEnvironmentVariable("AZUREAI_ANALYSISMODEL") ??
                             Environment.GetEnvironmentVariable("AZUREAI_DEPLOYMENTNAME");
         var embedding = Environment.GetEnvironmentVariable("AZUREAI_EMBEDDINGMODEL");
 
+        summarizationModel ??= analysisModel;
+
         if (string.IsNullOrWhiteSpace(endpoint) ||
             string.IsNullOrWhiteSpace(apiKey) ||
+            string.IsNullOrWhiteSpace(summarizationModel) ||
             string.IsNullOrWhiteSpace(analysisModel) ||
             string.IsNullOrWhiteSpace(embedding))
         {
@@ -39,6 +44,7 @@ public static class TestEnvironment
         {
             Endpoint = endpoint,
             ApiKey = apiKey,
+            SummarizationModel = summarizationModel,
             AnalysisModel = analysisModel,
             EmbeddingModel = embedding
         };
@@ -94,6 +100,7 @@ public static class TestEnvironment
     {
         return !string.IsNullOrWhiteSpace(options.Endpoint) &&
                !string.IsNullOrWhiteSpace(options.ApiKey) &&
+               !string.IsNullOrWhiteSpace(options.SummarizationModel) &&
                !string.IsNullOrWhiteSpace(options.AnalysisModel) &&
                !string.IsNullOrWhiteSpace(options.EmbeddingModel);
     }
