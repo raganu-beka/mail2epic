@@ -1,46 +1,266 @@
 [
   {
-    "name": "clear payroll reporting match",
+    "name": "AlphaTech vacation approval flow bug",
     "email": {
-      "messageId": "project-payroll-clear",
-      "from": "finance.ops@finance.fabrikam.test",
-      "subject": "Payroll variance report doubles gross pay totals",
-      "body": "The payroll variance report and gross-to-net export both show doubled tax totals for salaried employees. Please investigate the reconciliation logic.",
-      "date": "2026-04-01T10:00:00Z"
+      "messageId": "<msg-001@alphatech.test>",
+      "from": "anna.berzina@alphatech.test",
+      "subject": "Atvaļinājuma pieteikumu apstiprināšana atkal nestrādā",
+      "body": "Labdien,\n\nŠorīt vairāki vadītāji ziņoja, ka nevar apstiprināt padoto atvaļinājuma pieteikumus portālā. Poga \"Apstiprināt\" ir pelēka, bet paziņojumi e-pastā arī netiek saņemti. Lūdzu, pārbaudiet un dodiet ziņu, kad varam gaidīt labojumu.\n\nAr cieņu,\nAnna Bērziņa\nPersonāldaļas vadītāja\nAlphaTech SIA",
+      "date": "2026-04-21T09:12:00Z"
     },
-    "expectedEpicKey": "PAY-210"
+    "expectedEpicKey": "PSN-410"
   },
   {
-    "name": "similar portal concepts but hr portal is correct",
+    "name": "GammaLegal PDF generation failure",
     "email": {
-      "messageId": "project-hr-portal",
-      "from": "onboarding@people.fabrikam.test",
-      "subject": "New hires cannot open the onboarding checklist",
-      "body": "The employee portal lets new hires sign in, but the onboarding checklist and benefits enrollment tiles stay blank for managers approving first-day setup.",
-      "date": "2026-04-01T10:05:00Z"
+      "messageId": "<msg-002@gammalegal.test>",
+      "from": "j.kalnins@gammalegal.test",
+      "subject": "Līguma PDF neģenerējas pēc apstiprināšanas",
+      "body": "Sveiki,\n\nŠodien mēģinājām noslēgt divus līgumus dokumentu aprites sistēmā, bet pēc pēdējā apstiprinātāja paraksta PDF fails neģenerējas - sistēma parāda kļūdu \"Template error\". Tas ir steidzami, jo klients gaida parakstītu versiju.\n\nPaldies,\nJānis Kalniņš\nJuriskonsults\nGammaLegal",
+      "date": "2026-04-20T14:05:00Z"
     },
-    "expectedEpicKey": "HRP-100"
+    "expectedEpicKey": "DOK-520"
   },
   {
-    "name": "weak context where sender domain should matter",
+    "name": "DeltaSales Excel migration question",
     "email": {
-      "messageId": "project-docs-domain",
-      "from": "approvals@docs.fabrikam.test",
-      "subject": "Queue is stuck again",
-      "body": "The queue stopped moving after lunch and the policy packets are still waiting for review. Please take a look.",
-      "date": "2026-04-01T10:10:00Z"
+      "messageId": "<msg-003@deltasales.test>",
+      "from": "m.ozolins@deltasales.test",
+      "subject": "Jautājums par veco klientu datu migrāciju",
+      "body": "Labrīt,\n\nMūsu pārdošanas komanda vēlas saprast, kad varēs sākt strādāt jaunajā CRM ar vecajiem klientu datiem. Excel failos ir ap 12 000 ierakstu, un daļa kolonnu neatbilst jaunajai struktūrai. Vai sprintā tiks iekļauta migrācijas skripta uzlabošana?\n\nGaidīsim atbildi,\nMārtiņš Ozoliņš\nPārdošanas direktors",
+      "date": "2026-04-22T08:40:00Z"
     },
-    "expectedEpicKey": "DOC-330"
+    "expectedEpicKey": "CRM-610"
   },
   {
-    "name": "ambiguous workflow wording with one intended epic",
+    "name": "ZetaBank security review request",
     "email": {
-      "messageId": "project-docs-ambiguous",
-      "from": "governance.office@fabrikam.test",
-      "subject": "Approval routing skips the second reviewer",
-      "body": "Policy documents are jumping from the first approver straight to signoff, so the second review step in the approval workflow is being skipped.",
-      "date": "2026-04-01T10:15:00Z"
+      "messageId": "<msg-004@zetabank.test>",
+      "from": "security@zetabank.test",
+      "subject": "Drošības pārbaudes grafiks mobilajai lietotnei",
+      "body": "Sveicināti,\n\nPirms jaunās funkcionalitātes (darba laika uzskaite, komandējumu pieteikumi) nodošanas produkcijā mums jāveic iekšējā drošības pārbaude. Lūdzu, atsūtiet testa vides pieejas un API dokumentāciju push paziņojumu modulim.\n\nAr cieņu,\nZetaBank IT drošības nodaļa",
+      "date": "2026-04-18T11:30:00Z"
     },
-    "expectedEpicKey": "DOC-330"
+    "expectedEpicKey": "MOB-640"
+  },
+  {
+    "name": "EtaLogistics WareFlow retry logic",
+    "email": {
+      "messageId": "<msg-005@etalogistics.test>",
+      "from": "operations@etalogistics.test",
+      "subject": "WareFlow integrācija - preces pazūd pēc kļūdas",
+      "body": "Labdien,\n\nVakar testa vidē novērojām, ka, ja WareFlow API atgriež 500 kļūdu preču saņemšanas laikā, ieraksti ERP pusē paliek statusā \"pending\" un netiek atkārtoti nosūtīti. Vai atkārtoto mēģinājumu loģika jau ir ieviesta, vai vēl tiek izstrādāta?\n\nPaldies,\nEtaLogistics operāciju komanda",
+      "date": "2026-04-20T16:55:00Z"
+    },
+    "expectedEpicKey": "INT-710"
+  },
+  {
+    "name": "ThetaRetail duplicate customer cards",
+    "email": {
+      "messageId": "<msg-006@thetaretail.test>",
+      "from": "migracija@thetaretail.test",
+      "subject": "Dublikāti klientu kartiņās pēc testa migrācijas",
+      "body": "Sveiki,\n\nPēc pēdējās testa migrācijas mēs atradām ap 340 dublētas klientu kartiņas jaunajā platformā. Šķiet, ka tīrīšanas skripts neapstrādā gadījumus, kad klientam ir vairāki e-pasti. Vai varam to risināt pirms nākamā reģiona rollout?\n\nAr cieņu,\nThetaRetail projektu birojs",
+      "date": "2026-04-19T09:20:00Z"
+    },
+    "expectedEpicKey": "MIG-720"
+  },
+  {
+    "name": "IotaFinance KPI dashboard requirements",
+    "email": {
+      "messageId": "<msg-007@iotafinance.test>",
+      "from": "cfo@iotafinance.test",
+      "subject": "Jauni KPI finanšu direktora panelim",
+      "body": "Labrīt,\n\nPēc mūsu pēdējās sanāksmes sagatavoju papildu KPI sarakstu Power BI panelim - EBITDA pa biznesa virzieniem, debitoru novecošanās un naudas plūsmas prognoze. Lūdzu, iekļaujiet tos datu modelī un paziņojiet, vai ETL no grāmatvedības sistēmas būs jāpārstrādā.\n\nAr cieņu,\nIotaFinance finanšu direktors",
+      "date": "2026-04-17T12:45:00Z"
+    },
+    "expectedEpicKey": "FIN-810"
+  },
+  {
+    "name": "EpsilonServices AD authentication setup",
+    "email": {
+      "messageId": "<msg-008@epsilonservices.test>",
+      "from": "it@epsilonservices.test",
+      "subject": "Active Directory integrācija pieteikumu portālam",
+      "body": "Sveiki,\n\nMūsu IT nodaļa ir sagatavojusi testa AD kontu kopu jaunajam klientu pieteikumu portālam. Lūdzu, apstipriniet, kādi atribūti jums nepieciešami (UPN, grupas, departaments) un kad varam sākt autentifikācijas integrācijas testus.\n\nPaldies,\nEpsilonServices IT",
+      "date": "2026-04-21T15:50:00Z"
+    },
+    "expectedEpicKey": "POR-630"
+  },
+  {
+    "name": "BetaCorp payroll sync error medium",
+    "email": {
+      "messageId": "<msg-009@betacorp.test>",
+      "from": "i.liepa@betacorp.test",
+      "subject": "Re: Sinhronizācijas kļūda - papildu info",
+      "body": "Sveiki,\n\nPapildinu iepriekšējo vēstuli - kļūda notiek tikai tiem darbiniekiem, kuriem mēneša laikā mainīta slodze. Pārējiem sinhronizācija aizbrauc normāli.\n\n> -----Original Message-----\n> From: I.Liepa\n> Sent: 2026-04-19\n> Subject: Sinhronizācijas kļūda\n>\n> Labdien, šodien atkal neizdevās sinhronizēt datus ar algu sistēmu.\n> Lūdzu, pārbaudiet logus.\n\nAr cieņu,\nI.Liepa\nProjektu vadītāja, BetaCorp",
+      "date": "2026-04-20T10:40:00Z"
+    },
+    "expectedEpicKey": "PSN-415"
+  },
+  {
+    "name": "KappaGroup export format request",
+    "email": {
+      "messageId": "<msg-010@kappagroup.test>",
+      "from": "gramatvediba@kappagroup.test",
+      "subject": "Lūgums pievienot CSV eksportu budžeta atskaitei",
+      "body": "Labdien,\n\nMūsu grāmatvedības komanda lūdz pievienot CSV eksporta iespēju budžeta plānošanas modulī - pašlaik ir tikai Excel, un tas nav ērti tālākai apstrādei mūsu iekšējos rīkos. Vai to varam iekļaut nākamajā izstrādes ciklā?\n\n---\nŠī e-pasta vēstule un tās pielikumi var saturēt konfidenciālu informāciju, kas paredzēta tikai adresātam. Ja esat saņēmis šo vēstuli kļūdas dēļ, lūdzam nekavējoties informēt sūtītāju un dzēst vēstuli no savas sistēmas. Jebkāda šīs informācijas izmantošana, izpaušana, kopēšana vai izplatīšana ir stingri aizliegta.\n---\n\nAr cieņu,\nKappaGroup grāmatvedība",
+      "date": "2026-04-16T11:05:00Z"
+    },
+    "expectedEpicKey": "FIN-820"
+  },
+  {
+    "name": "AlphaTech tuesday window question",
+    "email": {
+      "messageId": "<msg-011@alphatech.test>",
+      "from": "it-admins@alphatech.test",
+      "subject": "Re: Re: Uzturēšanas logs",
+      "body": "Sveiki,\n\nVai nākamajā otrdienā varam plānot papildu lietotāju tiesību pārskatīšanu? Mums ir daži bijušie darbinieki, kuriem vēl aktīvi konti portālā.\n\n> Paldies par atbildi. Jā, standarta logs otrdienās joprojām der.\n>\n>> Labdien, vai šonedēļ plānots kāds uzturēšanas darbs personāla portālā?\n\n--\nAlphaTech IT administrācija\nTel.: +371 6000 0000\nŠīs e-pasta ziņas saturs ir konfidenciāls un paredzēts tikai adresātam.",
+      "date": "2026-04-21T10:00:00Z"
+    },
+    "expectedEpicKey": "PSN-410"
+  },
+  {
+    "name": "Medium reporting ambiguity Iota vs Kappa",
+    "email": {
+      "messageId": "<msg-012@iotafinance.test>",
+      "from": "analitika@iotafinance.test",
+      "subject": "Re: Datu aktualizācijas grafiks",
+      "body": "Labrīt,\n\nPaldies par vakardienas zvanu. Apstiprinu - Power BI paneļiem pietiek ar nakts aktualizāciju plkst. 03:00. Arī lietotāju tiesību matricu pielikumā esmu papildinājusi ar jauno nodaļas vadītāju.\n\nViena piezīme - mēs redzējām, ka citam jūsu klientam arī bija līdzīgs projekts ar finanšu atskaitēm, bet, cik saprotu, mums ir atsevišķs līgums un atsevišķs datu modelis Power BI vidē.\n\n> Sveiki, vai varat apstiprināt, cik bieži dati jāatjauno atskaitēs?\n\nAr cieņu,\nIotaFinance analītikas nodaļa",
+      "date": "2026-04-17T13:15:00Z"
+    },
+    "expectedEpicKey": "FIN-810"
+  },
+  {
+    "name": "Medium CRM vs Portal overlap",
+    "email": {
+      "messageId": "<msg-013@epsilonservices.test>",
+      "from": "pm@epsilonservices.test",
+      "subject": "Apstiprināšanas plūsmas - precizējums",
+      "body": "Labdien,\n\nBiznesa analītiķe mums norādīja, ka daļa apstiprināšanas loģikas, ko plānojam mūsu pieteikumu portālā, ir līdzīga tai, ko izstrādājat cita klienta CRM projektā. Mēs tomēr vēlamies, lai mūsu portālā apstiprinājumi iet caur AD grupām, nevis CRM lomām.\n\nLūdzu, iekļaujiet to prasību specifikācijā.\n\n> -----Original-----\n> Varbūt varam izmantot to pašu komponenti, ko CRM projektā?\n\nAr cieņu,\nEpsilonServices projektu vadītājs",
+      "date": "2026-04-21T16:10:00Z"
+    },
+    "expectedEpicKey": "POR-630"
+  },
+  {
+    "name": "Medium GammaLegal permission issue",
+    "email": {
+      "messageId": "<msg-014@gammalegal.test>",
+      "from": "hr@gammalegal.test",
+      "subject": "Tiesības pēc struktūras izmaiņām",
+      "body": "Sveiki,\n\nPēc pēdējās struktūras reorganizācijas vairāki juristi sūdzas, ka neredz savus iepriekšējos līgumus sistēmā. Saprotu, ka tas ir zināms jautājums pēc šādām izmaiņām. Vai varat palaist tiesību pārbaudes skriptu?\n\nPaldies,\nGammaLegal HR\n\n---\nKonfidencialitātes atruna: šī e-pasta vēstule satur konfidenciālu informāciju. Ja neesat paredzētais adresāts, lūdzam nekavējoties informēt sūtītāju un izdzēst vēstuli.",
+      "date": "2026-04-19T14:20:00Z"
+    },
+    "expectedEpicKey": "DOK-520"
+  },
+  {
+    "name": "Medium BetaCorp leave calendar request",
+    "email": {
+      "messageId": "<msg-015@betacorp.test>",
+      "from": "i.liepa@betacorp.test",
+      "subject": "Neliels uzlabojums - atvaļinājumu kalendārs",
+      "body": "Labrīt,\n\nVadītāji lūdz kalendārā redzēt arī plānotos, ne tikai apstiprinātos atvaļinājumus. Saprotu, ka mums ir atsevišķs HR portāls no tā, ko lieto cits jūsu klients, tāpēc, lūdzu, neapjauciet ar AlphaTech prasībām - mums krāsu kodējums un loģika atšķiras.\n\nVai varam to iekļaut nākamajā mazo uzlabojumu partijā?\n\nAr cieņu,\nI.Liepa",
+      "date": "2026-04-20T11:00:00Z"
+    },
+    "expectedEpicKey": "PSN-415"
+  },
+  {
+    "name": "Medium DeltaSales vs Epsilon approval",
+    "email": {
+      "messageId": "<msg-016@deltasales.test>",
+      "from": "ba@deltasales.test",
+      "subject": "Piedāvājumu ģenerēšanas modulis - prasības",
+      "body": "Sveiki,\n\nPielikumā atsūtu piedāvājumu ģenerēšanas prasību dokumentu. Mūsu pārdevējiem jāvar nosūtīt piedāvājums klientam tieši no kartītes, ar integrāciju uz e-pasta kampaņu rīku.\n\nLūdzu, ņemiet vērā, ka šī ir CRM daļa, nevis klientu pieteikumu portāls - tos nejaucam.\n\n> Vai šī funkcionalitāte pārklājas ar EpsilonServices projektu?\n\nAr cieņu,\nDeltaSales biznesa analītiķis",
+      "date": "2026-04-22T09:30:00Z"
+    },
+    "expectedEpicKey": "CRM-610"
+  },
+  {
+    "name": "Medium ZetaBank vs mobile expansion",
+    "email": {
+      "messageId": "<msg-017@zetabank.test>",
+      "from": "hr@zetabank.test",
+      "subject": "Komandējumu pieteikumi - prasību papildinājums",
+      "body": "Labdien,\n\nMūsu HR vēlas, lai komandējumu pieteikumos būtu arī lauks \"aizvietotājs prombūtnes laikā\". Tas jārāda gan iOS, gan Android versijā.\n\nSvarīgi - runa ir par mūsu iekšējo darbinieku lietotni, nevis par klientu mobilo banku.\n\nPaldies,\nZetaBank HR nodaļa\n\n---\nThis email is intended solely for the addressee. If you received it by mistake, please notify the sender and delete the message.",
+      "date": "2026-04-18T12:15:00Z"
+    },
+    "expectedEpicKey": "MOB-640"
+  },
+  {
+    "name": "Medium EtaLogistics inventory test",
+    "email": {
+      "messageId": "<msg-018@etalogistics.test>",
+      "from": "inventarizacija@etalogistics.test",
+      "subject": "Inventarizācijas testi kopā ar operāciju komandu",
+      "body": "Sveiki,\n\nPlānojam inventarizācijas testus testa vidē nākamajā nedēļā. Operāciju komanda būs pieejama otrdien un trešdien no plkst. 10:00. Lūdzu, sagatavojiet testa datus un API atslēgas.\n\nPiezīme: daļa datu tika migrēta no vecās sistēmas, un tur var būt neprecizitātes produktu kodiem.\n\n> Kad varam rezervēt operāciju komandu testiem?\n\nAr cieņu,\nEtaLogistics noliktavu vadītājs",
+      "date": "2026-04-20T17:10:00Z"
+    },
+    "expectedEpicKey": "INT-710"
+  },
+  {
+    "name": "Hard mixed context HR portal hint",
+    "email": {
+      "messageId": "<msg-019@alphatech.test>",
+      "from": "ceo-office@alphatech.test",
+      "subject": "FW: Dažādi jautājumi un vispārīgas piezīmes",
+      "body": "Labdien,\n\nPārsūtu vēstuli no mūsu vadības asistentes. Lielākā daļa ir vispārīgi jautājumi, bet viens punkts ir tehnisks - lūdzu, pievērsiet uzmanību tam.\n\n---------- Forwarded message ---------\nNo: asistente@alphatech.test\nTēma: Dažādi\n\nSveiki visiem,\n\nAtgādinu, ka piektdien ir komandas pasākums plkst. 18:00. Lūdzu, pieteikties līdz ceturtdienas pusdienlaikam.\n\nTāpat vairāki vadītāji pēdējās dienās sūdzas, ka, kad mēģina apstiprināt padoto prombūtnes pieteikumus, sistēma neiedod paziņojumu e-pastā. Varbūt IT partneri var to pārbaudīt.\n\nCeturtdien pusdienās būs suši.\n\nPaldies,\nAsistente\n\n---\nŠī vēstule un tās pielikumi ir konfidenciāli un paredzēti tikai norādītajam adresātam.",
+      "date": "2026-04-21T13:30:00Z"
+    },
+    "expectedEpicKey": "PSN-410"
+  },
+  {
+    "name": "Hard migration vs integration ambiguity",
+    "email": {
+      "messageId": "<msg-020@thetaretail.test>",
+      "from": "it-lead@thetaretail.test",
+      "subject": "Re: Re: Re: Produktu katalogs un trūkstošās vērtības",
+      "body": "Sveiki,\n\nPaldies par apkopojumu. Tātad, lai precizētu: runa nav par integrāciju ar kādu ārēju noliktavas sistēmu - mums vienkārši jāpārceļ vecie veikalu dati uz jauno mākoņa platformu, un produktu katalogā ir daudz tukšu lauku.\n\nReģionu rollout plānā nekas nemainās.\n\n> Vai tas attiecas uz integrācijas projektu vai migrāciju?\n>> Mums ir problēmas ar produktu datiem\n>>> Kurš projekts to risina?\n\n---\nKonfidencialitāte: šī ziņa ir paredzēta tikai adresātam un var saturēt aizsargātu informāciju.\nJa neesat paredzētais adresāts, lūdzam sazināties ar sūtītāju un dzēst ziņu.\n\nAr cieņu,\nThetaRetail IT vadītājs",
+      "date": "2026-04-19T10:05:00Z"
+    },
+    "expectedEpicKey": "MIG-720"
+  },
+  {
+    "name": "Hard reporting budget ambiguity",
+    "email": {
+      "messageId": "<msg-021@kappagroup.test>",
+      "from": "controller@kappagroup.test",
+      "subject": "FW: Izdevumu kategorizācija un atskaites",
+      "body": "Labrīt,\n\nPārsūtu jums sarunu ar grāmatvedību. Galvenais jautājums - izdevumu kategorijas mūsu iekšējā ERP ir novecojušas, un budžeta plānošanas modulis nerēķina pareizi apakškategoriju summas.\n\nZinu, ka jums ir līdzīgs projekts citam klientam ar Power BI atskaitēm, bet tas nav tas pats - mums runa ir par iekšējā ERP back-office uzlabojumiem, ne par jaunu BI rīku.\n\n> Vai kategorizāciju mainīt arī Power BI?\n>> Nē, Power BI nemaz neizmantojam šajā kontekstā\n>>> Tad kāpēc skaitļi atšķiras?\n>>>> Jo kategorijas nav pārnestas uz jauno struktūru\n\n---\nThis message contains confidential information intended only for the recipient. Any review, retransmission, dissemination or other use of this information by persons other than the intended recipient is prohibited.\n---\n\nAr cieņu,\nKappaGroup finanšu kontrolieris",
+      "date": "2026-04-16T14:50:00Z"
+    },
+    "expectedEpicKey": "FIN-820"
+  },
+  {
+    "name": "Hard vague portal approval chain",
+    "email": {
+      "messageId": "<msg-022@epsilonservices.test>",
+      "from": "biznesa.analitike@epsilonservices.test",
+      "subject": "Re: Sanāksmes piezīmes",
+      "body": "Sveiki komanda,\n\nŠeit dažas piezīmes no vakardienas workshopa. Lielākā daļa ir vispārīga informācija par mūsu biznesa procesiem.\n\n1. Klientu apkalpošanas komanda strādā 5 dienas nedēļā.\n2. Pusdienu pārtraukumi ir elastīgi.\n3. UX prototipa otrais variants šķiet ērtāks nekā pirmais - lietotājs var iesniegt pieteikumu trīs soļos.\n4. Mums ir jauna kafijas mašīna birojā.\n5. Autentifikācija joprojām caur mūsu iekšējo katalogu, kā iepriekš vienojāmies.\n\n> -----Original-----\n> Vai varat atsūtīt piezīmes no workshopa?\n\nAr cieņu,\nEpsilonServices biznesa analītiķe\n\n---\nŠis e-pasts var saturēt konfidenciālu informāciju. Ja tas nonācis pie jums kļūdas dēļ, lūdzu, informējiet sūtītāju un dzēsiet ziņu. Jebkāda šīs informācijas neatļauta izmantošana, kopēšana vai izplatīšana ir aizliegta saskaņā ar piemērojamajiem tiesību aktiem.",
+      "date": "2026-04-21T17:00:00Z"
+    },
+    "expectedEpicKey": "POR-630"
+  },
+  {
+    "name": "Hard CRM email campaign confusion",
+    "email": {
+      "messageId": "<msg-023@deltasales.test>",
+      "from": "marketing@deltasales.test",
+      "subject": "Re: Re: Kampaņu rīks un segmentācija",
+      "body": "Sveiki,\n\nPaldies par garo atbildi. Īsi rezumējot mūsu pusi:\n\nMarketinga komanda vēlas, lai pārdevēji redzētu, kuriem klientiem jau ir nosūtītas kampaņas, un varētu segmentēt pēc aktivitātes. Saprotu, ka tas iet caur mūsu pārdošanas sistēmas jaunajiem moduļiem, nevis caur bankas mobilo lietotni vai juridisko dokumentu sistēmu - tos pieminu tikai tāpēc, ka kāds sanāksmē tos sajauca.\n\nGalvenais - segmentācijas modulis un e-pasta kampaņu integrācija.\n\n> Vai segmentāciju darīt arī mobilajā lietotnē?\n>> Nē, tikai galvenajā sistēmā\n>>> Kurā tieši?\n\nAr cieņu,\nDeltaSales mārketinga vadītāja\n\n--\nMārketinga nodaļa\nDeltaSales SIA\nReģ.nr. 4000000000X\nAdrese: Piemēra iela 1, Rīga\nTel.: +371 6000 0000\nE-pasts: marketing@deltasales.test\n\nŠī e-pasta ziņa un tās pielikumi var saturēt konfidenciālu un/vai juridiski aizsargātu informāciju. Ja neesat paredzētais adresāts, jebkāda šīs vēstules izmantošana, kopēšana, izpaušana vai izplatīšana ir stingri aizliegta. Ja esat saņēmis šo vēstuli kļūdas dēļ, lūdzam nekavējoties informēt sūtītāju, atbildot uz šo ziņu, un izdzēst oriģinālo vēstuli no saviem sistēmas resursiem.",
+      "date": "2026-04-22T10:20:00Z"
+    },
+    "expectedEpicKey": "CRM-610"
+  },
+  {
+    "name": "Hard mobile app ambiguous request",
+    "email": {
+      "messageId": "<msg-024@zetabank.test>",
+      "from": "projektu.birojs@zetabank.test",
+      "subject": "Re: FW: Push paziņojumi un apstiprinājumi",
+      "body": "Labdien,\n\nApkopoju diskusiju starp vairākām nodaļām:\n\n- HR grib, lai vadītāji saņem push paziņojumu, kad darbinieks iesniedz komandējuma pieteikumu.\n- IT drošība grib, lai paziņojumos nav sensitīvu datu.\n- Operāciju komanda grib, lai tas strādā offline režīmā, kad darbinieks ir ārzemēs.\n\nVisi šie punkti attiecas uz mūsu iekšējo darbinieku rīku mobilajās ierīcēs. Cita integrācija vai ERP projekts šeit nav iesaistīts, kaut vakardienas sanāksmē kāds pieminēja noliktavas sistēmu - tas bija cits konteksts.\n\n> -----Original Message-----\n> No: hr@zetabank.test\n> Tēma: Push paziņojumi\n>\n> Vai push paziņojumi jau strādā testa vidē?\n>\n>> Operācijas grib zināt par offline\n>>> IT drošība pieprasa papildu pārbaudi\n\nAr cieņu,\nZetaBank projektu birojs\n\n---\nKonfidencialitātes paziņojums: Šī e-pasta vēstule un tās pielikumi ir paredzēti tikai konkrētajam adresātam un var saturēt konfidenciālu vai juridiski aizsargātu informāciju. Jebkāda šīs vēstules neatļauta pārskatīšana, pārsūtīšana, izplatīšana vai cita veida izmantošana ir stingri aizliegta. Ja esat saņēmis šo vēstuli kļūdas pēc, lūdzam nekavējoties par to informēt sūtītāju un dzēst oriģinālo ziņu no savas sistēmas.",
+      "date": "2026-04-18T13:40:00Z"
+    },
+    "expectedEpicKey": "MOB-640"
   }
 ]

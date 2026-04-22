@@ -1,81 +1,337 @@
 [
   {
-    "name": "follow-up adds reproduction details",
-    "issueKey": "PAY-210-77",
+    "name": "Atvaļinājumi - jauns piemērs ar datumiem",
+    "issueKey": "PSN-410-11",
     "email": {
-      "messageId": "update-repro",
-      "from": "qa@finance.fabrikam.test",
-      "subject": "More detail on the payroll export failure",
-      "body": "Steps to reproduce: open the payroll variance report, select March 2026, click Export to CSV, and the totals double on row 18.",
-      "inReplyTo": "pay-210-root",
-      "references": [
-        "pay-210-root"
-      ],
-      "date": "2026-04-01T11:00:00Z"
+      "messageId": "<alphatech-followup-001@alphatech.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Atvaļinājuma pieteikumu apstiprināšanas plūsma apstājas pēc vadītāja nomaiņas",
+      "body": "Labdien,\n\npaldies par starpziņojumu. Šorīt mēs atradām vēl vienu konkrētu piemēru, kas, iespējams, palīdzēs analīzē: darbiniece Anete Zariņa (personāla nr. 4418) iesniedza atvaļinājuma pieteikumu 14.04. plkst. 09:12, struktūras izmaiņa viņas nodaļā reģistrēta 14.04. plkst. 14:30. Pieteikums joprojām ir statusā 'Gaida apstiprinājumu' un tagad nav redzams ne vecajam vadītājam J. Ozoliņam, ne jaunajam vadītājam K. Bērziņam.\n\nTāpat mūsu HR komanda konstatēja, ka šī pati problēma skar arī komandējuma pieteikumus - vismaz 3 gadījumi pēdējās divās nedēļās, kur apstiprinātāja lauks nav atjaunināts pēc struktūras maiņas. Iespējams, trigeris ir tas pats, bet tas varētu paplašināt kļūmes ietekmi.\n\nVēl viens konteksts - mēs plānojam iekšēju revīziju 5. maijā, tāpēc būtu ļoti svarīgi, lai visi atvērtie pieteikumi līdz tam būtu sakārtoti. Vai varētu izskatīt iespēju paātrināt risinājumu?\n\n> Klientam nosūtīts starpziņojums ar informāciju, ka analīze turpinās.\n> Nav skaidrs, vai problēma skar arī vēsturiskos ierakstus pirms struktūras izmaiņām.\n\nAr cieņu,\nIlze Kalniņa\nPersonāla daļas vadītāja\nAlphaTech SIA\ntel. +371 2XXXXXXX\n\n---\nŠis e-pasts un tā pielikumi var saturēt konfidenciālu informāciju. Ja neesat adresāts, lūdzam nekavējoties informēt sūtītāju un dzēst ziņojumu.",
+      "inReplyTo": "<root-psn-410-11@consulting.example>",
+      "references": ["<root-psn-410-11@consulting.example>"],
+      "date": "2026-04-20T07:42:00Z"
     },
     "expectedHasNewInformation": true
   },
   {
-    "name": "follow-up adds environment and affected group",
-    "issueKey": "PAY-210-77",
+    "name": "Atvaļinājumi - pateicība bez jauna satura",
+    "issueKey": "PSN-410-11",
     "email": {
-      "messageId": "update-scope",
-      "from": "controller@finance.fabrikam.test",
-      "subject": "Additional scope for the payroll issue",
-      "body": "This is production only and only affects the Riga finance managers group. Sandbox users do not see the discrepancy.",
-      "inReplyTo": "pay-210-root",
-      "references": [
-        "pay-210-root"
-      ],
-      "date": "2026-04-01T11:05:00Z"
-    },
-    "expectedHasNewInformation": true
-  },
-  {
-    "name": "follow-up adds deadline and priority",
-    "issueKey": "PAY-210-77",
-    "email": {
-      "messageId": "update-priority",
-      "from": "vp.finance@finance.fabrikam.test",
-      "subject": "Please prioritise before payroll close",
-      "body": "Please prioritise this before Friday's payroll close because the corrected report is needed for board reporting.",
-      "inReplyTo": "pay-210-root",
-      "references": [
-        "pay-210-root"
-      ],
-      "date": "2026-04-01T11:10:00Z"
-    },
-    "expectedHasNewInformation": true
-  },
-  {
-    "name": "thank you or repetition only",
-    "issueKey": "PAY-210-77",
-    "email": {
-      "messageId": "update-thanks",
-      "from": "reporter@finance.fabrikam.test",
-      "subject": "Thanks for taking this",
-      "body": "Thanks for taking this on. We are still seeing the same totals issue already described in the ticket.",
-      "inReplyTo": "pay-210-root",
-      "references": [
-        "pay-210-root"
-      ],
-      "date": "2026-04-01T11:15:00Z"
+      "messageId": "<alphatech-followup-002@alphatech.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Atvaļinājuma pieteikumu apstiprināšanas plūsma apstājas pēc vadītāja nomaiņas",
+      "body": "Sveiki,\n\npaldies par ātro atgriezenisko saiti un starpziņojumu. Ļoti novērtējam, ka jūs pie tā strādājat. Gaidīsim turpmāku informāciju, kad analīze būs pabeigta.\n\nKā jau minēts, tas skar aptuveni 12 darbiniekus, un mēs ceram uz risinājumu līdz otrdienai. Jebkādi jautājumi - zvaniet.\n\n> Reproducēts testa vidē - ja vadītāja lauks darbinieka kartiņā tiek mainīts, kamēr pieteikums ir 'Gaida apstiprinājumu' statusā, apstiprinātāja lauks pieteikumā netiek atjaunināts.\n\nAr cieņu,\nMāris Liepiņš\nIT projektu vadītājs\nAlphaTech SIA\n\n---\nAlphaTech SIA | Reģ. nr. 4000XXXXXXX | Rīga\nŠis e-pasts paredzēts tikai adresātam.",
+      "inReplyTo": "<root-psn-410-11@consulting.example>",
+      "references": ["<root-psn-410-11@consulting.example>"],
+      "date": "2026-04-20T09:15:00Z"
     },
     "expectedHasNewInformation": false
   },
   {
-    "name": "vague reply with no substantive delta",
-    "issueKey": "PAY-210-77",
+    "name": "Algu sinhronizācija - konkrēts importa faila nosaukums",
+    "issueKey": "PSN-415-18",
     "email": {
-      "messageId": "update-vague",
-      "from": "reporter@finance.fabrikam.test",
-      "subject": "Still seeing it",
-      "body": "Still seeing it on my side.",
-      "inReplyTo": "pay-210-root",
-      "references": [
-        "pay-210-root"
-      ],
-      "date": "2026-04-01T11:20:00Z"
+      "messageId": "<betacorp-followup-001@betacorp.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Datu sinhronizācijas kļūda ar algu sistēmu - trūkst darbinieku amatu izmaiņu",
+      "body": "Labdien,\n\npapildinu ar informāciju, kas varētu būt svarīga analīzei. Mūsu HR asistente pārbaudīja žurnālus un atrada, ka visas 7 trūkstošās amatu izmaiņas tika importētas caur vienu un to pašu failu - 'amatu_izmainas_2026_03.xlsx', augšupielāde veikta 28.03. plkst. 16:45 lietotāja 'l.berzina' sesijā. Pirms tam izmantotais manuālais ievades process šādas problēmas nav radījis.\n\nTāpat svarīgi - mēs šodien konstatējām, ka šis pats masveida imports tika izmantots arī piemaksu izmaiņām (bonusu koeficienti). Lūdzu pārbaudīt, vai arī tie ieraksti nav 'iestrēguši' bez 'sync_pending' karoga. Ja tā, tad algu aprēķina ietekme būs lielāka nekā sākotnēji domājām.\n\nJauns termiņš - finanšu direktors lūdz manuālo labojumu pabeigt līdz 24.04. plkst. 12:00, jo algu aprēķina cikls sākas 25.04. rītā.\n\n> Nepieciešams izlemt - labot importa funkciju vai papildināt sinhronizācijas vaicājumu.\n> Klientam pagaidām piedāvāts manuāls datu labojums pirms algu aprēķina, gaida apstiprinājumu.\n\nAr cieņu,\nInese Liepa\nPersonāla daļas vadītāja\nBetaCorp AS\n\n---\nKonfidencialitātes paziņojums: šis ziņojums var saturēt komercnoslēpumu.",
+      "inReplyTo": "<root-psn-415-18@consulting.example>",
+      "references": ["<root-psn-415-18@consulting.example>"],
+      "date": "2026-04-21T06:30:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "Algu sinhronizācija - atgādinājums bez delta",
+    "issueKey": "PSN-415-18",
+    "email": {
+      "messageId": "<betacorp-followup-002@betacorp.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Datu sinhronizācijas kļūda ar algu sistēmu - trūkst darbinieku amatu izmaiņu",
+      "body": "Sveiki,\n\nvienkārši atgādinu, ka šis jautājums mums ir ļoti steidzams, jo tuvojas algu aprēķina datums. Lūdzu informējiet, tiklīdz būs skaidrs, vai pieņemat manuālo labojumu kā risinājumu.\n\nKā jau minējām iepriekšējā sarakstē - skarti 7 darbinieki, sinhronizācijas žurnālā kļūdu nav. Situācija nav mainījusies.\n\nStarp citu, mēs arī plānojam tuvākajā laikā atjaunot mūsu iekšējo intraneta portālu, bet tas nav saistīts ar šo problēmu - tikai informatīvi.\n\n> Pārbaudīts sinhronizācijas serviss - pēdējās 30 dienās tas strādājis bez pārtraukumiem.\n> Konstatēts, ka amatu izmaiņas veiktas caur jauno masveida importa funkciju, kura neiestata karogu 'sync_pending'.\n\nAr cieņu,\nInese Liepa\nBetaCorp AS\n\n---\nŠī e-pasta saturs ir konfidenciāls.",
+      "inReplyTo": "<root-psn-415-18@consulting.example>",
+      "references": ["<root-psn-415-18@consulting.example>"],
+      "date": "2026-04-21T11:20:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "PDF ģenerēšana - jauns kļūdas gadījums mazākam dokumentam",
+    "issueKey": "DOK-520-24",
+    "email": {
+      "messageId": "<gammalegal-followup-001@gammalegal.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: PDF ģenerēšanas kļūme līgumiem ar vairāk nekā 50 lappusēm",
+      "body": "Labdien,\n\nšodien konstatējām jaunu simptomu, kas, iespējams, maina problēmas raksturu. Kolēģis mēģināja ģenerēt PDF 28 lappušu līgumam (t.i., krietni zem 50 lpp.), un arī tas neizdevās ar to pašu kļūdu 'PDF generation failed'. Atšķirība - šajā līgumā bija iekļauts liels skaits iestrādātu attēlu (zīmogu skenējumi, ~18 gab.).\n\nIzskatās, ka problēma varētu būt nevis dokumenta lappušu skaits, bet kopējais renderēšanas slogs. Servera žurnālā redzams tāds pats timeout pēc ~40 sekundēm. Varam nosūtīt konkrētu piemēru, ja nepieciešams.\n\nVēl viens konteksts - nākamnedēļ (27.04.) mums ir lielā klienta līgumu parakstīšanas sesija, kurā plānoti vismaz 6 apjomīgi līgumi. Ja līdz tam risinājums nebūs, būsim spiesti tos sagatavot caur ārēju PDF rīku, kas nav ideāli audita pēdu izsekojamības ziņā.\n\n> Serveru žurnālos redzams timeout PDF ģenerēšanas servisā, noklusējuma limits ir 30 sekundes.\n> Iespējamie risinājumi - paaugstināt timeout limitu vai pārstrādāt ģenerēšanu asinhroni.\n\nAr cieņu,\nAndris Vītols\nVecākais jurists\nGammaLegal birojs\n\n---\nŠī ziņojuma saturs ir advokāta-klienta privilēģijā.",
+      "inReplyTo": "<root-dok-520-24@consulting.example>",
+      "references": ["<root-dok-520-24@consulting.example>"],
+      "date": "2026-04-20T13:05:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "PDF ģenerēšana - gara pateicība bez delta",
+    "issueKey": "DOK-520-24",
+    "email": {
+      "messageId": "<gammalegal-followup-002@gammalegal.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: PDF ģenerēšanas kļūme līgumiem ar vairāk nekā 50 lappusēm",
+      "body": "Sveiki,\n\npaldies par analīzi līdz šim. Mūsu komandas abas puses (gan jurists-partneris Andris, gan asistente Liene) ir informēti par plānoto risinājumu šonedēļ. Ļoti novērtējam jūsu operatīvo reakciju - tā ir īsta partnera attieksme pret klientu.\n\nKā jau iepriekš pieminēju, problēma traucē divām juristu komandām, un mēs ceram uz ātru atrisinājumu. Starp citu, šonedēļ mūsu birojā notiek vecāko juristu apmācību sesija par datu aizsardzību - ja interesē, varam iedalīt vienu vietu jūsu konsultantam (saturs plašāks par šo projektu).\n\nGaidīsim priekšlikumu par risinājumu.\n\n> Serveru žurnālos redzams timeout PDF ģenerēšanas servisā, noklusējuma limits ir 30 sekundes.\n> Testa vidē ar līdzīga apjoma dokumentu process aizņem 35-45 sekundes.\n> Iespējamie risinājumi - paaugstināt timeout limitu vai pārstrādāt ģenerēšanu asinhroni ar paziņojumu lietotājam pēc pabeigšanas.\n\nAr cieņu,\nJānis Priede\nBiroja vadošais partneris\nGammaLegal\n\n---\nGammaLegal | Brīvības iela XX, Rīga | www.gammalegal.example\nKonfidenciāli.",
+      "inReplyTo": "<root-dok-520-24@consulting.example>",
+      "references": ["<root-dok-520-24@consulting.example>"],
+      "date": "2026-04-20T15:40:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "CRM migrācija - klients izvēlējies scenāriju",
+    "issueKey": "CRM-610-42",
+    "email": {
+      "messageId": "<deltasales-followup-001@deltasales.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Klientu datu migrācija no Excel - dublikātu apstrādes loģika nav saskaņota",
+      "body": "Labdien,\n\npēc iekšējas apspriedes mūsu pārdošanas vadība pieņēmusi lēmumu par dublikātu apstrādi. Esam izvēlējušies kombinētu pieeju:\n\n- Automātiska apvienošana tikai tad, ja sakrīt gan reģistrācijas numurs, gan vismaz viens kontakta e-pasts.\n- Visiem pārējiem potenciālajiem dublikātiem - manuāla apstiprināšana caur migrācijas rīku, ko veiks reģionu vadītāji (ne centrālā komanda).\n- Pilnīgu manuālo pārskatīšanu neizvēlamies laika ierobežojumu dēļ.\n\nSvarīgi - mēs vēlamies, lai migrācijas rīks parādītu blakus abu ierakstu pēdējos 3 darījumus, lai reģiona vadītājs varētu saprast, kurš ieraksts ir 'galvenais'. Vai tas ir iespējams bez lielām izmaiņām rīkā?\n\nTāpat jāpiebilst, ka Kurzemes reģiona vadītājs atvaļinājumā līdz 5. maijam, tāpēc viņa daļa apstiprināšanā būs vēlāk. Lūdzu ņemt vērā grafikā.\n\n> Analītiķe sagatavojusi paraugu ar ~200 potenciāliem dublikātiem no viena reģiona faila.\n> Piedāvāti trīs apvienošanas scenāriji.\n\nAr cieņu,\nKristaps Ozols\nPārdošanas direktors\nDeltaSales SIA\ntel. +371 2XXXXXXX",
+      "inReplyTo": "<root-crm-610-42@consulting.example>",
+      "references": ["<root-crm-610-42@consulting.example>"],
+      "date": "2026-04-19T10:12:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "CRM migrācija - vispārīgs jautājums bez delta",
+    "issueKey": "CRM-610-42",
+    "email": {
+      "messageId": "<deltasales-followup-002@deltasales.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Klientu datu migrācija no Excel - dublikātu apstrādes loģika nav saskaņota",
+      "body": "Sveiki,\n\npaldies par piedāvājumu ar paraugu un trim scenārijiem. Tas ir iekšēji apspriešanā, atbildi sniegsim tuvākajā laikā. Vai jums ir vēl kāda papildu informācija par migrācijas rīku, kas mums varētu palīdzēt lēmumā?\n\nKā sapratu, bez atbildes no mums migrācijas skripts nevar tikt pabeigts - tas arī mums ir skaidrs, centīsimies nevilcināt.\n\n> Klientam nosūtīts piedāvājums un paraugs, gaida atbildi par izvēlēto scenāriju.\n> Bez atbildes migrācijas skripts nevar tikt pabeigts.\n\nAr cieņu,\nElīna Kalniņa\nProjektu koordinatore\nDeltaSales SIA\n\n---\nDeltaSales SIA | Reģ. nr. 4000XXXXXXX\nŠis e-pasts ir konfidenciāls un paredzēts tikai adresātam. Ja neesat adresāts, lūdzam nekavējoties informēt sūtītāju.",
+      "inReplyTo": "<root-crm-610-42@consulting.example>",
+      "references": ["<root-crm-610-42@consulting.example>"],
+      "date": "2026-04-19T14:55:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "AD kartēšana - klients piedāvā prioritātes loģiku",
+    "issueKey": "POR-630-15",
+    "email": {
+      "messageId": "<epsilonservices-followup-001@epsilonservices.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Active Directory autentifikācijas integrācija - grupu kartēšanas konflikts",
+      "body": "Labdien,\n\nesam saskaņojuši ar biznesa pusi risinājumu konfliktējošajām AD grupām. Mūsu priekšlikums: piemērot stingru lomu prioritāti - 'Apstiprinātājs' vienmēr pārņem pār 'Iesniedzējs', ja lietotājs ir abās grupās vienlaikus. Tas atbilst mūsu iekšējai politikai, ka apstiprinātāji nedrīkst iesniegt pieprasījumus paši sev.\n\nPapildus tam atklājām, ka AD grupā 'FIN_Manager_Extended' ir iekļauti divi ārējie konsultanti, kuriem nevajadzētu piekļuvi portālam vispār. Lūdzu, pievienojiet izņēmumu sarakstu kartēšanā - šos lietotājus (j.salnais, a.kronbergs) pagaidām nekartēt ne uz vienu portāla lomu.\n\nJauns termiņš - mūsu iekšējais audits notiek 12. maijā, un līdz tam visām piekļuves tiesībām portālā jābūt saskaņotām ar reālo biznesa struktūru. Ceram, ka tas ir reāli izpildāms.\n\n> Tehniskā integrācija ar AD (LDAP bind, grupu pieprasījums) ir pabeigta un darbojas testa vidē.\n> Identificētas trīs AD grupas, kuru dalībniekiem rastos konflikts.\n\nAr cieņu,\nEdgars Siliņš\nIT drošības atbildīgais\nEpsilonServices\n\n---\nŠī ziņojuma saturs ir konfidenciāls.",
+      "inReplyTo": "<root-por-630-15@consulting.example>",
+      "references": ["<root-por-630-15@consulting.example>"],
+      "date": "2026-04-18T08:22:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "AD kartēšana - gara ziņa bez jaunas informācijas",
+    "issueKey": "POR-630-15",
+    "email": {
+      "messageId": "<epsilonservices-followup-002@epsilonservices.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Active Directory autentifikācijas integrācija - grupu kartēšanas konflikts",
+      "body": "Labdien,\n\npaldies par detalizēto priekšlikumu ar 6 portāla lomām un ieteicamo kartēšanu. Mēs to pašlaik apspriežam ar biznesa pusi, un kā jau jūs minējāt, mūsu IT atbildīgais arī lūdza šim procesam laiku. Tas ir sarežģīts jautājums, jo pārklāšanās starp apstiprinātāju un iesniedzēju lomām prasa stratēģisku lēmumu.\n\nJā, esam iepazinušies, ka tehniskā integrācija ar AD jau darbojas testa vidē, kas ir lielisks progress. Vēl piebildīšu, ka mūsu uzņēmumā pēdējā laikā bija vairākas strukturālas izmaiņas un jauni darbinieki pievienojušies finanšu komandai, kas gan tiešā veidā neietekmē šo konkrēto kartēšanas jautājumu, bet par to piezīmēju tikai informatīvi.\n\nGaidīsim turpmāku saziņu, kad mums būs konkrētāka atbilde par prioritātēm.\n\n> Sagatavots priekšlikums ar 6 portāla lomām un ieteicamo kartēšanu pret esošajām AD grupām.\n> Identificētas trīs AD grupas, kuru dalībniekiem rastos konflikts starp 'Apstiprinātājs' un 'Iesniedzējs' lomām.\n> Klienta IT atbildīgais lūdzis laiku saskaņošanai ar biznesa pusi.\n\nAr cieņu,\nLinda Pētersone\nProjektu vadītāja\nEpsilonServices\n\n---\nEpsilonServices | www.epsilonservices.example\nKonfidencialitātes paziņojums: šis e-pasts ir paredzēts tikai adresātam.",
+      "inReplyTo": "<root-por-630-15@consulting.example>",
+      "references": ["<root-por-630-15@consulting.example>"],
+      "date": "2026-04-18T12:10:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "WareFlow API - piegādātājs atbildējis ar limitu",
+    "issueKey": "INT-710-33",
+    "email": {
+      "messageId": "<etalogistics-followup-001@etalogistics.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: WareFlow API atgriež 500 kļūdu preču saņemšanas ziņojumiem ar garām piezīmēm",
+      "body": "Labdien,\n\nšodien saņēmām atbildi no WareFlow piegādātāja tehniskās komandas. Viņi apstiprina, ka 'notes' lauka faktiskais limits viņu API ir 200 rakstzīmes (nevis 255, kā dokumentācijā), un viņi plāno to labot dokumentācijā, bet pašu API limitu nemainīs tuvākajā laikā. Viņi arī ieteica izmantot 'extended_notes' lauku, kas pieņem līdz 4000 rakstzīmēm, bet tas ir pieejams tikai no API versijas v3.2.\n\nTātad mūsu pagaidu risinājums (apgriešana uz 250 rakstzīmēm) joprojām ir virs viņu reālā limita un varētu radīt nākamās kļūdas. Lūdzu, samaziniet apgriešanas limitu uz 200 rakstzīmēm vai izvērtējiet pāreju uz v3.2 ar 'extended_notes' lauku.\n\nMūsu operāciju komanda arī ziņoja, ka manuālās pārskatīšanas rindā jau uzkrājušies 14 ziņojumi - būtu labi, ja tie varētu tikt automātiski atkārtoti apstrādāti pēc labojuma.\n\n> Pagaidu risinājums - ERP pusē ieviests apgriešanas mehānisms uz 250 rakstzīmēm ar brīdinājumu žurnālā.\n> Atkārtoto mēģinājumu loģika papildināta ar pārtraukšanu pēc 5 neveiksmīgiem mēģinājumiem.\n\nAr cieņu,\nRaitis Skulte\nIntegrāciju atbildīgais\nEtaLogistics SIA\n\n---\nEtaLogistics | Loģistikas iela XX, Rīga",
+      "inReplyTo": "<root-int-710-33@consulting.example>",
+      "references": ["<root-int-710-33@consulting.example>"],
+      "date": "2026-04-17T14:33:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "WareFlow API - vienkārša pateicība",
+    "issueKey": "INT-710-33",
+    "email": {
+      "messageId": "<etalogistics-followup-002@etalogistics.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: WareFlow API atgriež 500 kļūdu preču saņemšanas ziņojumiem ar garām piezīmēm",
+      "body": "Sveiki,\n\npaldies par ātro reakciju un pagaidu risinājumu. Apgriešana uz 250 rakstzīmēm un manuālās pārskatīšanas rinda mums šobrīd der. Gaidām pilno risinājumu.\n\n> Nosūtīts pieprasījums WareFlow piegādātājam ar konkrētiem piemēriem un payload kopijām.\n> Gaida atbildi par viņu API lauka limitu.\n\nAr cieņu,\nAgnese Vilka\nOperāciju vadītāja\nEtaLogistics SIA\n\n---\nŠis e-pasts ir konfidenciāls.",
+      "inReplyTo": "<root-int-710-33@consulting.example>",
+      "references": ["<root-int-710-33@consulting.example>"],
+      "date": "2026-04-17T16:05:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "Produktu katalogs - klients pieņēmis lēmumu",
+    "issueKey": "MIG-720-27",
+    "email": {
+      "messageId": "<thetaretail-followup-001@thetaretail.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Trūkstošas vērtības produktu katalogā - kategorijas un PVN likme",
+      "body": "Labdien,\n\nmūsu vadība ir pieņēmusi lēmumu par trūkstošajām vērtībām produktu katalogā:\n\n1. Neaktīvos produktus (~1 400), kas nav pārdoti pēdējos 12 mēnešos - NEMIGRĒT uz jauno platformu. Tos arhivēsim vecajā sistēmā un saglabāsim tikai vēstures pārskatiem.\n2. Atlikušajiem ~400 aktīvajiem produktiem bez kategorijas/PVN - manuāla aizpildīšana. Mūsu produktu komanda to pabeigs līdz 30.04.\n3. Lūdzu, sagatavojiet CSV failu ar šiem 400 ierakstiem, lai mūsu komanda varētu ērtāk strādāt (kolonnas: produkta kods, nosaukums, pašreizējā kategorija, pašreizējā PVN likme, piezīmes).\n\nPapildus - mūsu grāmatvedības komanda ziņoja, ka starp neaktīvajiem produktiem varētu būt daži, kuriem vēl ir atvērti garantijas gadījumi. Lūdzu pārbaudīt, vai migrācija varētu ietekmēt garantijas moduli, un ja jā, tad atstāt tos aktīvos produktos.\n\n> Sagatavots sadalījums pa reģioniem un produktu grupām.\n> Klientam piedāvāti trīs risinājumi.\n\nAr cieņu,\nSanita Krūmiņa\nProduktu vadītāja\nThetaRetail SIA\ntel. +371 2XXXXXXX\n\n---\nThetaRetail | Tirdzniecības centrs XX | Rīga\nKonfidenciāli.",
+      "inReplyTo": "<root-mig-720-27@consulting.example>",
+      "references": ["<root-mig-720-27@consulting.example>"],
+      "date": "2026-04-22T09:45:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "Produktu katalogs - atkārtojums bez satura",
+    "issueKey": "MIG-720-27",
+    "email": {
+      "messageId": "<thetaretail-followup-002@thetaretail.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Trūkstošas vērtības produktu katalogā - kategorijas un PVN likme",
+      "body": "Sveiki,\n\npaldies par sagatavoto analīzi un trim risinājumiem. Kā jau iepriekš minēts, mūsu produktu vadītāja Sanita lūdza laiku līdz nedēļas beigām, lai pieņemtu lēmumu. Šis termiņš joprojām ir spēkā, un mēs ceram atbildi sniegt nākamajās dienās.\n\nTāpat esam informēti, ka migrācijas grafiks pagaidām nemainās. Ja no mūsu puses ir kaut kas steidzams, ko varam jau tagad sagatavot (piem., papildu datu eksporti), lūdzu, informējiet.\n\n> Sagatavots sadalījums pa reģioniem un produktu grupām - lielākā daļa (~1 400) ir produkti, kas pēdējos 12 mēnešos nav pārdoti.\n> Klienta produktu vadītāja lūgusi laiku līdz nedēļas beigām lēmuma pieņemšanai.\n> Migrācijas grafiks pagaidām saglabāts bez izmaiņām.\n\nAr cieņu,\nDāvis Kalējs\nIT projektu koordinators\nThetaRetail SIA\n\n---\nŠī e-pasta saturs var saturēt konfidenciālu informāciju.",
+      "inReplyTo": "<root-mig-720-27@consulting.example>",
+      "references": ["<root-mig-720-27@consulting.example>"],
+      "date": "2026-04-22T11:30:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "Power BI RLS - papildu atskaites ar to pašu problēmu",
+    "issueKey": "FIN-810-19",
+    "email": {
+      "messageId": "<iotafinance-followup-001@iotafinance.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Piekļuves tiesību kļūda Power BI atskaitēm - nodaļu vadītāji redz citu nodaļu datus",
+      "body": "Labdien,\n\npēc jūsu analīzes par RLS un 'department_code' lauku mūsu BI komanda veica plašāku pārbaudi un atklāja, ka tā pati problēma potenciāli skar vēl divas produktīvās atskaites:\n\n- 'Ceturkšņa izdevumu pārskats' (atsk. ID: RPT-0084)\n- 'Projektu rentabilitātes panelis' (atsk. ID: RPT-0092)\n\nAbām arī tiek izmantots 'department_code' lauks RLS filtrā, un tās arī tiek barotas no tās pašas ETL plūsmas. Līdz labojumam mēs tās arī izņemsim no produktīvās vides - lūdzu apstipriniet, vai tas ir nepieciešams.\n\nVēl viens fakts, kas varētu būt svarīgs - ETL mapping skripts, par kuru jūs rakstījāt, pēdējo reizi tika atjaunināts 2025. gada novembrī. Nodaļu koda formāta maiņa grāmatvedības sistēmā notika 2026. gada februārī. Tātad potenciāli ir skartas visas ielādes pēdējo 2 mēnešu laikā, ne tikai pēdējā. Tas nozīmē, ka problēma varētu būt plašāka vēsturiskos datos.\n\nJauns termiņš - mūsu valdes sēde ar ceturkšņa rezultātiem ir 6. maijā, un līdz tam visiem trim paneļiem jābūt darba kārtībā ar pareiziem piekļuves filtriem.\n\n> Pārbaudīts RLS (Row-Level Security) iestatījums atskaitē - tas balstās uz lauku 'department_code'.\n> Sagatavots labojums testa vidē, gaida apstiprinājumu no klienta.\n\nAr cieņu,\nGatis Lejnieks\nFinanšu direktors\nIotaFinance AS\n\n---\nKonfidencialitāte: šis ziņojums satur finanšu datus un komercnoslēpumu.",
+      "inReplyTo": "<root-fin-810-19@consulting.example>",
+      "references": ["<root-fin-810-19@consulting.example>"],
+      "date": "2026-04-21T08:15:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "Power BI RLS - pateicība un apstiprinājums",
+    "issueKey": "FIN-810-19",
+    "email": {
+      "messageId": "<iotafinance-followup-002@iotafinance.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Piekļuves tiesību kļūda Power BI atskaitēm - nodaļu vadītāji redz citu nodaļu datus",
+      "body": "Sveiki,\n\npaldies par ātro reakciju un detalizēto analīzi par RLS iestatījumu un ETL plūsmu. Ļoti novērtējam profesionālo pieeju šai jutīgajai situācijai. Kā jūs jau norādījāt, līdz risinājumam atskaite paliek izņemta no produktīvās vides, un tas mums ir pieņemami.\n\nGaidīsim labojuma apstiprinājumu, lai varētu to uzstādīt produkcijā. Lūdzu informējiet, tiklīdz testa vides validācija būs pabeigta.\n\n> Tukši lauki RLS filtrā tiek interpretēti kā 'pieejams visiem'.\n> Identificēts iemesls - grāmatvedības sistēmā mainīts nodaļu koda formāts, un ETL mapping skripts nav pielāgots.\n> Sagatavots labojums testa vidē, gaida apstiprinājumu no klienta pirms produkcijas izvietošanas.\n\nAr cieņu,\nInta Zemīte\nBI komandas vadītāja\nIotaFinance AS\n\n---\nIotaFinance AS | Reģ. nr. 4000XXXXXXX\nŠis e-pasts ir konfidenciāls un paredzēts tikai adresātam.",
+      "inReplyTo": "<root-fin-810-19@consulting.example>",
+      "references": ["<root-fin-810-19@consulting.example>"],
+      "date": "2026-04-21T10:50:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "Atvaļinājumi - log izraksts ar trigera nosaukumu",
+    "issueKey": "PSN-410-11",
+    "email": {
+      "messageId": "<alphatech-followup-003@alphatech.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Atvaļinājuma pieteikumu apstiprināšanas plūsma apstājas pēc vadītāja nomaiņas",
+      "body": "Labdien,\n\nmūsu DBA kolēģis pēc jūsu lūguma izvilka datubāzes audita žurnālu par šo tabulu. Viņš konstatēja, ka trigeris 'trg_hr_approval_reassign' tika atspējots 2026. gada 3. martā struktūras reformas projekta laikā un NAV atkārtoti iespējots pēc reformas pabeigšanas. Iespējams, tas arī ir saknes cēlonis, nevis trigera kļūda.\n\nPievienoju īsu izrakstu no žurnāla (tekstā):\n'2026-03-03 22:14:02 | user: sys_migration | ALTER TABLE hr_approval_flow DISABLE TRIGGER trg_hr_approval_reassign'\nPēc tā ieraksta par TRIGGER ENABLE nav.\n\nJa tas apstiprinās, iespējams, pietiek to iespējot un palaist pārvirzīšanas procesu atvērtajiem pieteikumiem. Vai varat, lūdzu, pārbaudīt?\n\n> Sākotnēji aizdomas par trigera kļūdu tabulā hr_approval_flow.\n> Vecais vadītājs vairs neredz pieteikumu savā sarakstā, bet arī jaunais to nesaņem.\n\nAr cieņu,\nIlze Kalniņa\nPersonāla daļas vadītāja\nAlphaTech SIA",
+      "inReplyTo": "<root-psn-410-11@consulting.example>",
+      "references": ["<root-psn-410-11@consulting.example>"],
+      "date": "2026-04-21T15:20:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "PDF ģenerēšana - gara ziņa ar biroja kontekstu bez delta",
+    "issueKey": "DOK-520-24",
+    "email": {
+      "messageId": "<gammalegal-followup-003@gammalegal.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: PDF ģenerēšanas kļūme līgumiem ar vairāk nekā 50 lappusēm",
+      "body": "Sveiki,\n\ntikko atgriezos no klienta sanāksmes un redzu, ka mans kolēģis Andris jau ir sazinājies ar jums šajā lietā. Papildus gribēju pieminēt, ka mūsu birojā nākamajā mēnesī plānota jauna darbinieku pieņemšana - divi jauni juristi un viena asistente - un viņiem arī būs nepieciešama pieeja dokumentu sistēmai. Bet tas, protams, ir cits jautājums.\n\nAttiecībā uz PDF problēmu - kā jau iepriekš minēts, tas skar mūsu divas juristu komandas, un ar to šobrīd strādājam apmēram 40 sekunžu ilgu timeout dēļ lielākiem līgumiem. Šodien es pats mēģināju ģenerēt 72 lappušu līgumu, un rezultāts tāds pats - kļūda pēc ~40 sekundēm. Tātad situācija nav mainījusies.\n\nMūsu birojs arī nupat atzīmēja 15 gadu jubileju - bija jauks pasākums, un klienti bija ļoti apmierināti. Starp citu, daži no tiem klientiem būs tie, kuriem šonedēļ un nākamnedēļ jāparaksta tie lielie līgumi.\n\nGaidām priekšlikumu par risinājumu šonedēļ, kā jūs apsolījāt.\n\n> Serveru žurnālos redzams timeout PDF ģenerēšanas servisā, noklusējuma limits ir 30 sekundes.\n> Testa vidē ar līdzīga apjoma dokumentu process aizņem 35-45 sekundes.\n> Klients informēts, ka risinājums tiks piedāvāts šonedēļ.\n\nAr cieņu,\nJānis Priede\nBiroja vadošais partneris\nGammaLegal\n\n---\nGammaLegal | Brīvības iela XX, Rīga\nKonfidenciāli.",
+      "inReplyTo": "<root-dok-520-24@consulting.example>",
+      "references": ["<root-dok-520-24@consulting.example>"],
+      "date": "2026-04-21T17:45:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "CRM migrācija - papildu reģions ar lielāku failu",
+    "issueKey": "CRM-610-42",
+    "email": {
+      "messageId": "<deltasales-followup-003@deltasales.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Klientu datu migrācija no Excel - dublikātu apstrādes loģika nav saskaņota",
+      "body": "Labdien,\n\nšodien saņēmām arī Vidzemes reģiona Excel failus - tie bija aizkavējušies iekšējas arhīva pārbaudes dēļ. Šajā failu komplektā ir aptuveni 11 000 klientu ierakstu (salīdzinājumam - iepriekšējais reģions, no kura jūs analizējāt 200 dublikātus, saturēja ~3 500 ierakstus).\n\nAtklājām, ka Vidzemes failos ir arī daļa ierakstu ar īpašiem simboliem nosaukumos (piem., 'SIA \"Liepkalni\"', kur iekavās ir PVN reģistrācijas numurs). Tas varētu ietekmēt dublikātu atpazīšanas loģiku, jo mūsu paraugā tādu gadījumu nebija. Lūdzu, pārbaudiet, vai jūsu migrācijas rīks to apstrādā pareizi.\n\nTāpat - Vidzemes reģionā ir atsevišķs 'pasīvo klientu' saraksts, kas glabājās atsevišķā failā. Mūsu lēmums - tos NEIEKĻAUT jaunajā CRM vispār (~1 200 ierakstu). Tos varētu gan pievienot vēlāk pēc pieprasījuma.\n\n> Analītiķe sagatavojusi paraugu ar ~200 potenciāliem dublikātiem no viena reģiona faila.\n> Piedāvāti trīs apvienošanas scenāriji.\n\nAr cieņu,\nKristaps Ozols\nPārdošanas direktors\nDeltaSales SIA",
+      "inReplyTo": "<root-crm-610-42@consulting.example>",
+      "references": ["<root-crm-610-42@consulting.example>"],
+      "date": "2026-04-22T07:10:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "AD kartēšana - tikai apstiprinājums, ka saņemts",
+    "issueKey": "POR-630-15",
+    "email": {
+      "messageId": "<epsilonservices-followup-003@epsilonservices.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Active Directory autentifikācijas integrācija - grupu kartēšanas konflikts",
+      "body": "Sveiki,\n\napstiprinu, ka saņēmām jūsu priekšlikumu ar 6 portāla lomām un kartēšanu. IT atbildīgais to pašlaik skata, un mēs atgriezīsimies pie jums ar atbildi tuvākajā laikā. Kā jau minēts, konflikts starp 'Apstiprinātājs' un 'Iesniedzējs' lomām trīs AD grupām prasa laiku saskaņošanai ar biznesa pusi, un to mēs darām.\n\nPaldies par darbu.\n\n> Sagatavots priekšlikums ar 6 portāla lomām un ieteicamo kartēšanu pret esošajām AD grupām.\n> Klienta IT atbildīgais lūdzis laiku saskaņošanai ar biznesa pusi.\n\nAr cieņu,\nLinda Pētersone\nProjektu vadītāja\nEpsilonServices\n\n---\nEpsilonServices | Konfidenciāli.",
+      "inReplyTo": "<root-por-630-15@consulting.example>",
+      "references": ["<root-por-630-15@consulting.example>"],
+      "date": "2026-04-19T09:05:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "WareFlow API - jauns biznesa konteksts ar ražotni",
+    "issueKey": "INT-710-33",
+    "email": {
+      "messageId": "<etalogistics-followup-003@etalogistics.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: WareFlow API atgriež 500 kļūdu preču saņemšanas ziņojumiem ar garām piezīmēm",
+      "body": "Labdien,\n\ngribu informēt par papildu apstākli, kas jāņem vērā risinājumā. No 1. jūnija mēs sākam preču saņemšanu jaunai ražotnei Jelgavā, un tās darbplūsma paredz ievērojami garākas piezīmes preču saņemšanas ziņojumos (tehniskās specifikācijas, sērijas numuri, partijas dati - vidēji 600-800 rakstzīmes ierakstā). Tas nozīmē, ka vienkārša apgriešana šai ražotnei nebūs pieņemama - tiktu zaudēta kritiska informācija.\n\nLūdzu, izvērtējiet iespēju pāriet uz WareFlow API v3.2 ar 'extended_notes' lauku (par to jūsu iepriekšējā atbildē bija minēts piegādātāja ieteikums) vismaz Jelgavas ražotnes plūsmai. Ja pilnīga pāreja nav iespējama līdz 1. jūnijam, varbūt ir iespējama hibrīda pieeja - Jelgava uz v3.2, pārējās ražotnes paliek uz pašreizējās versijas?\n\nTermiņš mums ir stingrs, jo ražotnes atklāšanas datums ir saskaņots ar vairākiem piegādātājiem.\n\n> Pagaidu risinājums - ERP pusē ieviests apgriešanas mehānisms uz 250 rakstzīmēm ar brīdinājumu žurnālā.\n\nAr cieņu,\nRaitis Skulte\nIntegrāciju atbildīgais\nEtaLogistics SIA\n\n---\nEtaLogistics | Loģistikas iela XX, Rīga",
+      "inReplyTo": "<root-int-710-33@consulting.example>",
+      "references": ["<root-int-710-33@consulting.example>"],
+      "date": "2026-04-20T11:30:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "Produktu katalogs - atgādinājums ar iekšēju info",
+    "issueKey": "MIG-720-27",
+    "email": {
+      "messageId": "<thetaretail-followup-003@thetaretail.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Trūkstošas vērtības produktu katalogā - kategorijas un PVN likme",
+      "body": "Sveiki,\n\nvienkārši atgādinu, ka mēs joprojām gaidām iekšējo lēmumu no Sanitas, un plānojam to sniegt jums līdz nedēļas beigām, kā sākotnēji apspriests. Tāpat apstiprinu, ka migrācijas grafika izmaiņas no mūsu puses netiek ierosinātas.\n\nŠonedēļ mums ir arī mazumtirdzniecības nozares konference, tāpēc daļa produktu komandas ir prombūtnē, bet tas neietekmēs lēmuma termiņu.\n\n> Sagatavots sadalījums pa reģioniem un produktu grupām - lielākā daļa (~1 400) ir produkti, kas pēdējos 12 mēnešos nav pārdoti.\n> Klientam piedāvāti trīs risinājumi - neaktīvo produktu arhivēšana un neiekļaušana migrācijā, noklusējuma vērtību piešķiršana ar vēlāku pārskatīšanu, vai manuāla aizpildīšana pirms migrācijas.\n> Klienta produktu vadītāja lūgusi laiku līdz nedēļas beigām lēmuma pieņemšanai.\n\nAr cieņu,\nDāvis Kalējs\nIT projektu koordinators\nThetaRetail SIA\n\n---\nKonfidenciāli.",
+      "inReplyTo": "<root-mig-720-27@consulting.example>",
+      "references": ["<root-mig-720-27@consulting.example>"],
+      "date": "2026-04-21T13:25:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "Power BI RLS - jauns termiņš slēpts garā ziņā",
+    "issueKey": "FIN-810-19",
+    "email": {
+      "messageId": "<iotafinance-followup-003@iotafinance.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Piekļuves tiesību kļūda Power BI atskaitēm - nodaļu vadītāji redz citu nodaļu datus",
+      "body": "Labdien,\n\nceru, ka šī nedēļa jums rit produktīvi. Vēlos atkārtoti pateikties par ātro reakciju uz mūsu problēmu ar Power BI paneli un piekļuves tiesībām. Kā jau minēts iepriekš, jautājums skar algu un bonusu datus, tādēļ mūsu finanšu direktors tam pievērš īpašu uzmanību.\n\nMūsu BI komanda turpina strādāt ar citiem projektiem, tostarp jaunu peļņas pārskatu izstrādi un investīciju analīzes paneli, bet šī konkrētā problēma joprojām ir prioritāte. Mūsu iekšējais audita departaments veic regulāru pārbaudi maijā, un tas ir sakritība - bet gribēju pieminēt, ka auditori varētu arī pievērst uzmanību piekļuves tiesību vēsturei šajās atskaitēs. Ideāli būtu, ja labojums būtu uzstādīts pirms 14. maija.\n\nAtskaite paliek izņemta no produktīvās vides, kā iepriekš apstiprināts. Starp citu, mūsu biroja kafijas automāts beidzot atkal strādā - par to bija iekšējs joks, ka tas salūza tajā pašā dienā kad Power BI.\n\n> Pārbaudīts RLS (Row-Level Security) iestatījums atskaitē - tas balstās uz lauku 'department_code'.\n> Tukši lauki RLS filtrā tiek interpretēti kā 'pieejams visiem'.\n\nAr cieņu,\nInta Zemīte\nBI komandas vadītāja\nIotaFinance AS\n\n---\nIotaFinance AS | Konfidenciāli.",
+      "inReplyTo": "<root-fin-810-19@consulting.example>",
+      "references": ["<root-fin-810-19@consulting.example>"],
+      "date": "2026-04-22T08:40:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "Algu sinhronizācija - gara ziņa ar nesaistītu kontekstu",
+    "issueKey": "PSN-415-18",
+    "email": {
+      "messageId": "<betacorp-followup-003@betacorp.lv.example>",
+      "from": "[email protected]",
+      "subject": "RE: Datu sinhronizācijas kļūda ar algu sistēmu - trūkst darbinieku amatu izmaiņu",
+      "body": "Labdien,\n\nesmu BetaCorp jaunais IT vadītājs, kas pievienojās komandai 15. aprīlī, un iepazīstos ar atvērtajiem jautājumiem. Redzu, ka šī problēma ar algu sinhronizāciju ir jau procesā, un mūsu HR kolēģe Inese ar jums aktīvi sadarbojas.\n\nTikai gribēju apstiprināt no savas puses, ka šī ir augsta prioritāte mūsu uzņēmumā, jo skar 7 darbiniekus un tuvojas algu aprēķina datums. Mūsu jaunais masveida importa rīks ir daļa no plašākas digitalizācijas iniciatīvas, kuru mēs plānojam turpināt attīstīt nākamajos mēnešos - tur arī būs jūsu palīdzība noderīga.\n\nKā sapratu no sarakstes, manuālais datu labojums ir piedāvāts kā pagaidu risinājums, un gaidām mūsu apstiprinājumu. Centīsimies to sniegt ātri.\n\n> Konstatēts, ka amatu izmaiņas veiktas caur jauno masveida importa funkciju, kura neiestata karogu 'sync_pending'.\n> Nepieciešams izlemt - labot importa funkciju vai papildināt sinhronizācijas vaicājumu.\n> Klientam pagaidām piedāvāts manuāls datu labojums pirms algu aprēķina, gaida apstiprinājumu.\n\nAr cieņu,\nArturs Bērziņš\nIT vadītājs\nBetaCorp AS\n\n---\nBetaCorp AS | Reģ. nr. 4000XXXXXXX\nŠis ziņojums var saturēt konfidenciālu informāciju.",
+      "inReplyTo": "<root-psn-415-18@consulting.example>",
+      "references": ["<root-psn-415-18@consulting.example>"],
+      "date": "2026-04-18T14:05:00Z"
     },
     "expectedHasNewInformation": false
   }

@@ -1,50 +1,82 @@
 [
   {
-    "key": "HRP-100",
+    "key": "PSN-410",
     "fields": {
-      "summary": "Employee Self-Service Portal",
-      "description": "Modernize the HR employee portal for onboarding tasks, leave requests, benefits enrollment, and profile access. Contact: hr-portal@people.fabrikam.test.",
-      "updatedAt": "2026-04-21T09:00:00Z"
+      "summary": "Klienta AlphaTech personāla portāla uzturēšana",
+      "description": "Ikdienas uzturēšanas līgums klienta AlphaTech personāla pašapkalpošanās portālam. Incidentu reģistrācija, kļūdu labojumi, 2. līmeņa atbalsts lietotājiem, mazie uzlabojumi pēc klienta pieprasījuma. Regulāri jārisina problēmas ar atvaļinājuma pieteikumu apstiprināšanas plūsmu un paziņojumu sūtīšanu vadītājiem. Uzturēšanas logs katru otrdienu. Kontakts: support-alphatech@konsultacijas.test.",
+      "updatedAt": "2026-04-21T08:30:00Z"
     }
   },
   {
-    "key": "HRW-120",
+    "key": "PSN-415",
     "fields": {
-      "summary": "HR Case Workflow Automation",
-      "description": "Automate HR request workflows, approval routing, escalations, and manager review queues for internal employee cases. Contact: hr-workflows@people.fabrikam.test.",
-      "updatedAt": "2026-04-19T09:00:00Z"
+      "summary": "BetaCorp HR sistēmas atbalsts un mazie uzlabojumi",
+      "description": "Ilgtermiņa atbalsta līgums klientam BetaCorp viņu iekšējai personāla sistēmai. Ietver incidentu novēršanu, lietotāju tiesību pārvaldību, nelielas izmaiņas pēc klienta prasībām (atvaļinājumu kalendārs, darbinieku profilu lauki). Bieži jāanalizē kļūdas datu sinhronizācijā ar algu sistēmu. Klienta projekta vadītāja - I.Liepa. Kontakts: betacorp-hr@konsultacijas.test.",
+      "updatedAt": "2026-04-20T10:15:00Z"
     }
   },
   {
-    "key": "PAY-210",
+    "key": "DOK-520",
     "fields": {
-      "summary": "Payroll Reporting and Tax Reconciliation",
-      "description": "Improve payroll variance reporting, tax reconciliation, gross-to-net exports, and finance audit visibility. Contact: payroll-reporting@finance.fabrikam.test.",
-      "updatedAt": "2026-04-18T09:00:00Z"
+      "summary": "GammaLegal dokumentu aprites sistēmas uzturēšana",
+      "description": "Uzturēšanas un incidentu novēršanas līgums klientam GammaLegal. Sistēma apstrādā līgumu apstiprināšanas plūsmas, versiju kontroli un elektronisko parakstīšanu. Biežākās problēmas - apstiprinātāju nomaiņas kļūdas, PDF ģenerēšanas kļūmes, lietotāju tiesību neprecizitātes pēc struktūras izmaiņām. Jāuztur arī dokumentu veidņu bibliotēka. Kontakts: gammalegal-support@konsultacijas.test.",
+      "updatedAt": "2026-04-19T13:45:00Z"
     }
   },
   {
-    "key": "PAY-220",
+    "key": "CRM-610",
     "fields": {
-      "summary": "Payroll Self-Service Portal",
-      "description": "Support employee payslips, payroll dashboard access, bank account updates, and self-service payroll portal workflows. Contact: payroll-portal@finance.fabrikam.test.",
-      "updatedAt": "2026-04-17T09:00:00Z"
+      "summary": "DeltaSales CRM izstrāde un uzlabojumi",
+      "description": "Aktīva izstrādes fāze klienta DeltaSales CRM sistēmai. Jauni moduļi - klientu segmentācija, piedāvājumu ģenerēšana, integrācija ar e-pasta kampaņu rīku. Ietver biznesa analīzi ar klienta pārdošanas komandu, prasību dokumentēšanu, izstrādi sprintos un testēšanu. Plānota nodošana produkcijā 2. ceturksnī. Ir zināmas problēmas ar veco datu migrāciju no Excel failiem. Kontakts: deltasales-dev@konsultacijas.test.",
+      "updatedAt": "2026-04-22T09:00:00Z"
     }
   },
   {
-    "key": "DOC-330",
+    "key": "POR-630",
     "fields": {
-      "summary": "Document Approval Workflow",
-      "description": "Manage document approval routing, policy review queues, approver hand-offs, and signoff steps for internal records. Contact: approvals@docs.fabrikam.test.",
-      "updatedAt": "2026-04-20T14:00:00Z"
+      "summary": "EpsilonServices pieteikumu portāla izstrāde",
+      "description": "Jauna klientu pieteikumu portāla izstrāde klientam EpsilonServices. Darbā ietilpst prasību analīze, UX prototipēšana, izstrāde (frontend un backend), autentifikācijas integrācija ar klienta Active Directory, kā arī apstiprināšanas plūsmu konfigurēšana. Testēšana notiek paralēli izstrādei. Daļa funkcionalitātes pārklājas ar CRM projektu, bet šis ir atsevišķs līgums. Kontakts: epsilon-portal@konsultacijas.test.",
+      "updatedAt": "2026-04-21T15:20:00Z"
     }
   },
   {
-    "key": "DOC-340",
+    "key": "MOB-640",
     "fields": {
-      "summary": "Document Template and Merge",
-      "description": "Maintain document templates, merge fields, PDF generation, and clause library administration for formal business documents. Contact: templates@docs.fabrikam.test.",
-      "updatedAt": "2026-04-16T14:00:00Z"
+      "summary": "ZetaBank mobilās lietotnes funkcionalitātes paplašinājums",
+      "description": "Izstrādes projekts klienta ZetaBank iekšējiem darbiniekiem paredzētajai mobilajai lietotnei. Jauna funkcionalitāte - darba laika uzskaite, komandējumu pieteikumi, push paziņojumi par apstiprinājumiem. Ietver analīzi, izstrādi iOS un Android platformām un testēšanu. Klients prasa stingru drošības pārbaudi pirms nodošanas produkcijā. Kontakts: zetabank-mobile@konsultacijas.test.",
+      "updatedAt": "2026-04-18T11:00:00Z"
+    }
+  },
+  {
+    "key": "INT-710",
+    "fields": {
+      "summary": "EtaLogistics ERP integrācija ar noliktavas sistēmu",
+      "description": "Integrācijas projekts starp klienta EtaLogistics ERP sistēmu un ārēju noliktavas pārvaldības sistēmu WareFlow. Ietver REST API izstrādi, datu apmaiņas formātu saskaņošanu, kļūdu apstrādi, atkārtotu mēģinājumu loģiku. Biznesa process - preču saņemšana, pārvietošana, inventarizācija. Daļa datu tiek migrēta no vecās sistēmas. Testēšana jāveic kopā ar klienta operāciju komandu. Kontakts: eta-integration@konsultacijas.test.",
+      "updatedAt": "2026-04-20T16:30:00Z"
+    }
+  },
+  {
+    "key": "MIG-720",
+    "fields": {
+      "summary": "ThetaRetail datu migrācija uz jauno platformu",
+      "description": "Klienta ThetaRetail vecās veikalu sistēmas datu migrācija uz jauno mākoņa platformu. Darbs ietver datu analīzi, tīrīšanas skriptu izstrādi, migrācijas plūsmu testēšanu testa vidē un pakāpenisku rollout pa reģioniem. Jārisina jautājumi ar dublikātiem klientu kartiņās un trūkstošām vērtībām produktu katalogā. Paralēli notiek lietotāju tiesību kartēšana jaunajā sistēmā. Kontakts: theta-migration@konsultacijas.test.",
+      "updatedAt": "2026-04-19T08:45:00Z"
+    }
+  },
+  {
+    "key": "FIN-810",
+    "fields": {
+      "summary": "IotaFinance vadības atskaišu izstrāde",
+      "description": "Analītikas projekts klientam IotaFinance - jaunu vadības KPI paneļu un atskaišu izstrāde Power BI vidē. Ietver prasību apkopošanu no finanšu direktora un nodaļu vadītājiem, datu modeļa analīzi, ETL plūsmu izstrādi no grāmatvedības sistēmas, atskaišu dizaina izveidi un testēšanu. Svarīgi nodrošināt pareizas lietotāju tiesības un datu aktualizācijas grafiku. Kontakts: iota-reporting@konsultacijas.test.",
+      "updatedAt": "2026-04-17T12:00:00Z"
+    }
+  },
+  {
+    "key": "FIN-820",
+    "fields": {
+      "summary": "KappaGroup finanšu atskaišu un budžeta moduļa uzlabojumi",
+      "description": "Back-office uzlabojumu projekts klientam KappaGroup. Mērķis - pilnveidot finanšu atskaites, budžeta plānošanas moduli un izdevumu kategorizāciju iekšējā ERP sistēmā. Ietver biznesa analīzi kopā ar grāmatvedību, izstrādi, kļūdu labojumus esošajās atskaitēs un jaunu eksporta formātu (Excel, CSV) pievienošanu. Daļēji pārklājas ar atskaišu projektu citam klientam, bet prasības atšķiras. Kontakts: kappa-finance@konsultacijas.test.",
+      "updatedAt": "2026-04-16T10:30:00Z"
     }
   }
 ]

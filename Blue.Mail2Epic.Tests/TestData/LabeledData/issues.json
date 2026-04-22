@@ -1,10 +1,82 @@
 [
   {
-    "issueKey": "PAY-210-77",
-    "summary": "Payroll variance report doubles totals",
-    "description": "Finance reported that the payroll variance report sometimes shows doubled gross pay totals for salaried employees during monthly reconciliation.",
+    "issueKey": "PSN-410-11",
+    "summary": "Atvaļinājuma pieteikumu apstiprināšanas plūsma apstājas pēc vadītāja nomaiņas",
+    "description": "AlphaTech klients ziņo, ka pēc struktūras izmaiņām daļa atvaļinājuma pieteikumu paliek statusā 'Gaida apstiprinājumu' un netiek pārvirzīti jaunajam tiešajam vadītājam. Problēma skar aptuveni 12 darbiniekus dažādās nodaļās. Klients lūdz noskaidrot cēloni un sagatavot risinājumu līdz nākamajam uzturēšanas logam otrdien.",
     "comments": [
-      "Initial report captured. No reproduction steps, environment details, or deadline context yet."
+      "Reproducēts testa vidē - ja vadītāja lauks darbinieka kartiņā tiek mainīts, kamēr pieteikums ir 'Gaida apstiprinājumu' statusā, apstiprinātāja lauks pieteikumā netiek atjaunināts.",
+      "Sākotnēji aizdomas par trigera kļūdu tabulā hr_approval_flow. Vecais vadītājs vairs neredz pieteikumu savā sarakstā, bet arī jaunais to nesaņem.",
+      "Klientam nosūtīts starpziņojums ar informāciju, ka analīze turpinās. Nav skaidrs, vai problēma skar arī vēsturiskos ierakstus pirms struktūras izmaiņām."
+    ]
+  },
+  {
+    "issueKey": "PSN-415-18",
+    "summary": "Datu sinhronizācijas kļūda ar algu sistēmu - trūkst darbinieku amatu izmaiņu",
+    "description": "BetaCorp personāla daļa pamanīja, ka algu sistēmā nav atspoguļotas pēdējā mēneša amatu izmaiņas 7 darbiniekiem. Sinhronizācijas žurnālā nav redzamu kļūdu, taču dati nav nonākuši mērķa sistēmā. I.Liepa lūdz steidzamu analīzi, jo tuvojas algu aprēķina datums.",
+    "comments": [
+      "Pārbaudīts sinhronizācijas serviss - pēdējās 30 dienās tas strādājis bez pārtraukumiem.",
+      "Konstatēts, ka amatu izmaiņas veiktas caur jauno masveida importa funkciju, kura neiestata karogu 'sync_pending'. Tāpēc ieraksti netiek iekļauti nākamajā sinhronizācijas ciklā.",
+      "Nepieciešams izlemt - labot importa funkciju vai papildināt sinhronizācijas vaicājumu. Klientam pagaidām piedāvāts manuāls datu labojums pirms algu aprēķina, gaida apstiprinājumu."
+    ]
+  },
+  {
+    "issueKey": "DOK-520-24",
+    "summary": "PDF ģenerēšanas kļūme līgumiem ar vairāk nekā 50 lappusēm",
+    "description": "GammaLegal juristi ziņo, ka, mēģinot ģenerēt parakstīto versiju apjomīgiem līgumiem (virs 50 lpp.), sistēma pēc aptuveni 40 sekundēm atgriež kļūdu 'PDF generation failed'. Mazākiem dokumentiem plūsma darbojas normāli. Problēma traucē darbu divām juristu komandām.",
+    "comments": [
+      "Serveru žurnālos redzams timeout PDF ģenerēšanas servisā, noklusējuma limits ir 30 sekundes.",
+      "Testa vidē ar līdzīga apjoma dokumentu process aizņem 35-45 sekundes.",
+      "Iespējamie risinājumi - paaugstināt timeout limitu vai pārstrādāt ģenerēšanu asinhroni ar paziņojumu lietotājam pēc pabeigšanas. Klients informēts, ka risinājums tiks piedāvāts šonedēļ."
+    ]
+  },
+  {
+    "issueKey": "CRM-610-42",
+    "summary": "Klientu datu migrācija no Excel - dublikātu apstrādes loģika nav saskaņota",
+    "description": "DeltaSales izstrādes fāzē konstatēts, ka vecajos Excel failos daudzi klienti parādās vairākkārt ar atšķirīgiem kontaktiem vai rakstības variācijām (piemēram, 'SIA Alfa' un 'Alfa SIA'). Nepieciešams saskaņot ar klienta pārdošanas komandu, kā šādus ierakstus apvienot jaunajā CRM.",
+    "comments": [
+      "Analītiķe sagatavojusi paraugu ar ~200 potenciāliem dublikātiem no viena reģiona faila.",
+      "Piedāvāti trīs apvienošanas scenāriji - automātiska apvienošana pēc reģistrācijas numura, manuāla apstiprināšana caur migrācijas rīku, vai pilnīga manuāla pārskatīšana.",
+      "Klientam nosūtīts piedāvājums un paraugs, gaida atbildi par izvēlēto scenāriju. Bez atbildes migrācijas skripts nevar tikt pabeigts."
+    ]
+  },
+  {
+    "issueKey": "POR-630-15",
+    "summary": "Active Directory autentifikācijas integrācija - grupu kartēšanas konflikts",
+    "description": "EpsilonServices portāla izstrādē saskaņojama lietotāju grupu kartēšana starp klienta AD un portāla lomām. Klients vēlas, lai piekļuves tiesības tiktu automātiski piešķirtas, balstoties uz AD grupām, taču dažas grupas pārklājas un nav skaidrs prioritātes kritērijs.",
+    "comments": [
+      "Tehniskā integrācija ar AD (LDAP bind, grupu pieprasījums) ir pabeigta un darbojas testa vidē.",
+      "Sagatavots priekšlikums ar 6 portāla lomām un ieteicamo kartēšanu pret esošajām AD grupām.",
+      "Identificētas trīs AD grupas, kuru dalībniekiem rastos konflikts starp 'Apstiprinātājs' un 'Iesniedzējs' lomām. Klienta IT atbildīgais lūdzis laiku saskaņošanai ar biznesa pusi."
+    ]
+  },
+  {
+    "issueKey": "INT-710-33",
+    "summary": "WareFlow API atgriež 500 kļūdu preču saņemšanas ziņojumiem ar garām piezīmēm",
+    "description": "EtaLogistics integrācijas testēšanā konstatēts, ka preču saņemšanas ziņojumi, kuros piezīmju lauks pārsniedz 255 rakstzīmes, izraisa 500 Internal Server Error WareFlow pusē. ERP sistēma šādus ziņojumus veiksmīgi nosūta, bet atkārtoto mēģinājumu loģika tos mēģina sūtīt bezgalīgi.",
+    "comments": [
+      "Nosūtīts pieprasījums WareFlow piegādātājam ar konkrētiem piemēriem un payload kopijām. Gaida atbildi par viņu API lauka limitu.",
+      "Pagaidu risinājums - ERP pusē ieviests apgriešanas mehānisms uz 250 rakstzīmēm ar brīdinājumu žurnālā.",
+      "Atkārtoto mēģinājumu loģika papildināta ar pārtraukšanu pēc 5 neveiksmīgiem mēģinājumiem un pārvietošanu uz manuālās pārskatīšanas rindu. Klienta operāciju komandai par to paziņots."
+    ]
+  },
+  {
+    "issueKey": "MIG-720-27",
+    "summary": "Trūkstošas vērtības produktu katalogā - kategorijas un PVN likme",
+    "description": "ThetaRetail migrācijas analīzes laikā atklāts, ka aptuveni 1 800 produktu ierakstos vecajā sistēmā nav aizpildīta kategorija un/vai PVN likme. Jaunā platforma šos laukus pieprasa kā obligātus, tādēļ migrācija bez risinājuma apstāsies.",
+    "comments": [
+      "Sagatavots sadalījums pa reģioniem un produktu grupām - lielākā daļa (~1 400) ir produkti, kas pēdējos 12 mēnešos nav pārdoti.",
+      "Klientam piedāvāti trīs risinājumi - neaktīvo produktu arhivēšana un neiekļaušana migrācijā, noklusējuma vērtību piešķiršana ar vēlāku pārskatīšanu, vai manuāla aizpildīšana pirms migrācijas.",
+      "Klienta produktu vadītāja lūgusi laiku līdz nedēļas beigām lēmuma pieņemšanai. Migrācijas grafiks pagaidām saglabāts bez izmaiņām."
+    ]
+  },
+  {
+    "issueKey": "FIN-810-19",
+    "summary": "Piekļuves tiesību kļūda Power BI atskaitēm - nodaļu vadītāji redz citu nodaļu datus",
+    "description": "IotaFinance finanšu direktors ziņoja, ka, testējot jauno vadības KPI paneli, divi nodaļu vadītāji redzēja arī citu nodaļu izdevumu rindas. Tā ir jutīga problēma, jo skar algu un bonusu datus. Līdz risinājumam atskaite izņemta no produktīvās vides.",
+    "comments": [
+      "Pārbaudīts RLS (Row-Level Security) iestatījums atskaitē - tas balstās uz lauku 'department_code', taču ETL plūsma pēdējā ielādē daļai ierakstu šo lauku atstājusi tukšu.",
+      "Tukši lauki RLS filtrā tiek interpretēti kā 'pieejams visiem'. Identificēts iemesls - grāmatvedības sistēmā mainīts nodaļu koda formāts, un ETL mapping skripts nav pielāgots.",
+      "Sagatavots labojums testa vidē, gaida apstiprinājumu no klienta pirms produkcijas izvietošanas. Atskaite paliek izņemta no produktīvās vides līdz labojuma uzstādīšanai."
     ]
   }
 ]

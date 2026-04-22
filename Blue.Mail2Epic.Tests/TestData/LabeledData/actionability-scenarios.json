@@ -1,68 +1,266 @@
 [
   {
-    "name": "clear bug report",
+    "name": "alphatech_atvalinajuma_kluda",
     "email": {
-      "messageId": "actionability-bug",
-      "from": "qa@people.fabrikam.test",
-      "subject": "Employee portal profile page throws an error",
-      "body": "Bug report: managers cannot save profile updates in the employee portal. The page fails with an error after clicking Save and onboarding is blocked.",
-      "date": "2026-04-01T09:00:00Z"
+      "messageId": "<a1b2c3d4-0001@konsultacijas.test>",
+      "from": "marta.berzina@alphatech.test",
+      "subject": "STEIDZAMI: Atvaļinājuma pieteikumi neaiziet pie vadītājiem",
+      "body": "Labdien,\n\nKopš šī rīta neviens no mūsu darbiniekiem nevar iesniegt atvaļinājuma pieteikumu - poga \"Iesniegt\" ir pelēka vai arī pēc klikšķa parādās tukša lapa. Pārbaudījām trīs dažādus lietotājus, visiem tāda pati situācija.\n\nVajag, lai jūs to šodien sakārtotu, jo piektdien ir pēdējā diena, kad darbinieki var pieteikt atvaļinājumu jūnijam.\n\nLūdzu, atsūtiet apstiprinājumu, kad sākat strādāt.\n\nPaldies,\nMārta Bērziņa\nAlphaTech HR vadītāja\n+371 2xxxxxxx\n\n---\nŠis e-pasts un tā pielikumi ir konfidenciāli.",
+      "date": "2026-04-22T07:12:00Z"
     },
     "expectedRequiresAction": true
   },
   {
-    "name": "clear change request",
+    "name": "betacorp_algu_sinhronizacija_bug",
     "email": {
-      "messageId": "actionability-change-request",
-      "from": "records@docs.fabrikam.test",
-      "subject": "Please add approver delegation to the policy workflow",
-      "body": "Change request: please add temporary approver delegation to the document approval workflow so policy packets keep moving during leave coverage.",
-      "date": "2026-04-01T09:05:00Z"
+      "messageId": "<a1b2c3d4-0002@konsultacijas.test>",
+      "from": "i.liepa@betacorp.test",
+      "subject": "Re: Re: Datu sinhronizācija ar algu sistēmu - atkal kļūdas",
+      "body": "Labdien,\n\nPaldies par vakardienas atbildi, bet problēma nav atrisināta. Šorīt atkal redzam, ka 14 darbiniekiem nav pārsūtīti atjauninātie amata nosaukumi uz algu sistēmu. Lūdzu, izanalizējiet logus un atsūtiet labojumu līdz ceturtdienai - piektdien mums jāpalaiž algu aprēķins.\n\nAr cieņu,\nI. Liepa\n\n> On 2026-04-20 10:15, support wrote:\n> Labdien, esam restartējuši sinhronizācijas servisu, lūdzu pārbaudiet.\n>\n>> On 2026-04-19, I. Liepa wrote:\n>> Sveiki, atkal neiet cauri dati. Skatieties pielikumā screenshot.\n>>\n>>> On 2026-04-17, support wrote:\n>>> Sveiki, pagaidām izskatās, ka viss kārtībā.\n\n--\nIeva Liepa | Projektu vadītāja | BetaCorp\ni.liepa@betacorp.test | +371 2xxxxxxx\nBetaCorp SIA, Brīvības iela 1, Rīga, LV-1010\nReģ.Nr. 40000000000\n\nThis message is intended only for the named recipient.",
+      "date": "2026-04-21T09:45:00Z"
     },
     "expectedRequiresAction": true
   },
   {
-    "name": "deadline driven request",
+    "name": "gammalegal_apstiprinataju_nomaina",
     "email": {
-      "messageId": "actionability-deadline",
-      "from": "controller@finance.fabrikam.test",
-      "subject": "Need corrected payroll variance export before Friday",
-      "body": "We need the payroll variance export fixed before Friday's board reporting pack. Finance is blocked until the totals reconcile correctly.",
-      "date": "2026-04-01T09:10:00Z"
+      "messageId": "<a1b2c3d4-0003@konsultacijas.test>",
+      "from": "juris.kalnins@gammalegal.test",
+      "subject": "FW: Lūgums mainīt apstiprinātāju līgumu plūsmā",
+      "body": "Sveiki,\n\nPārsūtu zemāk esošo pieprasījumu no mūsu juridiskās nodaļas. Lūdzu, nomainiet apstiprinātāju 2. līmenī no A. Ozola uz K. Siliņu visām jaunajām līgumu plūsmām (esošajām nav jāmaina). Ja iespējams, paveikt līdz nākamajai otrdienai.\n\nJautājumu gadījumā zvaniet.\n\nJuris Kalniņš\nGammaLegal\n\n---------- Forwarded message ----------\nFrom: anna.ozola@gammalegal.test\nDate: 2026-04-18\nSubject: Apstiprinātāja maiņa\n\nJuri, kā runājām, no 1. maija es vairs neapstiprinu līgumus - to darīs Kristaps. Lūdzu, saki IT, lai sakārto sistēmā.\n\nAnna",
+      "date": "2026-04-20T14:30:00Z"
     },
     "expectedRequiresAction": true
   },
   {
-    "name": "informational fyi",
+    "name": "deltasales_excel_migracija_analize",
     "email": {
-      "messageId": "actionability-fyi",
-      "from": "pm@people.fabrikam.test",
-      "subject": "FYI: onboarding portal metrics for March",
-      "body": "FYI only. Sharing the monthly onboarding portal adoption metrics. No action needed, just keeping the team informed.",
-      "date": "2026-04-01T09:15:00Z"
+      "messageId": "<a1b2c3d4-0004@konsultacijas.test>",
+      "from": "raimonds.vitols@deltasales.test",
+      "subject": "Vecie Excel dati - vajag jūsu analīzi",
+      "body": "Labdien!\n\nNosūtu vēsturiskos klientu datus, kas mums vēl palikuši Excel failos (pielikumā 3 faili, kopā ap 18000 rindas). Pirms migrācijas uz jauno CRM lūgšu jūs:\n\n1) Izanalizēt dublikātus un sagatavot atskaiti, cik ierakstu pārklājas\n2) Ieteikt stratēģiju, kā apvienot ierakstus ar atšķirīgiem kontakttālruņiem\n3) Novērtēt darba apjomu stundās\n\nNepieciešams līdz nākamā sprinta plānošanai (29. aprīlim).\n\nPaldies iepriekš,\nRaimonds Vītols\nDeltaSales pārdošanas direktors",
+      "date": "2026-04-22T08:00:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "zetabank_drosibas_audits_labojumi",
+    "email": {
+      "messageId": "<a1b2c3d4-0005@konsultacijas.test>",
+      "from": "drosiba@zetabank.test",
+      "subject": "Drošības audita rezultāti - nepieciešami labojumi pirms produkcijas",
+      "body": "Kolēģi,\n\nPabeidzām ZetaBank mobilās lietotnes drošības pārbaudi. Atradām 4 vidējas prioritātes atradnes un 1 augstas prioritātes atradni (nepareiza sesijas derīguma termiņa apstrāde). Pilns pārskats pielikumā.\n\nLūdzu, izlabojiet augstas prioritātes atradni šonedēļ un vidējās līdz 30. aprīlim. Pēc labojumiem mēs veiksim atkārtotu pārbaudi. Bez šiem labojumiem nevaram dot zaļo gaismu produkcijai.\n\nJa kāda atradne nav skaidra, sarunāsim zvanu.\n\nAr cieņu,\nDrošības komanda\nZetaBank\n\n--\nKonfidencialitātes paziņojums: Šī ziņojuma saturs ir konfidenciāls un paredzēts tikai adresātam. Ja saņēmāt šo ziņojumu kļūdas dēļ, lūdzu, informējiet sūtītāju un dzēsiet to no savas sistēmas. Jebkāda šī ziņojuma izplatīšana, kopēšana vai izmantošana bez atļaujas ir aizliegta. ZetaBank AS neatbild par datu zudumu vai bojājumiem, kas radušies e-pasta pārraides laikā. Mēs aicinām nedrukāt šo e-pastu, lai saudzētu vidi.",
+      "date": "2026-04-21T13:00:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "etalogistics_api_lauks_pievienot",
+    "email": {
+      "messageId": "<a1b2c3d4-0006@konsultacijas.test>",
+      "from": "gatis.sprogis@etalogistics.test",
+      "subject": "Re: Re: Re: Testa vides statuss + papildu lūgums",
+      "body": "Sveiki,\n\nPaldies par atjauninājumu par testa vidi. Ceru, ka rītdien varēsim sākt integrācijas testus.\n\nStarp citu, WareFlow puse vakar atsūtīja, ka viņiem pievienots jauns obligāts lauks \"warehouseZone\" pie preču saņemšanas endpointa. Varat, lūdzu, pievienot to arī mūsu pusē? Bez šī lauka nākamnedēļ testi nestrādās.\n\nPaldies,\nGatis\n\n> On 2026-04-21, support wrote:\n> Labdien, testa vide ir gatava, lietotāji izveidoti.\n>\n>> On 2026-04-20, Gatis wrote:\n>> Kad būs gatava testa vide?\n>>\n>>> On 2026-04-18, support wrote:\n>>> Plānojam līdz otrdienai.\n\n--\nGatis Sproģis\nEtaLogistics IT vadītājs",
+      "date": "2026-04-22T06:30:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "iotafinance_kpi_panelis_prasibas",
+    "email": {
+      "messageId": "<a1b2c3d4-0007@konsultacijas.test>",
+      "from": "l.zarina@iotafinance.test",
+      "subject": "KPI paneļa prasības - lūdzu, sagatavot specifikāciju",
+      "body": "Labdien,\n\nPēc vakardienas tikšanās ar finanšu direktoru, lūdzu sagatavot detalizētu specifikāciju par jauno likviditātes paneli. Specifikācijā jābūt:\n\n- datu avoti\n- aprēķina formulas\n- filtru loģika (pa biznesa vienībām)\n- atjaunošanas biežums\n\nPapildus lūdzu iekļaut novērtējumu stundās. Gaidu specifikāciju līdz 28. aprīlim, lai varam apstiprināt darba apjomu.\n\nPaldies,\nLauma Zariņa\nIotaFinance CFO biroja analītiķe",
+      "date": "2026-04-21T11:00:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "kappagroup_budzeta_eksports_csv",
+    "email": {
+      "messageId": "<a1b2c3d4-0008@konsultacijas.test>",
+      "from": "maris.ozolins@kappagroup.test",
+      "subject": "Re: Budžeta modulis - CSV eksports nepieciešams",
+      "body": "Sveiki,\n\nKā jau runājām telefonā, lūdzu budžeta modulī pievienot CSV eksportu ar semikolu kā separatoru un UTF-8 BOM. Mums tas nepieciešams, lai varētu ielādēt Excel bez problēmām ar latviešu burtiem.\n\nTermiņš - līdz maija otrajai nedēļai, jo tad sākas budžeta plānošanas sezona.\n\nLūdzu, apstipriniet, ka to varat iekļaut tuvākajā sprintā.\n\nĀrs cieņu,\nMāris Ozoliņš\n\n> Original message:\n> Labdien Māri, jā, eksports ir iespējams. Kādu formātu vēlaties?\n\n--\nMāris Ozoliņš | Galvenais grāmatvedis\nKappaGroup SIA\nmaris.ozolins@kappagroup.test",
+      "date": "2026-04-20T15:30:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "alphatech_paldies_par_darbu",
+    "email": {
+      "messageId": "<a1b2c3d4-0009@konsultacijas.test>",
+      "from": "marta.berzina@alphatech.test",
+      "subject": "Paldies!",
+      "body": "Labdien,\n\nLiels paldies par ātru reakciju pagājušajā nedēļā, kad bija problēmas ar paziņojumiem. Komanda ir apmierināta.\n\nJauku nedēļu!\n\nMārta\n\n--\nMārta Bērziņa\nAlphaTech HR",
+      "date": "2026-04-21T16:00:00Z"
     },
     "expectedRequiresAction": false
   },
   {
-    "name": "thank you acknowledgement",
+    "name": "betacorp_informacija_par_svetkiem",
     "email": {
-      "messageId": "actionability-thanks",
-      "from": "director@docs.fabrikam.test",
-      "subject": "Thanks for the workflow cleanup",
-      "body": "Thank you for cleaning up the approval queue yesterday. Everything looks good now and no follow-up is needed.",
-      "date": "2026-04-01T09:20:00Z"
+      "messageId": "<a1b2c3d4-0010@konsultacijas.test>",
+      "from": "i.liepa@betacorp.test",
+      "subject": "FYI: BetaCorp brīvdienas 1.-2. maijā",
+      "body": "Labdien,\n\nTikai informācijai - BetaCorp birojs 1. un 2. maijā būs slēgts. Ja kaut kas steidzams, rakstiet man uz mobilo.\n\nNav jāreaģē, vienkārši, lai jūs zinātu.\n\nI. Liepa",
+      "date": "2026-04-21T08:00:00Z"
     },
     "expectedRequiresAction": false
   },
   {
-    "name": "ambiguous but blocking request",
+    "name": "gammalegal_apstiprinajums_sanemts",
     "email": {
-      "messageId": "actionability-ambiguous",
-      "from": "talent.ops@people.fabrikam.test",
-      "subject": "Can we revisit first-day access in the portal?",
-      "body": "Can we revisit first-day access in the employee portal this sprint? New hires are still blocked during onboarding when they try to open their checklist.",
-      "date": "2026-04-01T09:25:00Z"
+      "messageId": "<a1b2c3d4-0011@konsultacijas.test>",
+      "from": "juris.kalnins@gammalegal.test",
+      "subject": "Re: Dokumentu veidnes atjaunināšana - saņemts",
+      "body": "Sveiki,\n\nSaņēmu, paldies. Viss kārtībā, izskatās labi.\n\nJuris\n\n> On 2026-04-19, support wrote:\n> Labdien, esam atjauninājuši līgumu veidni saskaņā ar jūsu komentāriem.\n> Lūdzu, pārbaudiet produkcijā.\n\n--\nJuris Kalniņš\nGammaLegal juridiskās nodaļas vadītājs\n+371 2xxxxxxx\njuris.kalnins@gammalegal.test\nGammaLegal SIA | Elizabetes iela 10, Rīga, LV-1010 | Reģ.Nr. 40000000000\n\nKonfidencialitātes paziņojums: Šis e-pasts un tā pielikumi ir konfidenciāli un paredzēti tikai norādītajam adresātam. Ja esat saņēmis šo e-pastu kļūdas pēc, lūdzam nekavējoties informēt sūtītāju un dzēst e-pastu kopā ar visiem pielikumiem. Jebkāda šī e-pasta izpaušana, kopēšana, izplatīšana vai tā satura izmantošana ir stingri aizliegta. GammaLegal SIA neuzņemas atbildību par zaudējumiem, kas radušies šī e-pasta pārraides laikā. Pirms drukāšanas, lūdzu, padomājiet par vidi.",
+      "date": "2026-04-20T17:30:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "deltasales_sprintu_atskaite_fyi",
+    "email": {
+      "messageId": "<a1b2c3d4-0012@konsultacijas.test>",
+      "from": "raimonds.vitols@deltasales.test",
+      "subject": "FYI: 14. sprinta kopsavilkums jūsu zināšanai",
+      "body": "Sveiki,\n\nPārsūtu iekšējo sprinta kopsavilkumu, lai jūs zinātu, ko esam paveikuši savā pusē. Nekas no jūsu komandas pagaidām nav nepieciešams.\n\nRaimonds\n\n--\nRaimonds Vītols\nDeltaSales",
+      "date": "2026-04-18T14:00:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "epsilonservices_sveiciens_jauna_dalibniece",
+    "email": {
+      "messageId": "<a1b2c3d4-0013@konsultacijas.test>",
+      "from": "ilze.celma@epsilonservices.test",
+      "subject": "Iepazīstinām: jauna komandas dalībniece",
+      "body": "Sveiki visi,\n\nVēlamies iepazīstināt ar Elīnu Krastiņu, kura no 1. maija pievienosies mūsu portāla projekta komandai kā biznesa analītiķe. Viņa piedalīsies turpmākajās sanāksmēs.\n\nNav jāveic nekādas darbības - tikai lai jūs zinātu, kurš tas cilvēks, kad viņu pamanīsiet sarunās.\n\nIlze\n\n--\nIlze Celma\nEpsilonServices",
+      "date": "2026-04-19T10:00:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "zetabank_apsveikums_releize",
+    "email": {
+      "messageId": "<a1b2c3d4-0014@konsultacijas.test>",
+      "from": "drosiba@zetabank.test",
+      "subject": "Apsveicam ar veiksmīgu releizi!",
+      "body": "Sveiki,\n\nVienkārši gribējām pateikt paldies par izcilo darbu pie pēdējā laidiena. Komanda novērtē jūsu profesionalitāti.\n\nTurpināsim sadarbību,\nZetaBank drošības komanda\n\n--\nKonfidencialitātes paziņojums: Šī ziņojuma saturs ir konfidenciāls un paredzēts tikai adresātam. Ja saņēmāt šo ziņojumu kļūdas dēļ, lūdzu, informējiet sūtītāju un dzēsiet to no savas sistēmas. Jebkāda šī ziņojuma izplatīšana, kopēšana vai izmantošana bez atļaujas ir aizliegta. ZetaBank AS neatbild par datu zudumu vai bojājumiem, kas radušies e-pasta pārraides laikā. Mēs aicinām nedrukāt šo e-pastu, lai saudzētu vidi. Papildu informācija par mūsu privātuma politiku pieejama: www.zetabank.test/privacy. Reģistrācijas numurs: 40000000000. Juridiskā adrese: Krišjāņa Valdemāra iela 1, Rīga, LV-1010. Mēs pieņemam e-pasta ziņas latviešu, angļu un krievu valodā.",
+      "date": "2026-04-17T15:00:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "etalogistics_informe_par_audita_planu",
+    "email": {
+      "messageId": "<a1b2c3d4-0015@konsultacijas.test>",
+      "from": "gatis.sprogis@etalogistics.test",
+      "subject": "Informācijai: iekšējais audits mūsu pusē maijā",
+      "body": "Sveiki,\n\nTikai informācijai - mūsu iekšējais IT audits notiks 10.-14. maijā. Ja auditoriem radīsies jautājumi par integrāciju, mēs atbildēsim paši, jūsu iesaiste nav nepieciešama.\n\nPaldies,\nGatis\n\n> On 2026-04-15, Gatis wrote:\n> Vēlos jau iepriekš piefiksēt, ka plānojas audits.\n\n--\nGatis Sproģis | EtaLogistics\ngatis.sprogis@etalogistics.test",
+      "date": "2026-04-19T09:30:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "thetaretail_status_update_rollout",
+    "email": {
+      "messageId": "<a1b2c3d4-0016@konsultacijas.test>",
+      "from": "ilmars.peterson@thetaretail.test",
+      "subject": "Rollout statuss - Kurzemes reģions pabeigts",
+      "body": "Labdien,\n\nĪss statusa apskats jūsu informācijai: Kurzemes reģiona migrācija pabeigta sestdien, problēmu nav. Nākamais reģions plānots pēc 2 nedēļām.\n\nMums no jūsu puses šobrīd nekas nav nepieciešams, turpinām pēc grafika.\n\nLaba diena,\nIlmārs Pētersons\n\n--\nIlmārs Pētersons\nThetaRetail projektu birojs\ni.petersons@thetaretail.test\n+371 2xxxxxxx\nThetaRetail AS | Maskavas iela 250, Rīga, LV-1063 | Reģ.Nr. 40000000000\nŠis ziņojums ir paredzēts tikai adresātam. Ja esat saņēmis šo ziņojumu kļūdas dēļ, lūdzu, informējiet sūtītāju un dzēsiet to. Jebkāda šī ziņojuma satura pārsūtīšana, kopēšana vai izplatīšana bez atļaujas ir aizliegta. ThetaRetail apņemas aizsargāt jūsu personas datus saskaņā ar VDAR prasībām.",
+      "date": "2026-04-20T18:00:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "alphatech_varbut_vajag_skatit",
+    "email": {
+      "messageId": "<a1b2c3d4-0017@konsultacijas.test>",
+      "from": "marta.berzina@alphatech.test",
+      "subject": "Re: Re: Re: Nelielas pārdomas par paziņojumiem",
+      "body": "Sveiki,\n\nPaldies par iepriekšējo e-pastu. Lasot vēlreiz mūsu iekšējos komentārus, es nezinu, vai no tā kaut kas jādara, bet atzīmēšu - daži vadītāji ir teikuši, ka paziņojumi par atvaļinājuma pieteikumiem dažreiz pienāk divreiz. Tas nav traucējoši, vienkārši dīvaini. Varbūt, ka tas ir normāli un tā tas strādā, nezinu.\n\nJa uzskatāt, ka nav vērts tērēt laiku, tad ignorējiet.\n\nMārta\n\n> On 2026-04-19, support wrote:\n> Labdien, paldies, ka dalījāties ar novērojumiem.\n>\n>> On 2026-04-18, Mārta wrote:\n>> Vispār viss strādā labi.\n\n--\nMārta Bērziņa\nAlphaTech",
+      "date": "2026-04-20T12:15:00Z"
     },
     "expectedRequiresAction": true
+  },
+  {
+    "name": "betacorp_briva_forma_patiesas_prasibas",
+    "email": {
+      "messageId": "<a1b2c3d4-0018@konsultacijas.test>",
+      "from": "i.liepa@betacorp.test",
+      "subject": "Pārdomas par profilu laukiem + nedēļas kopsavilkums",
+      "body": "Labdien,\n\nĪss nedēļas apskats no mūsu puses - viss rit gludi, komanda apmierināta ar pēdējām izmaiņām. Arī darbinieku apmācības par jauno kalendāru notika veiksmīgi.\n\nVienā brīdī gribu pieminēt: mūsu jurists lūdza papildu laukus darbinieku profilos saistībā ar jaunajiem VDAR noteikumiem (piekrišanas atzīmes 3 veidiem). Ne steidzami, bet, ja līdz maija beigām varat iekļaut sprintā, mums būtu ļoti labi - citādi jāatliek uz rudeni, kas nav īsti pieļaujami atbilstības dēļ.\n\nPārējā ziņā - paldies par sadarbību!\n\nIeva\n\n--\nIeva Liepa\nBetaCorp",
+      "date": "2026-04-21T14:00:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "gammalegal_jautajums_vai_problema",
+    "email": {
+      "messageId": "<a1b2c3d4-0019@konsultacijas.test>",
+      "from": "anna.ozola@gammalegal.test",
+      "subject": "Varbūt kaut kas dīvains ar PDF ģenerēšanu?",
+      "body": "Sveiki,\n\nNezinu, vai tas ir problēma vai normāli, bet vakar, ģenerējot PDF no gara līguma (ap 40 lpp), sistēma to izdarīja ap 25 sekundēs. Parasti, šķiet, ir ātrāk, bet varbūt man tikai šķiet. Neviens citi par to nav sūdzējies.\n\nNav jādara nekas, vienkārši piefiksēju. Ja jums ir vieglāk pārbaudīt logus un pateikt, vai viss kārtībā, būtu jauki. Ja ne, tad lai paliek.\n\nAnna",
+      "date": "2026-04-19T16:45:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "deltasales_stipri_steidzami_bet_nekas",
+    "email": {
+      "messageId": "<a1b2c3d4-0020@konsultacijas.test>",
+      "from": "raimonds.vitols@deltasales.test",
+      "subject": "STEIDZAMI!!! Svarīgi izlasīt tūlīt!",
+      "body": "Sveiki,\n\nĻoti steidzami gribēju jūs informēt, ka mūsu pārdošanas komandas sapulce notiks ceturtdien plkst. 14:00, nevis trešdien, kā bija plānots sākotnēji. Šī ir būtiska izmaiņa mūsu iekšējā grafikā.\n\nNav jāpiedalās, vienkārši lai zinātu, kāpēc es varbūt nevarēšu atbildēt ceturtdienas pēcpusdienā.\n\nPaldies!\nRaimonds",
+      "date": "2026-04-22T07:45:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "epsilonservices_slepta_prasiba_garaja_kede",
+    "email": {
+      "messageId": "<a1b2c3d4-0021@konsultacijas.test>",
+      "from": "ilze.celma@epsilonservices.test",
+      "subject": "Re: Re: Re: Re: AD integrācija - domu apmaiņa",
+      "body": "Sveiki,\n\nPaldies par pacietību ar mūsu AD komandu. Viņi beidzot ir snieguši atbildes.\n\nStarp citu, aizmirsu pieminēt - mūsu drošības arhitekts pieprasa, lai portāla autentifikācija izmantotu MFA visiem lietotājiem ar administratīvām tiesībām. Pievienojiet to prasību sarakstam un atsūtiet atjauninātu novērtējumu līdz piektdienai, lūdzu. Bez tā mēs nevaram sākt produkcijas plānošanu.\n\nAr cieņu,\nIlze\n\n> On 2026-04-21, support wrote:\n> Paldies, gaidām AD komandas atbildes.\n>\n>> On 2026-04-20, Ilze wrote:\n>> Rīt pajautāšu atkal.\n>>\n>>> On 2026-04-18, support wrote:\n>>> Vai ir jaunumi no AD komandas?\n>>>\n>>>> On 2026-04-17, Ilze wrote:\n>>>> Ceru, ka līdz nākamnedēļai būs atbildes.\n\n--\nIlze Celma | Projektu vadītāja\nEpsilonServices\ni.celma@epsilonservices.test\n+371 2xxxxxxx\nEpsilonServices SIA | Ģertrūdes iela 15, Rīga, LV-1011 | Reģ.Nr. 40000000000\nŠis e-pasts var saturēt konfidenciālu informāciju.",
+      "date": "2026-04-22T09:15:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "zetabank_iesakums_bet_bez_termina",
+    "email": {
+      "messageId": "<a1b2c3d4-0022@konsultacijas.test>",
+      "from": "mobile-team@zetabank.test",
+      "subject": "Ideja: push paziņojumu grupēšana",
+      "body": "Labdien,\n\nLietotāju atsauksmēs redzam, ka daži lietotāji saņem daudz push paziņojumu un gribētu tos grupēt pa dienām. Tā ir ideja, par ko varam runāt, bet pagaidām nav nekādu lēmumu. Nav termiņa, nav prasības - tikai ideja, ko pārdomāt.\n\nJa jums rodas kādas domas, priecātos dzirdēt, bet ja ne - nav problēmu.\n\nZetaBank mobile komanda\n\n--\nKonfidencialitātes paziņojums: Šī ziņojuma saturs ir konfidenciāls un paredzēts tikai adresātam.",
+      "date": "2026-04-18T13:20:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "etalogistics_slepta_incident_lidz_beigam",
+    "email": {
+      "messageId": "<a1b2c3d4-0023@konsultacijas.test>",
+      "from": "gatis.sprogis@etalogistics.test",
+      "subject": "Re: Re: Nedēļas sinhronizācijas kopsavilkums",
+      "body": "Sveiki,\n\nPaldies par sinhronizācijas atskaiti. Vairums rādītāju labi.\n\nNedaudz no mūsu puses: WareFlow komanda ziņoja, ka integrācija kopumā darbojas labi, bet viņu monitorings rāda, ka retry mehānisms dažreiz turpina mēģināt pat pēc veiksmīgas atbildes. Tā rezultātā vakar vakarā tika dublēti 47 preču saņemšanas ieraksti noliktavā Liepājā, un mūsu operatoriem bija manuāli jāatrisina - tas ir kritisks bizness, jo tas ietekmē reālo inventāru. Lūdzu, izanalizējiet logus un izlabojiet šo problēmu steidzami, pirms nākamā piegādes viļņa piektdien.\n\nPārējā ziņā visi rādītāji stabili.\n\nAr cieņu,\nGatis\n\n> On 2026-04-20, support wrote:\n> Nedēļas kopsavilkums: 2400 veiksmīgas sinhronizācijas, 3 neveiksmīgas.\n>\n>> On 2026-04-13, support wrote:\n>> Iepriekšējās nedēļas rādītāji.\n\n--\nGatis Sproģis\nEtaLogistics",
+      "date": "2026-04-21T17:00:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "iotafinance_nezina_vai_vajag",
+    "email": {
+      "messageId": "<a1b2c3d4-0024@konsultacijas.test>",
+      "from": "l.zarina@iotafinance.test",
+      "subject": "Jautājums par datu svaigumu paneļos",
+      "body": "Labdien,\n\nViena no nodaļu vadītājām pieminēja, ka, šķiet, paneļi dažreiz rāda datus, kas ir vecāki par 24h. Nezinu, vai tas ir problēma - iespējams, tā tas darbojas pēc dizaina (nakts aktualizācija), bet varbūt kaut kas noiet greizi. Neviens nav izteicis formālu sūdzību, un es arī pati neesmu pārbaudījusi.\n\nJa jums ir 5 minūtes laika kādreiz, varbūt varat paskatīties? Ja ne, nav problēmu, pieminēšu atkal, ja situācija atkārtosies.\n\nLauma\n\n--\nLauma Zariņa | IotaFinance\nl.zarina@iotafinance.test",
+      "date": "2026-04-20T11:30:00Z"
+    },
+    "expectedRequiresAction": false
   }
 ]
