@@ -1,9 +1,8 @@
 ﻿using Blue.Mail2Epic.Infrastructure.Data;
-using Blue.Mail2Epic.Infrastructure.Services;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Models.Configuration;
 using Blue.Mail2Epic.Models.Dtos.Email;
 using Blue.Mail2Epic.Models.Events;
-using Blue.Mail2Epic.Services;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -17,8 +16,8 @@ public class ReadEmailsJob(
     ILogger<ReadEmailsJob> logger,
     AppDbContext dbContext,
     IOptions<EmailOptions> emailOptions,
-    EmailService emailService,
-    GoogleTokenService googleTokenService,
+    IEmailService emailService,
+    IGoogleTokenService googleTokenService,
     IBus bus) : BaseJob
 {
     public override async Task Execute(IJobExecutionContext context)

@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.DataProtection;
+﻿using Blue.Mail2Epic.Infrastructure.Interfaces;
+using Microsoft.AspNetCore.DataProtection;
 
 namespace Blue.Mail2Epic.Infrastructure.Services;
 
-public sealed class SecretProtector(IDataProtectionProvider provider)
+public sealed class SecretProtector(IDataProtectionProvider provider) : ISecretProtector
 {
     private readonly IDataProtector _protector = provider.CreateProtector("google-mailbox-tokens");
     

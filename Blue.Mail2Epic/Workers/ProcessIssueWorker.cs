@@ -1,8 +1,8 @@
 ﻿using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
 using Blue.Mail2Epic.Infrastructure.Models.Requests;
 using Blue.Mail2Epic.Infrastructure.Models.Responses;
-using Blue.Mail2Epic.Infrastructure.Services;
 using Blue.Mail2Epic.Models.Configuration;
 using Blue.Mail2Epic.Models.Events;
 using MassTransit;
@@ -15,7 +15,7 @@ public class ProcessIssueWorker(
     ILogger<ProcessIssueWorker> logger,
     IOptions<AdditionalOptions> options,
     AppDbContext dbContext,
-    JiraService jiraService) : IConsumer<EmailAnalysisResultFetchedEvent>
+    IJiraService jiraService) : IConsumer<EmailAnalysisResultFetchedEvent>
 {
     private readonly AdditionalOptions _options = options.Value;
 

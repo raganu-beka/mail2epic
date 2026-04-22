@@ -1,9 +1,9 @@
 ﻿using System.Text.RegularExpressions;
 using Blue.Mail2Epic.Dashboard.Models;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
 using Blue.Mail2Epic.Infrastructure.Models.Requests;
 using Blue.Mail2Epic.Infrastructure.Models.Responses;
-using Blue.Mail2Epic.Infrastructure.Services;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json.Linq;
@@ -14,7 +14,7 @@ public class HistoryRowMapper(
     IOptions<FrontendOptions> frontendOptions,
     IOptions<JiraOptions> jiraOptions,
     IMemoryCache cache,
-    JiraService jiraService)
+    IJiraService jiraService)
 {
     private const string EpicCachePrefix = "issue-epic:";
 

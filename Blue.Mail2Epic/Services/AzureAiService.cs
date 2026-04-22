@@ -1,5 +1,6 @@
 ﻿using Azure;
 using Azure.AI.OpenAI;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
 using Blue.Mail2Epic.Infrastructure.Models.Responses;
 using Blue.Mail2Epic.Models.Configuration;
@@ -16,7 +17,7 @@ namespace Blue.Mail2Epic.Services;
 public class AzureAiService(
     IOptions<AzureAiOptions> options,
     IOptions<PromptOptions> promptOptions,
-    ILogger<AzureAiService> logger)
+    ILogger<AzureAiService> logger) : IAzureAiService, IDisposable
 {
     private const string EmailTriageUserTemplate = """
                                                    EMAIL SUMMARY:
@@ -261,8 +262,5 @@ public class AzureAiService(
         return string.Format(IssueUpdateUserTemplate, email.Body, description, comments);
     }
 
-    public void Dispose()
-    {
-        _semaphore.Dispose();
-    }
+    public void Dispose() => _semaphore.Dispose();
 }

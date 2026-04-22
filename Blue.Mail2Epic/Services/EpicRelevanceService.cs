@@ -1,4 +1,5 @@
 ﻿using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
 using Blue.Mail2Epic.Models.Dtos.Email;
 using Microsoft.EntityFrameworkCore;
@@ -9,8 +10,8 @@ namespace Blue.Mail2Epic.Services;
 
 public class EpicRelevanceService(
     ILogger<EpicRelevanceService> logger,
-    AzureAiService aiService,
-    AppDbContext dbContext)
+    IAzureAiService aiService,
+    AppDbContext dbContext) : IEpicRelevanceService
 {
     public async Task<List<Epic>> FindRelevantEpics(AzureAiEmailSummarizationResponse emailSummary,
         CancellationToken ct)

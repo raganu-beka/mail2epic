@@ -1,5 +1,6 @@
 ﻿using Blue.Mail2Epic.Infrastructure;
 using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models.Configuration;
 using Blue.Mail2Epic.Infrastructure.Models.Requests;
 using Blue.Mail2Epic.Infrastructure.Services;
@@ -32,28 +33,28 @@ var dataProtectionOptions = builder.Configuration
 builder.Services.AddDataProtection()
     .PersistKeysToFileSystem(new DirectoryInfo(dataProtectionOptions.KeyStoragePath))
     .SetApplicationName(Application.Name);
-builder.Services.AddScoped<SecretProtector>();
+builder.Services.AddScoped<ISecretProtector, SecretProtector>();
 
 builder.Services.Configure<AdditionalOptions>(builder.Configuration.GetSection(AdditionalOptions.SectionName));
 
 builder.Services.Configure<GoogleOAuthOptions>(builder.Configuration.GetSection(GoogleOAuthOptions.SectionName));
-builder.Services.AddScoped<GoogleTokenService>();
+builder.Services.AddScoped<IGoogleTokenService, GoogleTokenService>();
 
 builder.Services.AddHttpClient(JiraService.HttpClientName);
 builder.Services.Configure<JiraOptions>(builder.Configuration.GetSection(JiraOptions.SectionName));
-builder.Services.AddTransient<JiraService>();
+builder.Services.AddTransient<IJiraService, JiraService>();
 
 builder.Services.Configure<PromptOptions>(builder.Configuration.GetSection(PromptOptions.SectionName));
 builder.Services.Configure<AzureAiOptions>(builder.Configuration.GetSection(AzureAiOptions.SectionName));
-builder.Services.AddSingleton<AzureAiService>();
+builder.Services.AddSingleton<IAzureAiService, AzureAiService>();
 
-builder.Services.AddTransient<NormalizationService>();
-builder.Services.AddScoped<EpicRelevanceService>();
+builder.Services.AddTransient<INormalizationService, NormalizationService>();
+builder.Services.AddScoped<IEpicRelevanceService, EpicRelevanceService>();
 
 builder.Services.Configure<EmailOptions>(builder.Configuration.GetSection(EmailOptions.SectionName));
-builder.Services.AddTransient<EmailService>();
+builder.Services.AddTransient<IEmailService, EmailService>();
 
-builder.Services.AddScoped<EmailTriageService>();
+builder.Services.AddScoped<IEmailTriageService, EmailTriageService>();
 
 builder.Services.Configure<QuartzOptions>(builder.Configuration.GetSection("Quartz"));
 

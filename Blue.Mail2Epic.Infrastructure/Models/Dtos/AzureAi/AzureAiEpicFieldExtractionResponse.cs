@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 
 namespace Blue.Mail2Epic.Models.Dtos.AzureAi;
 

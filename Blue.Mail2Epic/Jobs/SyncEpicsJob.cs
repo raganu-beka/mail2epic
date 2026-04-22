@@ -1,5 +1,5 @@
 ﻿using Blue.Mail2Epic.Infrastructure.Data;
-using Blue.Mail2Epic.Infrastructure.Services;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Models.Events;
 using MassTransit;
 using Microsoft.Extensions.Logging;
@@ -11,7 +11,7 @@ namespace Blue.Mail2Epic.Jobs;
 public class SyncEpicsJob(
     ILogger<SyncEpicsJob> logger,
     AppDbContext dbContext,
-    JiraService jiraService,
+    IJiraService jiraService,
     IBus bus) : BaseJob
 {
     public override async Task Execute(IJobExecutionContext context)

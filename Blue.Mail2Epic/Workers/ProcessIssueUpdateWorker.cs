@@ -1,6 +1,6 @@
 ﻿using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
-using Blue.Mail2Epic.Infrastructure.Services;
 using Blue.Mail2Epic.Models.Events;
 using MassTransit;
 using Microsoft.Extensions.Logging;
@@ -10,7 +10,7 @@ namespace Blue.Mail2Epic.Workers;
 public class ProcessIssueUpdateWorker(
     ILogger<ProcessIssueUpdateWorker> logger,
     AppDbContext dbContext,
-    JiraService jiraService) : IConsumer<IssueUpdateFetchedEvent>
+    IJiraService jiraService) : IConsumer<IssueUpdateFetchedEvent>
 {
     public async Task Consume(ConsumeContext<IssueUpdateFetchedEvent> context)
     {

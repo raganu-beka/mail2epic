@@ -1,4 +1,5 @@
-﻿using Blue.Mail2Epic.Models.Configuration;
+﻿using Blue.Mail2Epic.Infrastructure.Interfaces;
+using Blue.Mail2Epic.Models.Configuration;
 using Blue.Mail2Epic.Models.Dtos.Email;
 using MailKit;
 using MailKit.Net.Imap;
@@ -10,7 +11,7 @@ using MessageSummaryItems = MailKit.MessageSummaryItems;
 
 namespace Blue.Mail2Epic.Services;
 
-public class EmailService(IOptions<EmailOptions> options, ILogger<EmailService> logger)
+public class EmailService(IOptions<EmailOptions> options, ILogger<EmailService> logger) : IEmailService
 {
     private readonly EmailOptions _options = options.Value;
 

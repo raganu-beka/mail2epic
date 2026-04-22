@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using System.Text;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models.Exceptions;
 using Blue.Mail2Epic.Infrastructure.Models.Requests;
 using Blue.Mail2Epic.Infrastructure.Models.Responses;
@@ -9,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace Blue.Mail2Epic.Infrastructure.Services;
 
-public class JiraService
+public class JiraService : IJiraService
 {
     public static readonly string HttpClientName = "jira";
 

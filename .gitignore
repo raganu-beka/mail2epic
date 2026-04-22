@@ -1,0 +1,46 @@
+# Build output
+bin/
+obj/
+out/
+publish/
+
+# Test output and coverage
+TestResults/
+coverage/
+coverage-*/
+*.coverage
+*.coveragexml
+
+# .NET and NuGet local state
+artifacts/
+*.nupkg
+*.snupkg
+project.assets.json
+project.nuget.cache
+
+# User- and machine-specific IDE files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.sln.docstates
+*.DotSettings.user
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+*.temp
+
+# Frontend dependencies and generated assets
+node_modules/
+dist/
+dist-ssr/
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,7 +1,7 @@
 ﻿using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
 using Blue.Mail2Epic.Models.Events;
-using Blue.Mail2Epic.Services;
 using MassTransit;
 using Microsoft.Extensions.Logging;
 
@@ -10,7 +10,7 @@ namespace Blue.Mail2Epic.Workers;
 public class ProcessEmailWorker(
     ILogger<ProcessEmailWorker> logger,
     AppDbContext dbContext,
-    EmailTriageService emailTriageService,
+    IEmailTriageService emailTriageService,
     IBus bus
 ) : IConsumer<EmailFetchedEvent>
 {

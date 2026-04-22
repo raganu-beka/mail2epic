@@ -2,13 +2,14 @@
 using System.Security.Claims;
 using System.Text;
 using Blue.Mail2Epic.Dashboard.Models;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Blue.Mail2Epic.Dashboard.Services;
 
-public class JwtService(IOptions<JwtOptions> jwtOptions)
+public class JwtService(IOptions<JwtOptions> jwtOptions) : IJwtService
 {
     private readonly JwtOptions _jwtOptions = jwtOptions.Value;
     

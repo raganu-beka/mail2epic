@@ -3,6 +3,7 @@ using Blue.Mail2Epic.Dashboard.Models;
 using Blue.Mail2Epic.Dashboard.Services;
 using Blue.Mail2Epic.Infrastructure;
 using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models.Configuration;
 using Blue.Mail2Epic.Infrastructure.Models.Requests;
 using Blue.Mail2Epic.Infrastructure.Services;
@@ -66,16 +67,16 @@ var dataProtectionOptions = builder.Configuration
 builder.Services.AddDataProtection()
     .PersistKeysToFileSystem(new DirectoryInfo(dataProtectionOptions.KeyStoragePath))
     .SetApplicationName(Application.Name);
-builder.Services.AddScoped<SecretProtector>();
+builder.Services.AddScoped<ISecretProtector, SecretProtector>();
 
 builder.Services.AddMemoryCache();
 builder.Services.AddSingleton<LoginExchangeStore>();
 
 builder.Services.AddHttpClient(JiraService.HttpClientName);
-builder.Services.AddTransient<JiraService>();
+builder.Services.AddTransient<IJiraService, JiraService>();
 
-builder.Services.AddScoped<GoogleTokenService>();
-builder.Services.AddTransient<JwtService>();
+builder.Services.AddScoped<IGoogleTokenService, GoogleTokenService>();
+builder.Services.AddTransient<IJwtService, JwtService>();
 builder.Services.AddTransient<HistoryRowMapper>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

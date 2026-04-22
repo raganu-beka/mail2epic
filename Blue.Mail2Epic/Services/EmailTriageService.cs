@@ -1,6 +1,6 @@
 ﻿using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
-using Blue.Mail2Epic.Infrastructure.Services;
 using Blue.Mail2Epic.Models.Dtos.AzureAi;
 using Blue.Mail2Epic.Models.Dtos.Email;
 using Microsoft.EntityFrameworkCore;
@@ -9,10 +9,10 @@ namespace Blue.Mail2Epic.Services;
 
 public class EmailTriageService(
     AppDbContext dbContext,
-    AzureAiService aiService,
-    JiraService jiraService,
-    NormalizationService normalizationService,
-    EpicRelevanceService epicRelevanceService)
+    IAzureAiService aiService,
+    IJiraService jiraService,
+    INormalizationService normalizationService,
+    IEpicRelevanceService epicRelevanceService) : IEmailTriageService
 {
     public async Task<(RequiredAction RequiredAction, string? IssueKey)> DetermineRequiredAction(EmailDataDto email,
         CancellationToken cancellationToken)

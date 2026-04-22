@@ -1,5 +1,6 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
 using Blue.Mail2Epic.Infrastructure.Models.Configuration;
 using Blue.Mail2Epic.Infrastructure.Models.Responses;
@@ -13,8 +14,8 @@ public class GoogleTokenService(
     IOptions<GoogleOAuthOptions> options,
     IHttpClientFactory httpClientFactory,
     AppDbContext dbContext,
-    SecretProtector protector
-)
+    ISecretProtector protector
+) : IGoogleTokenService
 {
     private readonly GoogleOAuthOptions _options = options.Value;
     

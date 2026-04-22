@@ -1,6 +1,6 @@
 ﻿using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Models.Events;
-using Blue.Mail2Epic.Services;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -10,7 +10,7 @@ namespace Blue.Mail2Epic.Workers;
 public class ProcessEpicWorker(
     ILogger<ProcessEpicWorker> logger,
     AppDbContext dbContext,
-    NormalizationService normalizationService) : IConsumer<EpicFetchedEvent>
+    INormalizationService normalizationService) : IConsumer<EpicFetchedEvent>
 {
     public async Task Consume(ConsumeContext<EpicFetchedEvent> context)
     {

@@ -1,11 +1,13 @@
-﻿using Blue.Mail2Epic.Infrastructure.Models;
+﻿using Blue.Mail2Epic.Infrastructure.Interfaces;
+using Blue.Mail2Epic.Infrastructure.Models;
 using Blue.Mail2Epic.Infrastructure.Models.Responses;
 using Blue.Mail2Epic.Models.Dtos.Email;
 using Microsoft.Extensions.Logging;
 
 namespace Blue.Mail2Epic.Services;
 
-public class NormalizationService(AzureAiService azureAiService, ILogger<NormalizationService> logger)
+public class NormalizationService(IAzureAiService azureAiService, ILogger<NormalizationService> logger)
+    : INormalizationService
 {
     public async Task<Epic?> NormalizeEpic(JiraIssueResponse jiraIssue, CancellationToken ct)
     {
@@ -36,4 +38,3 @@ public class NormalizationService(AzureAiService azureAiService, ILogger<Normali
         return await azureAiService.SummarizeEmail(email, ct);
     }
 }
-

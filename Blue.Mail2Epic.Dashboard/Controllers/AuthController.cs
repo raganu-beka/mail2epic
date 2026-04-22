@@ -3,9 +3,9 @@ using Blue.Mail2Epic.Dashboard.Models;
 using Blue.Mail2Epic.Dashboard.Models.Requests;
 using Blue.Mail2Epic.Dashboard.Services;
 using Blue.Mail2Epic.Infrastructure.Data;
+using Blue.Mail2Epic.Infrastructure.Interfaces;
 using Blue.Mail2Epic.Infrastructure.Models;
 using Blue.Mail2Epic.Infrastructure.Models.Configuration;
-using Blue.Mail2Epic.Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
@@ -20,8 +20,8 @@ public class AuthController(
     IOptions<FrontendOptions> frontendOptions,
     AppDbContext dbContext,
     LoginExchangeStore exchangeStore,
-    JwtService jwtService,
-    GoogleTokenService googleTokenService
+    IJwtService jwtService,
+    IGoogleTokenService googleTokenService
     ) : ControllerBase
 {
     private readonly GoogleOAuthOptions _oAuthOptions = oAuthOptions.Value;
