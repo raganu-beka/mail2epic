@@ -1,0 +1,46 @@
+[
+  {
+    "name": "clear payroll reporting match",
+    "email": {
+      "messageId": "project-payroll-clear",
+      "from": "finance.ops@finance.fabrikam.test",
+      "subject": "Payroll variance report doubles gross pay totals",
+      "body": "The payroll variance report and gross-to-net export both show doubled tax totals for salaried employees. Please investigate the reconciliation logic.",
+      "date": "2026-04-01T10:00:00Z"
+    },
+    "expectedEpicKey": "PAY-210"
+  },
+  {
+    "name": "similar portal concepts but hr portal is correct",
+    "email": {
+      "messageId": "project-hr-portal",
+      "from": "onboarding@people.fabrikam.test",
+      "subject": "New hires cannot open the onboarding checklist",
+      "body": "The employee portal lets new hires sign in, but the onboarding checklist and benefits enrollment tiles stay blank for managers approving first-day setup.",
+      "date": "2026-04-01T10:05:00Z"
+    },
+    "expectedEpicKey": "HRP-100"
+  },
+  {
+    "name": "weak context where sender domain should matter",
+    "email": {
+      "messageId": "project-docs-domain",
+      "from": "approvals@docs.fabrikam.test",
+      "subject": "Queue is stuck again",
+      "body": "The queue stopped moving after lunch and the policy packets are still waiting for review. Please take a look.",
+      "date": "2026-04-01T10:10:00Z"
+    },
+    "expectedEpicKey": "DOC-330"
+  },
+  {
+    "name": "ambiguous workflow wording with one intended epic",
+    "email": {
+      "messageId": "project-docs-ambiguous",
+      "from": "governance.office@fabrikam.test",
+      "subject": "Approval routing skips the second reviewer",
+      "body": "Policy documents are jumping from the first approver straight to signoff, so the second review step in the approval workflow is being skipped.",
+      "date": "2026-04-01T10:15:00Z"
+    },
+    "expectedEpicKey": "DOC-330"
+  }
+]

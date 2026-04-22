@@ -1,6 +1,6 @@
-﻿﻿using Testcontainers.PostgreSql;
+﻿using Testcontainers.PostgreSql;
 
- namespace Blue.Mail2Epic.Tests.Infrastructure;
+namespace Blue.Mail2Epic.Tests.Infrastructure;
 
 public sealed class PostgresContainerFixture : IAsyncLifetime
 {

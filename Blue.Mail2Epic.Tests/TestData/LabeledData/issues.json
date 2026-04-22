@@ -1,0 +1,10 @@
+[
+  {
+    "issueKey": "PAY-210-77",
+    "summary": "Payroll variance report doubles totals",
+    "description": "Finance reported that the payroll variance report sometimes shows doubled gross pay totals for salaried employees during monthly reconciliation.",
+    "comments": [
+      "Initial report captured. No reproduction steps, environment details, or deadline context yet."
+    ]
+  }
+]

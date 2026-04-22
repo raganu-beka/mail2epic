@@ -1,0 +1,68 @@
+[
+  {
+    "name": "clear bug report",
+    "email": {
+      "messageId": "actionability-bug",
+      "from": "qa@people.fabrikam.test",
+      "subject": "Employee portal profile page throws an error",
+      "body": "Bug report: managers cannot save profile updates in the employee portal. The page fails with an error after clicking Save and onboarding is blocked.",
+      "date": "2026-04-01T09:00:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "clear change request",
+    "email": {
+      "messageId": "actionability-change-request",
+      "from": "records@docs.fabrikam.test",
+      "subject": "Please add approver delegation to the policy workflow",
+      "body": "Change request: please add temporary approver delegation to the document approval workflow so policy packets keep moving during leave coverage.",
+      "date": "2026-04-01T09:05:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "deadline driven request",
+    "email": {
+      "messageId": "actionability-deadline",
+      "from": "controller@finance.fabrikam.test",
+      "subject": "Need corrected payroll variance export before Friday",
+      "body": "We need the payroll variance export fixed before Friday's board reporting pack. Finance is blocked until the totals reconcile correctly.",
+      "date": "2026-04-01T09:10:00Z"
+    },
+    "expectedRequiresAction": true
+  },
+  {
+    "name": "informational fyi",
+    "email": {
+      "messageId": "actionability-fyi",
+      "from": "pm@people.fabrikam.test",
+      "subject": "FYI: onboarding portal metrics for March",
+      "body": "FYI only. Sharing the monthly onboarding portal adoption metrics. No action needed, just keeping the team informed.",
+      "date": "2026-04-01T09:15:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "thank you acknowledgement",
+    "email": {
+      "messageId": "actionability-thanks",
+      "from": "director@docs.fabrikam.test",
+      "subject": "Thanks for the workflow cleanup",
+      "body": "Thank you for cleaning up the approval queue yesterday. Everything looks good now and no follow-up is needed.",
+      "date": "2026-04-01T09:20:00Z"
+    },
+    "expectedRequiresAction": false
+  },
+  {
+    "name": "ambiguous but blocking request",
+    "email": {
+      "messageId": "actionability-ambiguous",
+      "from": "talent.ops@people.fabrikam.test",
+      "subject": "Can we revisit first-day access in the portal?",
+      "body": "Can we revisit first-day access in the employee portal this sprint? New hires are still blocked during onboarding when they try to open their checklist.",
+      "date": "2026-04-01T09:25:00Z"
+    },
+    "expectedRequiresAction": true
+  }
+]

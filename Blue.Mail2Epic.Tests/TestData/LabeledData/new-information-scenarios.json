@@ -1,0 +1,82 @@
+[
+  {
+    "name": "follow-up adds reproduction details",
+    "issueKey": "PAY-210-77",
+    "email": {
+      "messageId": "update-repro",
+      "from": "qa@finance.fabrikam.test",
+      "subject": "More detail on the payroll export failure",
+      "body": "Steps to reproduce: open the payroll variance report, select March 2026, click Export to CSV, and the totals double on row 18.",
+      "inReplyTo": "pay-210-root",
+      "references": [
+        "pay-210-root"
+      ],
+      "date": "2026-04-01T11:00:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "follow-up adds environment and affected group",
+    "issueKey": "PAY-210-77",
+    "email": {
+      "messageId": "update-scope",
+      "from": "controller@finance.fabrikam.test",
+      "subject": "Additional scope for the payroll issue",
+      "body": "This is production only and only affects the Riga finance managers group. Sandbox users do not see the discrepancy.",
+      "inReplyTo": "pay-210-root",
+      "references": [
+        "pay-210-root"
+      ],
+      "date": "2026-04-01T11:05:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "follow-up adds deadline and priority",
+    "issueKey": "PAY-210-77",
+    "email": {
+      "messageId": "update-priority",
+      "from": "vp.finance@finance.fabrikam.test",
+      "subject": "Please prioritise before payroll close",
+      "body": "Please prioritise this before Friday's payroll close because the corrected report is needed for board reporting.",
+      "inReplyTo": "pay-210-root",
+      "references": [
+        "pay-210-root"
+      ],
+      "date": "2026-04-01T11:10:00Z"
+    },
+    "expectedHasNewInformation": true
+  },
+  {
+    "name": "thank you or repetition only",
+    "issueKey": "PAY-210-77",
+    "email": {
+      "messageId": "update-thanks",
+      "from": "reporter@finance.fabrikam.test",
+      "subject": "Thanks for taking this",
+      "body": "Thanks for taking this on. We are still seeing the same totals issue already described in the ticket.",
+      "inReplyTo": "pay-210-root",
+      "references": [
+        "pay-210-root"
+      ],
+      "date": "2026-04-01T11:15:00Z"
+    },
+    "expectedHasNewInformation": false
+  },
+  {
+    "name": "vague reply with no substantive delta",
+    "issueKey": "PAY-210-77",
+    "email": {
+      "messageId": "update-vague",
+      "from": "reporter@finance.fabrikam.test",
+      "subject": "Still seeing it",
+      "body": "Still seeing it on my side.",
+      "inReplyTo": "pay-210-root",
+      "references": [
+        "pay-210-root"
+      ],
+      "date": "2026-04-01T11:20:00Z"
+    },
+    "expectedHasNewInformation": false
+  }
+]

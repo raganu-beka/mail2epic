@@ -1,0 +1,50 @@
+[
+  {
+    "key": "HRP-100",
+    "fields": {
+      "summary": "Employee Self-Service Portal",
+      "description": "Modernize the HR employee portal for onboarding tasks, leave requests, benefits enrollment, and profile access. Contact: hr-portal@people.fabrikam.test.",
+      "updatedAt": "2026-04-21T09:00:00Z"
+    }
+  },
+  {
+    "key": "HRW-120",
+    "fields": {
+      "summary": "HR Case Workflow Automation",
+      "description": "Automate HR request workflows, approval routing, escalations, and manager review queues for internal employee cases. Contact: hr-workflows@people.fabrikam.test.",
+      "updatedAt": "2026-04-19T09:00:00Z"
+    }
+  },
+  {
+    "key": "PAY-210",
+    "fields": {
+      "summary": "Payroll Reporting and Tax Reconciliation",
+      "description": "Improve payroll variance reporting, tax reconciliation, gross-to-net exports, and finance audit visibility. Contact: payroll-reporting@finance.fabrikam.test.",
+      "updatedAt": "2026-04-18T09:00:00Z"
+    }
+  },
+  {
+    "key": "PAY-220",
+    "fields": {
+      "summary": "Payroll Self-Service Portal",
+      "description": "Support employee payslips, payroll dashboard access, bank account updates, and self-service payroll portal workflows. Contact: payroll-portal@finance.fabrikam.test.",
+      "updatedAt": "2026-04-17T09:00:00Z"
+    }
+  },
+  {
+    "key": "DOC-330",
+    "fields": {
+      "summary": "Document Approval Workflow",
+      "description": "Manage document approval routing, policy review queues, approver hand-offs, and signoff steps for internal records. Contact: approvals@docs.fabrikam.test.",
+      "updatedAt": "2026-04-20T14:00:00Z"
+    }
+  },
+  {
+    "key": "DOC-340",
+    "fields": {
+      "summary": "Document Template and Merge",
+      "description": "Maintain document templates, merge fields, PDF generation, and clause library administration for formal business documents. Contact: templates@docs.fabrikam.test.",
+      "updatedAt": "2026-04-16T14:00:00Z"
+    }
+  }
+]
