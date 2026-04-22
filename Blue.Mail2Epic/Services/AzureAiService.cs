@@ -67,7 +67,7 @@ public class AzureAiService(
             if (string.IsNullOrWhiteSpace(issueResponse.Fields?.Description))
                 return new AzureAiEpicFieldExtractionResponse();
 
-            var chatClient = _client.GetChatClient(_options.AnalysisModel);
+            var chatClient = _client.GetChatClient(_options.SummarizationModel);
 
             var completionOptions = new ChatCompletionOptions
             {
@@ -161,7 +161,7 @@ public class AzureAiService(
         await _semaphore.WaitAsync(ct);
         try
         {
-            var chatClient = _client.GetChatClient(_options.AnalysisModel);
+            var chatClient = _client.GetChatClient(_options.SummarizationModel);
 
             var completionOptions = new ChatCompletionOptions
             {
